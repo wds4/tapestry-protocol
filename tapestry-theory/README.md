@@ -1,6 +1,8 @@
 The Foundations of Tapestry Theory
 =====
 
+## [Overview of Tapestry Theory](https://github.com/wds4/tapestry-protocol/blob/main/tapestry-theory/overview.md)
+
 Work in progress. Being moved from [here](https://github.com/wds4/tribal-tapestry/blob/main/essays/bookJustification/hypotheses/tapestryFoundation.md). Links (below) have not yet been created.
 
 ## 1. [Decentralized Linguistic Consensus]()

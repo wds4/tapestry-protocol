@@ -3,16 +3,19 @@ Tapestry Implementation Proposals
 
 TIPs: proposed protocol to replace DCoSL. Suggestion to revise the TIP numbering scheme.
 
-0.x Tapestry
-- 0.0.x - basics
-- [TIP-0.0.0]() - adoption of the tapestry model
-- [TIP-0.0.1]() - principle of relativity
-- [TIP-0.0.1.x]() - principles of organization
-- [TIP-0.0.1.0]() - class thread principle
+0 Core Protocol
 
-1.x Concept Graph
+Basics
+- [TIP-0.0]() - adoption of the tapestry model
+- [TIP-0.1]() - principle of relativity
 
-1.0.x basics
+Principles of Organization
+- [TIP-0.2]() - principles of organization
+- [TIP-0.2.0]() - class thread principle
+
+1 Concept Graph
+
+Basics
 - [TIP-1.0.1]() - graphs
 - [TIP-1.0.2]() - words = JSON
 - [TIP-1.0.3]() - constraints = JSON Schema
@@ -25,8 +28,9 @@ TIPs: proposed protocol to replace DCoSL. Suggestion to revise the TIP numbering
 - 1.3.x new relationship types
 - 1.3.1 - initiation, propagation, termination
 
-2.x Grapevine
-- 2.0.x basics
+2 Grapevine
+
+Basics
 - 2.0.0.x - ratings
 - 2.0.0.1 -
 - trust ratings

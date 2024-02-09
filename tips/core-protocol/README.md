@@ -1,6 +1,6 @@
 back to the [TIPs main page](..)
 
-Core Protocol
+Core Protocol: TIPs 0.x
 =====
 
 Basics

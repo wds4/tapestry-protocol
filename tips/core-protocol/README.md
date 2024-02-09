@@ -1,4 +1,4 @@
-back to the Tapestry Protocol [main page](..)
+back to the Tapestry Implementation Proposals (TIPs) [main page](..)
 
 Core Protocol
 =====

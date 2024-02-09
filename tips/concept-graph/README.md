@@ -7,8 +7,8 @@ Basics
 - [TIP-1.0.1]() - graphs
 - [TIP-1.0.2]() - words = JSON
 - [TIP-1.0.3]() - constraints = JSON Schema
-- 1.1.x - principles of organization
-- 1.1.0 - class thread principle
+- [TIP-1.1.x]() - principles of organization
+- [TIP-1.1.0]() - class thread principle
 - 1.2.x new word types
 - 1.2.0 - word
 - 1.2.1 - superset

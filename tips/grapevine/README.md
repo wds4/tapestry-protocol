@@ -5,7 +5,7 @@ Grapevine: TIPs 2.x
 
 ## Grapevine Basics: TIPs 2.0
 - 2.0.0 - ratings
-- 2.0.1 -
+- 2.0.1 - explicit vs scraped
 
 
 ## trust ratings

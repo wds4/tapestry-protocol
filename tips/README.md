@@ -1,7 +1,5 @@
-Tapestry Implementation Proposals
+Tapestry Implementation Proposals (TIPs)
 =====
-
-TIPs: proposed protocol to replace DCoSL. Suggestion to revise the TIP numbering scheme.
 
 ## [Core Protocol: TIPs 0.x](core-protocol)
 
@@ -12,7 +10,7 @@ TIPs: proposed protocol to replace DCoSL. Suggestion to revise the TIP numbering
 ## [Networking: TIPs 3.x](networking)
 
 Tables:
-- table of wordTypes
+- [word types](wordTypes.md)
 - table of relationshipTypes
 - table of nostr id (& IPFS hashes?) for published words
 

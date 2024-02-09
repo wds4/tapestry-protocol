@@ -27,3 +27,4 @@ A subprotocol is a subset of TIPs which serve a particular purpose.
 
 - [DCoSL](subprotocols/DCoSL.md): decentralized curation of simple lists
 - [DCoG](subprotocols/DCoG.md): decentralized curation of graphs
+ - [DCoG-cat](subprotocols/DCoG-cat.md): DCoG for set trees or category trees

@@ -11,7 +11,7 @@ TIPs: proposed protocol to replace DCoSL. Suggestion to revise the TIP numbering
 
 ## [Networking: TIPs 3.x](networking)
 
-Pages:
+Tables:
 - table of wordTypes
 - table of relationshipTypes
 - table of nostr id (& IPFS hashes?) for published words

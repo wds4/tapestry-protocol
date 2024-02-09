@@ -38,8 +38,8 @@ Concept Graph: TIPs 1.x
 - [TIP-1.2.schemas](): schemas
 
 ## Relationship Types: TIPs 1.3.x
-- [TIP-1.3]: relationship type naming conventions
-- [TIP-1.3.1]: initiation, propagation, termination
-- [](): isTheJsonSchemaFor
+- [TIP-1.3](): relationship type naming conventions
+- [TIP-1.3.1](): initiation, propagation, termination
+- [TIP-1.3.isTheJsonSchemaFor](): isTheJsonSchemaFor
 
 ## Data visualization

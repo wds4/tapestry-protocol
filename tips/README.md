@@ -19,3 +19,7 @@ Folders
 - folder for each word type: 
 - page for JSON Schema 
 - page for example of word of that type
+
+## Subprotocols
+- DCoSL
+- DCoG

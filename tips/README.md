@@ -11,7 +11,7 @@ Tapestry Implementation Proposals (TIPs)
 
 Tables:
 - [word types](tables/wordTypes.md)
-- table of relationshipTypes
+- [relationship types](tables/relationshipTypes.md)
 - table of nostr id (& IPFS hashes?) for published words
 
 Folders

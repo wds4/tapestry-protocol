@@ -5,10 +5,10 @@ TIPs: proposed protocol to replace DCoSL. Suggestion to revise the TIP numbering
 
 0.x Tapestry
 - 0.0.x - basics
-- 0.0.0 - adoption of the tapestry model
-- 0.0.1 - principle of relativity
-- 0.0.1.x - principles of organization
-- 0.0.1.0 - class thread principle
+- [TIP-0.0.0]() - adoption of the tapestry model
+- [TIP-0.0.1]() - principle of relativity
+- [TIP-0.0.1.x]() - principles of organization
+- [TIP-0.0.1.0]() - class thread principle
 
 1.x Concept Graph
 

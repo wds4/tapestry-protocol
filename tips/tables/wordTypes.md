@@ -1,3 +1,5 @@
+back to the [TIPs main page](..)
+
 Word Types
 =====
 

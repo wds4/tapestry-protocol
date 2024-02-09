@@ -21,3 +21,5 @@ Concept Graph: TIPs 1.x
 ## Relationship Types: TIPs 1.3.x
 - [TIP-1.3] relationship types
 - [TIP-1.3.1] - initiation, propagation, termination
+
+## Data visualization

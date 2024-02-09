@@ -9,17 +9,21 @@ Tapestry Implementation Proposals (TIPs)
 
 ## [Networking: TIPs 3.x](networking)
 
-Tables:
+### Tables
+
 - [word types](tables/wordTypes.md)
 - [relationship types](tables/relationshipTypes.md)
 - [principles of organization](tables/principlesOfOrganization.md)
 - table of nostr id (& IPFS hashes?) for published words
 
-Folders
+### Folders
 - folder for each word type: 
 - page for JSON Schema 
 - page for example of word of that type
 
-## Subprotocols
-- DCoSL
-- DCoG
+### Subprotocols
+
+A subprotocol is a subset of TIPs which serve a particular purpose.
+
+- [DCoSL](subprotocols/DCoSL.md): decentralized curation of simple lists
+- [DCoG](subprotocols/DCoG.md): decentralized curation of graphs

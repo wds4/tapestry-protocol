@@ -10,7 +10,7 @@ Tapestry Implementation Proposals (TIPs)
 ## [Networking: TIPs 3.x](networking)
 
 Tables:
-- [word types](wordTypes.md)
+- [word types](tables/wordTypes.md)
 - table of relationshipTypes
 - table of nostr id (& IPFS hashes?) for published words
 

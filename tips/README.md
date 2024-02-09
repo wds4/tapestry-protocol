@@ -11,10 +11,11 @@ TIPs: proposed protocol to replace DCoSL. Suggestion to revise the TIP numbering
 - 0.0.1.0 - class thread principle
 
 1.x Concept Graph
-- 1.0.x basics
-- 1.0.1 - graphs
-- 1.0.2 - words = JSON
-- 1.0.3 - constraints = JSON Schema
+
+1.0.x basics
+- [TIP-1.0.1]() - graphs
+- [TIP-1.0.2]() - words = JSON
+- [TIP-1.0.3]() - constraints = JSON Schema
 - 1.1.x - principles of organization
 - 1.1.0 - class thread principle
 - 1.2.x new word types

@@ -1,0 +1,20 @@
+Refactor the Concept Graph
+=====
+
+The Concept Graph has been implemented in as a desktop app called [Plex ](), which stores information in IPFS and was made before nostr was well developed. The purpose of these bounties will be:
+- to refactor the Concept Graph using nostr
+- in a webapp that integrates with DCoSL web app (in progress, Feb 2024)
+- to contribute to open source Concept Graph and Grapevine libraries that can be used by other projects including web apps, desktop apps, etc
+
+# Concept Graph WebApp
+
+Add functions:
+
+## Enable users to create and submit a word to nostr using the relevant TIPs
+- create new words as per the relevant TIPs
+  - view word in JSON
+  - view rendered JSON using
+  - upload to nostr per the relevant networking TIP (replaceable or not?)
+  - download all words by user
+
+## same as above, but able to select any of the basic word types declared in the Tapestry protocol

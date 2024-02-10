@@ -1,4 +1,4 @@
-Refactor the Concept Graph
+Refactor the Concept Graph app
 =====
 
 The Concept Graph has been implemented in as a desktop app called [Plex ](), which stores information in IPFS and was made before nostr was well developed. The purpose of these bounties will be:
@@ -10,6 +10,11 @@ The Concept Graph has been implemented in as a desktop app called [Plex ](), whi
 
 Add functions:
 
+## Support for JSON Schema
+- validation of JSON
+
+## Support for JSON forms or equivalent library
+
 ## Enable users to create and submit a word to nostr using the relevant TIPs
 - create new words as per the relevant TIPs
   - view word in JSON
@@ -18,3 +23,5 @@ Add functions:
   - download all words by user
 
 ## same as above, but able to select any of the basic word types declared in the Tapestry protocol
+
+

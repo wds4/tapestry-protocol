@@ -5,7 +5,7 @@ Tapestry Theory: Table of Contents
 
 Work in progress. Being moved from [here](https://github.com/wds4/tribal-tapestry/blob/main/essays/bookJustification/hypotheses/tapestryFoundation.md). Links (below) have not yet been created.
 
-## 1. [Decentralized Linguistic Consensus]()
+## 1. [Decentralized Linguistic Consensus](https://github.com/wds4/tapestry-protocol/blob/main/tapestry-theory/sections/decentralizedLinguisticConsensus.md)
 The purpose of tapestry theory is to provide a solution to the problem of *decentralized linguistic consensus*: how a community of individuals ("entities") can build a language without leaders.
 
 ## 2. [Math as the universal model for knowledge representation]()

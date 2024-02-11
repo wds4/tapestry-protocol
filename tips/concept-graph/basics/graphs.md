@@ -9,7 +9,7 @@ graphs
 
 ## Synopsis
 
-In the Tapestry Protocol, data is represented using [graphs](../../glossary/graph.md), which is a collection of [nodes](../../glossary/node.md) and [edges](../../glossary/relationship.md). A [concept graph](../../glossary/conceptGraph.md) is a graph with additional structure, as described though this series of TIPs.
+In the [Tapestry Protocol](https://github.com/wds4/tapestry-protocol/blob/main/glossary/tapestryProtocol.md), data is represented using [graphs](https://github.com/wds4/tapestry-protocol/blob/main/glossary/graph.md), which is a collection of [nodes](https://github.com/wds4/tapestry-protocol/blob/main/glossary/node.md) and [edges](https://github.com/wds4/tapestry-protocol/blob/main/glossary/relationship.md). A [concept graph](https://github.com/wds4/tapestry-protocol/blob/main/glossary/conceptGraph.md) is a graph with additional structure, as described though this series of TIPs.
 
 ## Nodes
 

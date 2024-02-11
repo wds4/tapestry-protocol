@@ -5,8 +5,8 @@ Concept Graph: TIPs 1.x
 
 ## Concept Graph Basics: TIPs 1.0.x
 - [TIP-1.0.0](basics/graphs.md): graphs
-- [TIP-1.0.1](basics/conceptGraph.md): concept graphs
-- [TIP-1.0.2](): words are in json
+- [TIP-1.0.1](basics/conceptGraphs.md): concept graphs
+- [TIP-1.0.2](basics/words.md): words are in json
 - [TIP-1.0.6](): declaration methods for new concepts (new word types)
 - [TIP-1.0.3](): constraint nodes are JSON Schemas
 - [TIP-1.0.4](): word identifiers: universally versus locally unique

@@ -4,7 +4,7 @@ Concept Graph: TIPs 1.x
 =====
 
 ## Concept Graph Basics: TIPs 1.0.x
-- [TIP-1.0.0](): graphs
+- [TIP-1.0.0](1-0-0.md): graphs
 - [TIP-1.0.1](): concept graphs
 - [TIP-1.0.2](): words are in json
 - [TIP-1.0.6](): declaration methods for new concepts (new word types)

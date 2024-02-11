@@ -17,7 +17,7 @@ Concept Graph: TIPs 1.x
 
 
 ## Principles of Organization: TIPs 1.1.x
-- [TIP-1.1.0](): class thread principle
+- [TIP-1.1.0](principlesOfOrganization/classThreadPrinciple.md): class thread principle
 - [TIP-1.1.1](): constraints
 - [TIP-1.1.1](): constraints
 

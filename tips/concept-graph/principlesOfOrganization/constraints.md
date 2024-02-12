@@ -17,7 +17,7 @@ According to this principle of organization: if a constraint node is connected d
 
 ## Explanation
 
-In most cases, a constraint node will be a `json schema` and it will be connected directly to 
+In most cases, a constraint node will be a `json schema`. Usually it will be connected directly to the class origin node via a relationship of type: `isTheJsonSchemaFor` and will therefore apply to every instance of that concept, as depicted in the figure below.
 
 This TIP describes the function of the `constraint` node type.
 

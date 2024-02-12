@@ -6,8 +6,28 @@ TIP 1.1.1
 constraints
 -----
 
-Concepts are formatted according to constraint nodes.
+a.k.a. formats
 -----
+
+## Statement of the principle
+
+According to this principle of organization: if a constraint node is connected directly to any node of a class thread proximal to the class instance (to any node other than the class instance node), then that class instance node must validate according to the constraints of the constraint node.
+
+-----
+
+## Explanation
+
+In most cases, a constraint node will be a `json schema` and it will be connected directly to 
+
+This TIP describes the function of the `constraint` node type.
+
+The purpose of a constraint node is to assert constraints on other nodes. Stated another way: a constraint node provides formatting rules that are expected to be followed by other nodes.
+
+Constraint nodes will typically be connected via a specialized path, typically only one hop in length, to a class thread. The 
+
+Because the tapestry protocol relies heavily upon json, the principal type of constraint node in the tapestry protocol will be the `json schema`. However, other types of constraint nodes may be added later.
+
+## Example
 
 <span style="display:inline-block" >
   <img

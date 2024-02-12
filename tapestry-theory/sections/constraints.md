@@ -1,4 +1,4 @@
-back to the [foundations of tapestry theory table of contents]()
+back to the [tapestry theory table of contents](https://github.com/wds4/tapestry-protocol/blob/main/tapestry-theory/toc.md)
 
 The Constraints Hypothesis
 =====

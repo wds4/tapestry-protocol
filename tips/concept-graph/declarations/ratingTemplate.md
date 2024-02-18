@@ -31,7 +31,7 @@ Declaration of `rating template`
       "plural": "Rating Templates"
     },
     "propertyPath": "ratingTemplateData",
-    "description": "see dcosl, section on the grapevine."
+    "description": "As specified according to the tapestry protocol."
   }
 }
 ```

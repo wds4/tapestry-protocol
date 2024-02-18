@@ -30,7 +30,7 @@ Declaration of `concept graph`
       "singular": "Concept Graph",
       "plural": "Concept Graphs"
     },
-    "description": "As specified according to the DCoSL protocol."
+    "description": "As specified according to the tapestry protocol."
   }
 }
 ```

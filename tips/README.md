@@ -3,9 +3,7 @@ Tapestry Implementation Proposals (TIPs)
 
 ## A note on organization
 
-Many [pseudo-arbitary](https://github.com/wds4/tapestry-protocol/blob/main/glossary/pseudoArbitrary.md) decisions are required to build out a fully functioning tapestry protocol. An example is that this protocol makes extensive use of JSON rather than, say, XML. 
-
-We require there to be no *pseudo-arbitrary* decisions to be included withint the core tapestry protocol, defined as TIPs 0.x. If a TIP requires any *pseudo-arbitrary* decision to be made, it must be 1.x or higher. One of the goals of organization is to place as much of the protocol as possible into the core. In the biological world, many decentralized languages exist: English, Chinese, etc; and within them, many dialects exist, with varying degrees of overlap. We envision the same will be true in the digital world, with multiple languages and dialects existing, with varying degrees of overlap.
+Many [pseudo-arbitary](https://github.com/wds4/tapestry-protocol/blob/main/glossary/pseudoArbitrary.md) decisions are required to build out a fully functioning tapestry protocol. An example is that this protocol makes extensive use of JSON rather than, say, XML. We will place as much of the protocol as possible into the core (TIPs 0.x), with the requirement that the core must contain no *pseudo-arbitrary* decisions. If a TIP requires any *pseudo-arbitrary* decision to be made, it must be pushed to 1.x or higher.
 
 ## [Core Protocol: TIPs 0.x](core-protocol)
 

@@ -27,5 +27,5 @@ An edge, a.k.a a relationship, is a connection between two nodes. Like a node, a
 
 ## Notes
 
-Although DCoSL is not technically a "graph database", many of the ideas and principles are the same.
+Although the graphs used in the tapestry protocol are not technically a "graph database", many of the ideas and principles are the same.
 

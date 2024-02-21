@@ -1,3 +1,4 @@
+back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protocol/blob/main/tips/core-protocol/README.md)
 
 TIP-0.2
 =====
@@ -9,9 +10,7 @@ avoid scraped data
 
 ## Synopsis
 
-Trust and reputation
-
-When calculating trust scores, the raw data should be comprised of explicit, intentional attestations rather than scraped data.
+Trust and reputation scores should rely more heavily on explicit, intentional attestations rather than observational data.
 
 ## General principle
 

@@ -3,5 +3,7 @@ back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protoco
 TIP-0.0.6
 =====
 
-minimize pseudo arbitrary choices
+minimize linguistic burden
 -----
+
+This protocol will strive to minimize, as much as possible, the burden of linguistic commitments required for its specification.

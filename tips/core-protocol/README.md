@@ -4,9 +4,8 @@ Core Protocol: TIPs 0.x
 =====
 
 Basics
-- [TIP-0.0](purpose.md): adoption of the tapestry model; goal: a decentralized digital language
-- [TIP-0.x](): purpose: decentralized language (is this redundant?)
-- [TIP-0.x](): no one has bird's eye view (follows from definitino of decentralized language)
+- [TIP-0.0](purpose.md): purpose: decentralized digital languages
+- [TIP-0.x](): no one has bird's eye view (follows from definition of decentralized language)
 - [TIP-0.x](): principle of relativity (follows from no birds eye view)
 - [TIP-0.x](): entities: community members all use the protocol basics
 - [TIP-0.x](): chunks of data organized into sets (genesis of the concept graph)

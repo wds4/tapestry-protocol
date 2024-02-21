@@ -8,6 +8,6 @@ Basics
 - [TIP-0.1](principleOfRelativity.md): principle of relativity
 - [TIP-0.2](noGlobalView.md): no one has bird's eye view
 - [TIP-0.3](explicitAttestations.md): explicit attestations over inferences from observational data
-- [TIP-0.4](conceptGraph.md): chunks of data organized into sets (genesis of the concept graph)
-- [TIP-0.5](grapevine.md): weighted averages among trusted entities to answer pseudo-arbitrary linguistic questions (genesis of the Grapevine)
+- [TIP-0.4](conceptGraph.md): the Concept Graph: chunks of data organized into sets
+- [TIP-0.5](grapevine.md): the Grapevine: weighted averages among trusted entities are used to answer pseudo-arbitrary linguistic questions
 

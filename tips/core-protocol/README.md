@@ -9,7 +9,7 @@ Core Protocol: TIPs 0.x
 - [TIP-0.0.2](noGlobalView.md): no global view
 - [TIP-0.0.3](explicitAttestations.md): explicit attestations over inferences from observational data
 - [TIP-0.0.4](noStewards.md) no digital stewards
-- [TIP-0.0.x]() types of identifiers
+- [TIP-0.0.x](uniqueIdentifiers.md) unique identifiers
 - [TIP-0.0.5](minimizePseudoArbitraryChoices.md) minimize linguistic ("pseudo-arbitrary") decisions
 
 ## Core Methods: TIPs 0.1.x

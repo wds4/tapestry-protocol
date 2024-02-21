@@ -10,7 +10,7 @@ Core Protocol: TIPs 0.x
 - [TIP-0.0.3](explicitAttestations.md): explicit attestations over inferences from observational data
 - [TIP-0.0.4](noStewards.md) no digital stewards
 - [TIP-0.0.5](uniqueIdentifiers.md) unique identifiers
-- [TIP-0.0.6](minimizePseudoArbitraryChoices.md) minimize linguistic ("pseudo-arbitrary") decisions
+- [TIP-0.0.6](minimizePseudoArbitraryChoices.md) not a cathedral: minimize the linguistic overhead of the protocol
 
 ## Core Methods: TIPs 0.1.x
 - [TIP-0.1.0](conceptGraph.md): the Concept Graph: pseudo-arbitrary alternatives are organized into sets

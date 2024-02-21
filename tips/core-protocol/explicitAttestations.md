@@ -10,7 +10,7 @@ avoid scraped data
 
 ## Synopsis
 
-Trust and reputation scores should rely more heavily on explicit, intentional attestations rather than observational data.
+Trust and reputation scores should rely more heavily on explicit, intentional attestations rather than inferred from observational data.
 
 ## General principle
 

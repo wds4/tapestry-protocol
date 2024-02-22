@@ -4,7 +4,7 @@ Core Protocol: TIPs 0.x
 =====
 
 ## Core Principles: TIPs 0.0.x
-- [TIP-0.0.0](purpose.md) The purpose of the tapestry protocol is to facilitate the creation of *decentralized digital languages*.
+- [TIP-0.0.0](purpose.md) The guiding principle of the tapestry protocol is the creation of *decentralized digital languages*.
 - [TIP-0.0.1](principleOfRelativity.md) no global scores
 - [TIP-0.0.2](noGlobalView.md) no global view
 - [TIP-0.0.3](explicitAttestations.md) no data scraping

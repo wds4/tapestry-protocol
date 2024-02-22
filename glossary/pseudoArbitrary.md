@@ -19,9 +19,12 @@ Questions can be pseudo arbitrary for several reasons. One reason could be that 
 
 *Digital realm*:
 - whether to use *created_at*, *createdAt*, or *CreatedAt* to indicate the timestamp of a [nostr event](https://github.com/nostr-protocol/nips/blob/master/01.md)
+- whether to encode nostr events as json or xml
+- whether a digital system should be binary or trinary
 
 *Biological realm*:
 - the word for pencil could just as well be pen or rock or cheese or any one of a large configuration of letters and sounds
+- whether a writing system should be phonetic (e.g., English) or logographic (e.g., Chinese)
 
 ## Significance
 

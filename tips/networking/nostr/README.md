@@ -7,10 +7,18 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
 
 ## Concept Graph-specific
 
-- [TIP-3.1.x](.md): what goes into wordData.metaData.nostr
-- [TIP-3.1.x](publication.md): publication of a word over nostr
-- [TIP-3.1.x](.md): retrieval of a word from the nostr network
-- [TIP-3.1.x](.md): stewardship
+#### publication: TIPs 3.1.0
+- [TIP-3.1.0.0](publication.md): publication of a word over nostr
+- [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
+
+retrieval
+- [TIP-3.1.1](.md): retrieval of a word from the nostr network
+
+metadata
+- [TIP-3.1.2](.md): what goes into wordData.metaData.nostr
+
+stewardship
+- [TIP-3.1.3](.md): stewardship
 
 ## Grapevine-specific
 

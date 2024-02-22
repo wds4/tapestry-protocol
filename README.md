@@ -7,14 +7,6 @@ We model language as a long list of [pseudo-arbitrary questions](https://github.
 
 Armed with the ability to manage decentralized digital languages, the web of trust can finally live up to its expectations in terms of its ability to curate content, facts and information.
 
-## important concepts
-- [decentralized languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md)
-- [stewards](https://github.com/wds4/tapestry-protocol/blob/main/glossary/steward.md)
-- [pseudo-arbitrary questions](https://github.com/wds4/tapestry-protocol/blob/main/glossary/pseudoArbitrary.md)
-- [linguistic overhead](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md)
-
-See the [glossary](https://github.com/wds4/tapestry-protocol/blob/main/glossary) for more background concepts and terms.
-
 # Protocol: [Tapestry Implementation Proposals (TIPs)](https://github.com/wds4/tapestry-protocol/blob/main/tips/README.md)
 
 The tapestry protocol is composed of two major collections of TIPs: the Concept Graph, a set of TIPs for the *representation* of knowledge and information, and the Grapevine, a set of TIPs for delegating the *curation* of knowledge and information to your web of trust.
@@ -35,3 +27,10 @@ The tapestry protocol is composed of two major collections of TIPs: the Concept 
 
 - [Tapestry theory overview](https://github.com/wds4/tapestry-protocol/blob/main/tapestry-theory/README.md)
 - [Pretty Good Freedom Tech](pgf.tech)
+### important concepts
+- [decentralized languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md)
+- [stewards](https://github.com/wds4/tapestry-protocol/blob/main/glossary/steward.md)
+- [pseudo-arbitrary questions](https://github.com/wds4/tapestry-protocol/blob/main/glossary/pseudoArbitrary.md)
+- [linguistic overhead](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md)
+
+See the [glossary](https://github.com/wds4/tapestry-protocol/blob/main/glossary) for more background concepts and terms.

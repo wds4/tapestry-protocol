@@ -3,7 +3,7 @@ back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protoco
 TIP-0.0.5
 =====
 
-no pseudo arbitrary choices
+no linguistic overhead for the core protocol
 -----
 
 ## Synopsis

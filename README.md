@@ -1,6 +1,8 @@
 Tapestry Protocol
 =====
 
+# Background
+
 Ever since Pretty Good Privacy was released in 1991, cypherpunks have dreamed of a world where web of trust can be used to curate content, facts, and information in a way that routes around powerful entities who wish to isolate, to censor, and to control the flow of information through society. Unfortunately, web of trust has failed to live up to its expectations. Why is that?
 
 We believe that for web of trust to curate content, facts, and information, it must simultaneously curate the digital tools that we use to communicate about those things. The goal of the tapestry protocol is therefore to facilitate creation of the world's first [decentralized digital languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md).

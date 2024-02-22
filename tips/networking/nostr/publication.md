@@ -8,7 +8,7 @@ publication of a word over nostr
 
 By definition according to the tapestry protocol, a *word* is json-formatted. To publish a word, it will be converted into a string (the `stringify` command in javascript) and inserted into the content field of a nostr event.
 
-The kind will be either 9xxx or 39xxx, depending on whether the events should be `regular` vs `parameterized replaceable`. As of Feb 2024, 9901 and 39901 (901 in place of xx) have been used with the understanding these kinds are designated as testnets.
+The kind will be either 9xyz or 39xyz, depending on whether the events should be `regular` vs `parameterized replaceable`. As of Feb 2024, 9901 and 39901 (901 in place of xyz) have been used with the understanding these kinds are designated as testnets.
 
 ```json
 {

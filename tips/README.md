@@ -15,7 +15,7 @@ The Grapevine achieves *knowledge curation* using the web of trust in a manner d
 
 ## [Networking: TIPs 3.x](networking)
 
-A section of the protocol is dedicated to the storage and transmission of data using [nostr](https://github.com/nostr-protocol/nostr). TIPs for additional networks (e.g., IPFS) can be added later. Multiple networks can be used in parallel for redundancy.
+A section of the protocol is dedicated to the storage and transmission of data using [nostr](https://github.com/nostr-protocol/nostr). TIPs for additional networks (e.g., IPFS, GUN) can be added later. Multiple networks can be used simultaneously for the sake of redundancy.
 
 ## Subprotocols
 

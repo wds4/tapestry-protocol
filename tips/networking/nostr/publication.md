@@ -20,6 +20,5 @@ The kind will be either 99xxx or 39xxx, depending on whether the events should b
 
 ## Tags
 
-tags are not required but will be used as per subsequent TIPs.
+The `tags` field is not required but may be optionally included as per subsequent TIPs.
 
-## 

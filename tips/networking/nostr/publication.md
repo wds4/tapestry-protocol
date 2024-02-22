@@ -16,12 +16,26 @@ The kind will be either 9xyz or 39xyz, depending on whether the events should be
 {
     "id": "ae641d5606f3ec710b135678810d4256fd2e92022896ca58d194c361c46d81f9",
     "content": "{ ... }",
-    "kind": 9901, // or 39901
+    "kind": 9xyz, // or 39xyz
+    "tags": [
+        ["t", "tapestry-testnet"],
+        ...
+    ],
     ...other fields
 }
 ```
 
 ## Tags
 
-The `tags` field is not required but may be optionally included as per subsequent TIPs.
+The `tags` field is not required but may be optionally included as per below and as per subsequent TIPs.
+
+#### "t" tag
+
+The "t"-tag will be used as per the above example to mark this as a tapestry protocol. Acceptable tags will include:
+
+```json
+["t", "tapestry"],
+["t", "tapestry-testnet"],
+["t", "tapestry-testnet-xyz"],
+```
 

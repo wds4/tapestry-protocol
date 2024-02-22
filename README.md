@@ -15,9 +15,9 @@ Armed with the ability to manage decentralized digital languages, the web of tru
 
 # Tables
 
-- [word types](tables/wordTypes.md)
-- [relationship types](tables/relationshipTypes.md)
-- [principles of organization](tables/principlesOfOrganization.md)
+- [word types](tips/tables/wordTypes.md)
+- [relationship types](tips/tables/relationshipTypes.md)
+- [principles of organization](tips/tables/principlesOfOrganization.md)
 - table of nostr id (& IPFS hashes?) for published words
 
 # Folders

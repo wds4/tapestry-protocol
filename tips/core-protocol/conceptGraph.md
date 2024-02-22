@@ -1,7 +1,7 @@
 back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protocol/blob/main/tips/core-protocol/README.md)
 
 ### TIP-0.1.0
-knowledge is represented as a graph
+the Concept Graph: representing knowledge as a graph
 =====
 
 `draft` `author:wds4`

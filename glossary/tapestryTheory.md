@@ -2,3 +2,10 @@ back to the [glossary main page](https://github.com/wds4/tapestry-protocol/blob/
 
 tapestry theory
 =====
+
+Tapestry theory is the theory that the tapesty method *should be applied* to the digital realm, and *already describes* the biological realm.
+
+*Tapestry theory* may refer to either one of the following:
+- in the *biological realm*, the theory that the [tapestry method](tapestryMethod.md) is a reasonably accurate description of the organization of the central nervous system (i.e., that the central nervous system can be modelled as an [entity](entity.md), with knowledge organized as a graph with structure provided by [principlesOfOrganization.md])) and is a reasonably accurate desccription of how languages such as human spoken and written langauges are curated
+- in the *digital realm*, the theory that the [tapestry method](tapestryMethod.md) will be an effective method to establish a decentralized digital language
+

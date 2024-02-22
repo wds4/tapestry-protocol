@@ -3,7 +3,7 @@ back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protoco
 TIP-0.0.0
 =====
 
-purpose of the tapestry protocol
+design of the tapestry protocol
 -----
 
 # Synopsis

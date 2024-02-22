@@ -5,7 +5,7 @@ Networking: TIPs 3.x
 
 ## Networking Basics: TIPs 3.0.x
 
-## nostr: TIPs 3.1.x
+## [TIPs 3.1.x](https://github.com/wds4/tapestry-protocol/blob/main/tips/networking/nostr/README.md) nostr
 
 ## IPFS: TIPs 3.2.x
 

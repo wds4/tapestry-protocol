@@ -18,7 +18,7 @@ Questions can be pseudo arbitrary for several reasons. One reason could be that 
 ## Examples
 
 *Digital realm*:
-- created_at, createdAt, CreatedAt
+- whether to use *created_at*, *createdAt*, or *CreatedAt* to indicate the timestamp of a [nostr event](https://github.com/nostr-protocol/nips/blob/master/01.md)
 
 *Biological realm*:
 - the word for pencil could just as well be pen or rock or cheese or any one of a large configuration of letters and sounds

@@ -9,7 +9,7 @@ This work is motivated by the belief that web of trust cannot successfully curat
 
 ## Purpose
 
-The purpose of the tapestry protocol is to facilitate the world's first [decentralized digital languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md).
+The purpose of the tapestry protocol is to facilitate creation of the world's first [decentralized digital languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md).
 
 ## [Core Protocol: TIPs 0.x](core-protocol)
 

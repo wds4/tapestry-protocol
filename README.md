@@ -9,6 +9,8 @@ Armed with the ability to manage decentralized digital languages, the web of tru
 
 # Protocol: [Tapestry Implementation Proposals (TIPs)](https://github.com/wds4/tapestry-protocol/blob/main/tips/README.md)
 
+The tapestry protocol is composed of two major sections: TIPs for the *representation* of knowledge and information, called the Concept Graph, and TIPs for delegating the *curation* of knowledge and information to your web of trust, called the Grapevine.
+
 # Tables
 
 - [word types](tips/tables/wordTypes.md)

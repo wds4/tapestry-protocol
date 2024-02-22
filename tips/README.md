@@ -9,10 +9,6 @@ This work is motivated by the belief that web of trust cannot successfully curat
 
 The purpose of the tapestry protocol is to facilitate the world's first [decentralized digital languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md).
 
-## A note on organization
-
-Many [pseudo-arbitary](https://github.com/wds4/tapestry-protocol/blob/main/glossary/pseudoArbitrary.md) decisions are required to build out a fully functioning tapestry protocol. An example is that this protocol makes extensive use of JSON rather than, say, XML. We will place as much of the protocol as possible into the core (TIPs 0.x), with the requirement that the core must contain no *pseudo-arbitrary* decisions. If a TIP requires any *pseudo-arbitrary* decision to be made, it must be pushed to 1.x or higher.
-
 ## [Core Protocol: TIPs 0.x](core-protocol)
 
 ## [Concept Graph: TIPs 1.x](concept-graph)

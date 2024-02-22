@@ -12,6 +12,6 @@ Management of the tapestry protocol will eventually be taken over by the web of 
 
 ## Discussion 
 
-The goal of this protocol is to get to the point that it is managed completely by your web of trust. At that point, there will no longer be a need for this repository. It will live in the community.
+One of the goals of this protocol is to get to the point that it is managed completely by your web of trust. At that point, there will no longer be a need for this repository. The tapestry will be "living" in the sense that it will grow and evolve organically, in the community, possibly with multiple variants that overlap to varying degrees.
 
 Of note, this may be understood to occur in stages and in varying degrees. Stewardship of individual TIPs by a myriad of entities rather than stewardship of the entire protocol by a single entity should be understood as a step towards the goal of the the living tapestry, even though stewardship will continue to play a role.

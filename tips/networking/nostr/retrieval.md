@@ -11,7 +11,7 @@ Words published as per the relevant TIPs using the `createWord` task can be retr
 ```json
 {
   "since": 0,
-  "kinds": [9902],
+  "kinds": [9xyz], // or 39xyz
   "authors": ["c51a542e4f93afe6f45e5bef002f7a0efcc0a47460a736654c0bee5402c482fa"],
   "#c": ["concept-graph-testnet-902"],
   "#w": ["word"],

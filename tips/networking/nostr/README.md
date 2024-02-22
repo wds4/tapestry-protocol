@@ -11,8 +11,8 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
 - [TIP-3.1.0.0](publication.md): publication of a word over nostr
 - [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
 
-retrieval
-- [TIP-3.1.1](.md): retrieval of a word from the nostr network
+### retrieval: TIPs 3.1.1.x
+- [TIP-3.1.1.0](retrieval.md): retrieval of a word from the nostr network
 
 metadata
 - [TIP-3.1.2](.md): what goes into wordData.metaData.nostr

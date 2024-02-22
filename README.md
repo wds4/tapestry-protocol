@@ -12,3 +12,15 @@ The purpose of the tapestry protocol is to facilitate creation of the world's fi
 Armed with the ability to manage decentralized digital languages, the web of trust can finally live up to its expectations in terms of its ability to curate content, facts and information.
 
 # Protocol: [Tapestry Implementation Proposals (TIPs)](https://github.com/wds4/tapestry-protocol/blob/main/tips/README.md)
+
+# Tables
+
+- [word types](tables/wordTypes.md)
+- [relationship types](tables/relationshipTypes.md)
+- [principles of organization](tables/principlesOfOrganization.md)
+- table of nostr id (& IPFS hashes?) for published words
+
+# Folders
+- folder for each word type: 
+- page for JSON Schema 
+- page for example of word of that type

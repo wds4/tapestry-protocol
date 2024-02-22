@@ -7,7 +7,7 @@ This work was motivated by the belief that web of trust cannot successfully cura
 
 ## Purpose
 
-The purpose of the tapestry protocol is to build platforms that will enable the emergence of the world's first [decentralized digital languages]().
+The purpose of the tapestry protocol is to build platforms that will enable the emergence of the world's first [decentralized digital languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md).
 
 ## A note on organization
 

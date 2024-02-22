@@ -30,3 +30,8 @@ The tapestry protocol is composed of two major collections of TIPs: the Concept 
 - folder for each word type: 
 - page for JSON Schema 
 - page for example of word of that type
+
+# More information
+
+- [Tapestry theory overview](https://github.com/wds4/tapestry-protocol/blob/main/tapestry-theory/README.md)
+- [Pretty Good Freedom Tech](pgf.tech)

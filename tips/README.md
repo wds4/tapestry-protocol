@@ -9,7 +9,7 @@ The core protocol is designed to have minimal, or arguably zero, [linguistic bur
 
 ## [Concept Graph: TIPs 1.x](concept-graph)
 
-The concept graph achieves *knowledge representation* by organizing information into a graph, with a handful of simple principles to provide structure to the graph.
+The concept graph achieves *knowledge representation* by organizing information into a graph, governed by a handful of linguistic-overhead-minimizing *principles of organization* which provide structure to the graph.
 
 ## [Grapevine: TIPs 2.x](grapevine)
 

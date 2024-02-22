@@ -2,9 +2,12 @@ back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protoco
 
 TIP-0.0.4
 =====
-
 no digital stewards
 -----
+
+`draft` `author:wds4`
+
+## Synopsis 
 
 This protocol will strive to avoid reliance upon any digital stewards for its execution.
 

@@ -3,11 +3,11 @@ Tapestry Implementation Proposals (TIPs)
 
 ## Motivation
 
-This work was motivated by the observation that web of trust cannot successfully curate content, facts and information if it does not simultaneously curate the digital tools that are used to communicate about those things. 
+This work was motivated by the belief that web of trust cannot successfully curate content, facts, and information if it does not simultaneously curate the digital tools that we use to communicate about those things. 
 
-## Purpost 
+## Purpose
 
-The tapestry protocol was developed as a tool to create the world's first [decentralized digital languages]().
+The purpose of the tapestry protocol is to build platforms that will enable the emergence of the world's first [decentralized digital languages]().
 
 ## A note on organization
 

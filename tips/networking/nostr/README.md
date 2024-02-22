@@ -7,7 +7,7 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
 
 ## Concept Graph-specific
 
-#### publication: TIPs 3.1.0
+#### publication: TIPs 3.1.0.x
 - [TIP-3.1.0.0](publication.md): publication of a word over nostr
 - [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
 

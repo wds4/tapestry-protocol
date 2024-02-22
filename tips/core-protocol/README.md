@@ -10,7 +10,7 @@ Core Protocol: TIPs 0.x
 - [TIP-0.0.3](explicitAttestations.md) no data scraping
 - [TIP-0.0.4](noStewards.md) no digital stewards
 - [TIP-0.0.5](uniqueIdentifiers.md) unique identifiers
-- [TIP-0.0.6](minimizePseudoArbitraryChoices.md) not a cathedral: minimize the linguistic overhead of the protocol
+- [TIP-0.0.6](minimizePseudoArbitraryChoices.md) no cathedrals
 - [TIP-0.0.7](livingTapestry.md) the living tapestry
 
 ## Core Methods: TIPs 0.1.x

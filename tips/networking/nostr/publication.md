@@ -15,6 +15,7 @@ The kind will be either 99xxx or 39xxx, depending on whether the events should b
     "id": "ae641d5606f3ec710b135678810d4256fd2e92022896ca58d194c361c46d81f9",
     "content": "{ ... }",
     "kind": 9901, // or 39901
+    ...other fields
 }
 ```
 

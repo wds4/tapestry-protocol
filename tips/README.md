@@ -5,6 +5,8 @@ Tapestry Implementation Proposals (TIPs)
 
 ## [Core Protocol: TIPs 0.x](core-protocol)
 
+The core protocol is designed to have minimal, or zero, [linguistic burden]().
+
 ## [Concept Graph: TIPs 1.x](concept-graph)
 
 The concept graph achieves *knowledge representation* by organizing information into a graph, with a handful of simple principles to provide structure to the graph.

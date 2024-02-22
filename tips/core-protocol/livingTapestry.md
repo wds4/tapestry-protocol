@@ -2,9 +2,16 @@ back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protoco
 
 TIP-0.0.8
 =====
-
 the living tapestry
 -----
+
+`draft` `author:wds4`
+
+## Synopsis 
+
+Management of the tapestry protocol will eventually be taken over by the web of trust.
+
+## Discussion 
 
 The goal of this protocol is to get to the point that it is managed completely by your web of trust. At that point, there will no longer be a need for this repository. It will live in the community.
 

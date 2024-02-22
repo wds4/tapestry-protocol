@@ -3,10 +3,13 @@ back to the [glossary main page](https://github.com/wds4/tapestry-protocol/blob/
 linguistic overhead
 =====
 
-a measure of the pseudo-arbitrary decisions that are required by a protocol
------
+## Synonyms
 
 a.k.a. *linguistic burden*
+
+## Definition
+
+a measure of the [pseudo-arbitrary](pseudoArbitrary.md) decisions that are required by a protocol
 
 # Notes
 

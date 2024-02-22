@@ -11,6 +11,6 @@ a.k.a. *linguistic burden*
 
 a measure of the [pseudo-arbitrary](pseudoArbitrary.md) decisions that are required by a protocol
 
-# Notes
+## Notes
 
 The idea of a protocol as a cathedral, e.g. bluesky, can be understood as a comment on an overly burdensom linguistic overhead of the protocol. 

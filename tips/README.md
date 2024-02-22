@@ -23,16 +23,5 @@ A subprotocol is a subset of TIPs which serve a particular purpose.
 - [DCoG](subprotocols/DCoG.md): decentralized curation of graphs
   - [DCoG-cat](subprotocols/DCoG-cat.md): DCoG for set trees or category trees
 
-# Tables
-
-- [word types](tables/wordTypes.md)
-- [relationship types](tables/relationshipTypes.md)
-- [principles of organization](tables/principlesOfOrganization.md)
-- table of nostr id (& IPFS hashes?) for published words
-
-# Folders
-- folder for each word type: 
-- page for JSON Schema 
-- page for example of word of that type
 
 

@@ -14,7 +14,7 @@ In the [Tapestry Protocol](https://github.com/wds4/tapestry-protocol/blob/main/g
 
 ## Knowledge Representation
 
-As opposed to knowledge curation, which is the next TIP.
+This TIP is about the *representation* of knowledge, as opposed to knowledge *curation*, which is the next TIP.
 
 ## Nodes
 

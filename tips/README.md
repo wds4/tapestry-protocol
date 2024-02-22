@@ -5,7 +5,7 @@ Tapestry Implementation Proposals (TIPs)
 
 ## [Core Protocol: TIPs 0.x](core-protocol)
 
-We review the underlying principles of the protocol and introduce the concept graph and the grapevine, which are developed in detail in the sections that follow. Although subsequent sections require the incorporation of some [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md) -- e.g., we make heavy use of json for data files -- the core protocol is designed to contribute minimal, or arguably zero, linguistic burden to the overall protocol. Variations on the tapestry protocol, such as variations that rely upon xml in place of json, could therefore be imagined which adopt the core protocol as is.
+We encode the basic principles and establish the notion that information will be encoded topologically into graphs in a way that facilitates curation by the web of trust. Importantly, the core protocol is designed to have minimal, or arguably zero, [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md).
 
 ## [Concept Graph: TIPs 1.x](concept-graph)
 

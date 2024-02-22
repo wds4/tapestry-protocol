@@ -10,6 +10,8 @@ knowledge is organized into chunks and grouped into sets
 
 ## Synopsis
 
+Knowledge will be broken down into chunks, called nodes, and organized as a graph, which is a collection of nodes connected by edges. Edges will represent relationships between the nodes and will be used to organize nodes into sets. Linguistic questions can be formulated by representing individually proposed answers as nodes and arranging them into a set.
+
 In the [Tapestry Protocol](https://github.com/wds4/tapestry-protocol/blob/main/glossary/tapestryProtocol.md), data is represented using [graphs](https://github.com/wds4/tapestry-protocol/blob/main/glossary/graph.md), which is a collection of [nodes](https://github.com/wds4/tapestry-protocol/blob/main/glossary/node.md) and [edges](https://github.com/wds4/tapestry-protocol/blob/main/glossary/relationship.md). A [concept graph](https://github.com/wds4/tapestry-protocol/blob/main/glossary/conceptGraph.md) is a graph with additional structure provided by [principles of organization](https://github.com/wds4/tapestry-protocol/blob/main/glossary/principleOfOrganization.md) such as the [class thread princiuple](https://github.com/wds4/tapestry-protocol/blob/main/glossary/classThreadPrinciple.md), as described though this series of TIPs.
 
 ## Knowledge Representation

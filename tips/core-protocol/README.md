@@ -3,9 +3,7 @@ back to the [TIPs main page](..)
 Core Protocol: TIPs 0.x
 =====
 
-We encode the basic principles and establish the notion that information will be encoded topologically into graphs in a way that facilitates curation by the web of trust. Importantly, the core protocol is designed to have minimal, or arguably zero, [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md). 
-
-and establish the concept grpah and the grapevine as methods for knowledge representation and knowledge curation, each of which are 
+We encode the basic principles and establish the notion that information will be encoded topologically into graphs in a way that facilitates curation by the web of trust. Importantly, the core protocol is designed to have minimal, or arguably zero, [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md).
 
 ## Core Principles: TIPs 0.0.x
 - [TIP-0.0.0](purpose.md) The guiding principle of the tapestry protocol is the creation of *decentralized digital languages*.

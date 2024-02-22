@@ -5,7 +5,7 @@ Tapestry Implementation Proposals (TIPs)
 
 ## [Core Protocol: TIPs 0.x](core-protocol)
 
-The core protocol is designed to have minimal, or arguably zero, [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md).
+The core protocol is designed to contribute minimal, or arguably zero, [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md) to the overall protocol. To illustrate what this means: the core protocol makes no assumptions about what computer languages to use, what data formats to use, etc.
 
 ## [Concept Graph: TIPs 1.x](concept-graph)
 

@@ -16,5 +16,5 @@ Core Protocol: TIPs 0.x
 
 ## Core Methods: TIPs 0.1.x
 - [TIP-0.1.0](conceptGraph.md) the Concept Graph: pseudo-arbitrary alternatives are organized into sets
-- [TIP-0.1.1](grapevine.md) the Grapevine: weighted averages among trusted entities are used to answer pseudo-arbitrary linguistic questions
+- [TIP-0.1.1](grapevine.md) the Grapevine: weighted averages among trusted entities are used to settle linguistic decisions
 

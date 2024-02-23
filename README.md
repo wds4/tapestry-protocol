@@ -1,6 +1,8 @@
 Tapestry Protocol
 =====
 
+*This repo is a work in progress*
+
 # Background
 
 Ever since Pretty Good Privacy was released in 1991, cypherpunks have dreamed of a world where web of trust can be used to curate content, facts, and information in a way that routes around powerful entities who wish to isolate, to censor, and to control the flow of information through society. Unfortunately, web of trust has failed to live up to its expectations. Why is that?

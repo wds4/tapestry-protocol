@@ -10,6 +10,7 @@ Grapevine: TIPs 2.x
 - [2.1.0](trust/influence.md) influence
 - [2.1.1](trust/context.md) context
 - [2.1.2](trust/trustAttestations.md) trust attestations
+- [2.1.x](trust/averageScore.md) average score
 
 *old, being deprecated*:
 - 2.0.1 - components of the trust ratings

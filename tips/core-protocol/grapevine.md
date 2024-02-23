@@ -29,4 +29,11 @@ First, the question must be represented using the Concept Graph, as illustrated 
 
 As shown in the figure above, the question is represented by a single node (circles with a green background). Proposed answers are represented by individual nodes (circles with red borders). The answers are grouped into a set using edges that connect the question to each answer. Two different connection methods are used. On the left, the question is connected directly to each propsoed answer. On the right, the question is connected to each proposed answer by a specialized path, called a class thread, consisting of two or more edges in sequence. The method on the right has the advantage that answers can be organized into subsets (circles with thin borders). Class threads will be discussed in detail in a later TIP.
 
-Second, the Grapevine is used to answer the question.
+Second, the Grapevine is used to answer the question. Importantly, each node is represented by a *universally unique identifier*. Entities can express their preference via attestations to that effect. Attestations will be collected by an entity and synthesized into a final answer using weighted average, with the weight of any given attestation dependent upon the influence of the attestation's author.
+
+There is no guarantee that Alice's Grapevine will produce for her the same answer that Bob's Grapevine produces for him. However, pseudo-arbitrary questions are characterized by the fact that most entities want more than anything else to be on the same page as everyone else in their community. Therefore, the tendency will be that Alice and Bob likely will end up with the same answer to the same question. In the example above, the answer would be *created_at*. This same method can be used to ask and then answer any pseudo-arbitrary question. In this manner, an entire language can be curated without the need for stewards.
+
+We refer to this tendency for non-contentious pseudo arbitrary linguistic questions to yeild the same answer as *loose consensus*.
+
+The same general method can be used to ask questions that are not linguistic in nature, i.e. questions of subjective opinion or objective fact. 
+

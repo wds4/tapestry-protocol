@@ -3,7 +3,7 @@ back to [TIPs for the Grapevine main page](https://github.com/wds4/tapestry-prot
 TIP-2.1.2
 =====
 
-trust attestation
+trust attestations
 ---
 
 `draft` `author:wds4`

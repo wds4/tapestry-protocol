@@ -3,12 +3,15 @@ back to the [TIPs main page](..)
 Grapevine: TIPs 2.x
 =====
 
-## Grapevine Basics: TIPs 2.0
+## Grapevine Basics: TIPs 2.0.x
 - 2.0.0 - ratings
-- 2.0.1 - explicit vs scraped
 
+## trust ratings: TIPs 2.1.x
+- [2.1.0](influence.md) influence
+- [2.1.1](context.md) context
+- [2.1.2](trustAttestations.md) trust attestation
 
-## trust ratings
+*old, being deprecated*:
 - 2.0.1 - components of the trust ratings
 - 2.0.2 - averages are weighted
 - 2.0.3 - default user trust scores

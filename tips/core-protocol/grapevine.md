@@ -8,7 +8,7 @@ the Grapevine: curation of knowledge using the web of trust
 
 ## Synopsis
 
-The Grapevine allows users to poll members of their community using questions and attestations encoded using the methods of the Concept Graph, and to synthesize the answers using weighted average in a manner that mirrors how we do it in real life. Answers are weighted according to an entity-specific quantity called influence which is contextual, so that context-based influence can be matched to the context of the question.
+The Grapevine allows users to pose questions to members of their community and to synthesize the answers in a manner that mirrors how we do it in real life. Answers are weighted according to an entity-specific quantity called influence which is contextual, so that context-based influence can be matched to the context of the question.
 
 ## Discussion
 

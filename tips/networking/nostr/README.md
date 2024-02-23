@@ -24,8 +24,8 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
 - ### stewardship: TIPs 3.1.0.3
   - [TIP-3.1.3](.md): stewardship
 
-- ### misc topics: TIPs 3.1.0.4
-  - [TIP-3.1.4](relays.md) relays
+- ### relays: TIPs 3.1.0.4
+  - [TIP-3.1.0.4](relays.md) relays
 
 ## Grapevine-specific: TIPs 3.1.1.x
 

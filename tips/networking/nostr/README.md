@@ -7,23 +7,23 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
 
 ## Concept Graph-specific
 
-#### publication: TIPs 3.1.0.x
-- [TIP-3.1.0.0](publication.md): publication of a word over nostr
-- [TIP-3.1.0.x](kinds.md): event kinds
-- [TIP-3.1.0.x](tags.md): event tags
-- [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
+- #### publication: TIPs 3.1.0.x
+  - [TIP-3.1.0.0](publication.md): publication of a word over nostr
+  - [TIP-3.1.0.x](kinds.md): event kinds
+  - [TIP-3.1.0.x](tags.md): event tags
+  - [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
 
-### retrieval: TIPs 3.1.1.x
-- [TIP-3.1.1.0](retrieval.md): retrieval of a word from the nostr network
+- ### retrieval: TIPs 3.1.1.x
+  - [TIP-3.1.1.0](retrieval.md): retrieval of a word from the nostr network
 
-metadata
-- [TIP-3.1.2](.md): what goes into wordData.metaData.nostr
+- metadata
+  - [TIP-3.1.2](.md): what goes into wordData.metaData.nostr
 
-stewardship
-- [TIP-3.1.3](.md): stewardship
+- stewardship
+  - [TIP-3.1.3](.md): stewardship
 
-### misc topics
-- [TIP-3.2.0](relays.md)
+- ### misc topics
+  - [TIP-3.2.0](relays.md) relays
 
 ## Grapevine-specific
 

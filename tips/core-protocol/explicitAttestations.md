@@ -8,7 +8,7 @@ no scraped data
 
 ## Synopsis
 
-Trust and reputation scores should rely more heavily on explicit, intentional attestations (Alice attests that she trusts Bob in context XYZ) rather than inferences from observations or "scraped" data (Alice follows Bob and likes his posts, so we infer that she trusts Bob in some context).
+Trust and reputation scores should rely more heavily on explicit, intentional attestations (Alice attests that she trusts Bob in context XYZ) rather than inferences from observations or "scraped" data (Alice follows Bob and likes his posts, so we infer that she trusts Bob in some context, even though that might not be the case).
 
 ## General principle
 

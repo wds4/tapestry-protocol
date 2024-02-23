@@ -8,4 +8,8 @@ no global view
 
 ## Synopsis 
 
-No entity is assumed to have a full "bird's eye" view of the entirety of the data regarding any individual community.
+No entity is assumed to have a full "bird's eye" view of the entire community. 
+
+## Discussion
+
+No one is assumed to be able to see the entire web of trust. No one has access to a complete set of data regarding any individual community.

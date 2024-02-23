@@ -22,3 +22,6 @@ The general idea is that the Concept Graph will be used to formulate questions, 
 ## Example
 
 An example of a pseudo-arbitrary question would be: what is the 
+
+<img src="../../images/createdAtQuestionAsGraph.png" width="50%" />
+

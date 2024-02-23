@@ -9,7 +9,7 @@ Grapevine: TIPs 2.x
 ## trust ratings: TIPs 2.1.x
 - [2.1.0](trust/influence.md) influence
 - [2.1.1](trust/context.md) context
-- [2.1.2](trust/trustAttestations.md) trust attestation
+- [2.1.2](trust/trustAttestations.md) trust attestations
 
 *old, being deprecated*:
 - 2.0.1 - components of the trust ratings

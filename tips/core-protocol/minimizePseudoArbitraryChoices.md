@@ -8,7 +8,7 @@ no cathedrals
 
 ## Synopsis
 
-The tapestry protocol as a whole will strive to minimize, as much as possible, the linguistic overhead of the protocol.
+The tapestry protocol as a whole will strive to minimize, as much as possible, the [linguistic overhead](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md) of the protocol.
 
 ## General Discussion
 

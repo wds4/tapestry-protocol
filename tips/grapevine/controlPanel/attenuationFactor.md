@@ -1,0 +1,2 @@
+attenuation factor
+=====

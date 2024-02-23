@@ -6,7 +6,7 @@ Grapevine: TIPs 2.x
 ## Grapevine Basics: TIPs 2.0.x
 - 2.0.0 - ratings
 
-## trust ratings: TIPs 2.1.x
+## ratings, trust, reputation, and influence: TIPs 2.1.x
 - [2.1.0](trust/influence.md) influence
 - [2.1.1](trust/context.md) context
 - [2.1.2](trust/trustAttestations.md) trust attestations

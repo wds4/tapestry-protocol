@@ -8,7 +8,7 @@ no digital stewards
 
 ## Synopsis 
 
-This protocol will endeavor to replace digital stewardship with curation by the web of trust.
+This protocol will endeavor to replace digital [stewardship](https://github.com/wds4/tapestry-protocol/blob/main/glossary/steward.md) with curation by the web of trust.
 
 ## Discussion
 

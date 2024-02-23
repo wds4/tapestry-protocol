@@ -8,3 +8,6 @@ the Grapevine: curation of knowledge using the web of trust
 
 # Synopsis
 
+The tapestry protocol will provide methods for entities to delegate curation of knowledge to the web of trust.
+
+# Discussion

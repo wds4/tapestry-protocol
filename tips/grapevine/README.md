@@ -6,11 +6,32 @@ Grapevine: TIPs 2.x
 ## Grapevine Basics: TIPs 2.0.x
 - 2.0.0 - ratings
 
-## ratings, trust, reputation, and influence: TIPs 2.1.x
-- [2.1.0](trust/influence.md) influence
-- [2.1.1](trust/context.md) context
-- [2.1.2](trust/trustAttestations.md) trust attestations
-- [2.1.x](trust/averageScore.md) average score
+## ratings and attestations
+- [2.1.2](reputation/attestations.md) attestations (rater)
+- [2.1.2](reputation/ratings.md) ratings (ratee)
+- [2.1.2](reputation/fields.md) fields
+- [2.1.2](reputation/comments.md) comments
+- [2.1.2](reputation/confidence.md) confidence
+- [2.1.2](reputation/comments.md) numerical fields: 0-100, 5star, binary, flag (none), etc (needs a context ???)
+- [2.1.2](reputation/comments.md) rating context
+- [2.1.2](reputation/comments.md) bundling fields into fieldsets, e g the trust rating fieldset
+
+## averages: TIPs 2.1.0.x
+- [2.1.x](reputation/averageScore.md) average score
+- [2.1.x](reputation/averageScore.md) weights
+- [2.1.x](reputation/input.md) input
+- [2.1.x](reputation/certainty.md) certainty
+
+## trust ratings
+- [2.1.2](reputation/trustAttestations.md) trust attestations
+- [2.1.0](reputation/influence.md) influence = average * certainty
+- [2.1.1](reputation/context.md) trust context
+- [2.1.1](reputation/inheritance.md) inheritance
+
+## control panel: TIPs 2.1.1.x
+- [2.1.x](controlPanel/attenuationFactor.md) attenuation factor
+- [2.1.x](controlPanel/attenuationFactor.md) rigor
+- [2.1.x](controlPanel/defaultScores.md) default user trust scores
 
 *old, being deprecated*:
 - 2.0.1 - components of the trust ratings

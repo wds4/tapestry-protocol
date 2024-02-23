@@ -8,16 +8,15 @@ the Concept Graph: representing knowledge as a graph
 
 ## Synopsis
 
+In the [Tapestry Protocol](https://github.com/wds4/tapestry-protocol/blob/main/glossary/tapestryProtocol.md), data is represented using [graphs](https://github.com/wds4/tapestry-protocol/blob/main/glossary/graph.md), which is a collection of [nodes](https://github.com/wds4/tapestry-protocol/blob/main/glossary/node.md) and [edges](https://github.com/wds4/tapestry-protocol/blob/main/glossary/relationship.md). A [concept graph](https://github.com/wds4/tapestry-protocol/blob/main/glossary/conceptGraph.md) is a graph with additional structure provided by [principles of organization](https://github.com/wds4/tapestry-protocol/blob/main/glossary/principleOfOrganization.md) such as the [class thread princiuple](https://github.com/wds4/tapestry-protocol/blob/main/glossary/classThreadPrinciple.md), as described though this series of TIPs.
+
+## General Discussion
+
 Knowledge will be broken down into chunks, called nodes, and organized as a graph, which is a collection of nodes connected by edges. Edges will represent relationships between the nodes and will be used to organize nodes into sets. Linguistic questions can be formulated by representing the question using a single node connected to a set of nodes, each one of which is a possible answer to the question, as in the example below.
 
 <img src="../../images/createdAtQuestionAsGraph.png" width="50%" />
 
 The above figure illustrates two methods that a pseudo-arbitrary question can be represented using this TIP. On the left, the question (green circle) is connected directly to each propsoed answer (circles). On the right, each question is connected to each proposed answer by a specialized path, called a *class thread*, which will be discussed in detail in a later TIP.
-
-## General Discussion
-
-In the [Tapestry Protocol](https://github.com/wds4/tapestry-protocol/blob/main/glossary/tapestryProtocol.md), data is represented using [graphs](https://github.com/wds4/tapestry-protocol/blob/main/glossary/graph.md), which is a collection of [nodes](https://github.com/wds4/tapestry-protocol/blob/main/glossary/node.md) and [edges](https://github.com/wds4/tapestry-protocol/blob/main/glossary/relationship.md). A [concept graph](https://github.com/wds4/tapestry-protocol/blob/main/glossary/conceptGraph.md) is a graph with additional structure provided by [principles of organization](https://github.com/wds4/tapestry-protocol/blob/main/glossary/principleOfOrganization.md) such as the [class thread princiuple](https://github.com/wds4/tapestry-protocol/blob/main/glossary/classThreadPrinciple.md), as described though this series of TIPs.
-
 
 ## Knowledge Representation
 

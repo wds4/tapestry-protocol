@@ -1,5 +1,7 @@
 back to [networking main page](https://github.com/wds4/tapestry-protocol/blob/main/tips/networking/README.md)
 
+### TIPs 3.1.x
+
 Data storage & retrieval: nostr
 =====
 How to use nostr to store and retrieve data (nodes, words) efficiently and effectively

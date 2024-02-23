@@ -7,30 +7,30 @@ Data storage & retrieval: nostr
 How to use nostr to store and retrieve data (nodes, words) efficiently and effectively
 -----
 
-## Concept Graph-specific
+## Concept Graph-specific: TIPs 3.1.0.x
 
-- #### publication: TIPs 3.1.0.x
+- #### publication: TIPs 3.1.0.0.x
   - [TIP-3.1.0.0](publication.md): publication of a word over nostr
   - [TIP-3.1.0.x](kinds.md): event kinds
   - [TIP-3.1.0.x](tags.md): event tags
   - [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
 
-- ### retrieval: TIPs 3.1.1.x
+- ### retrieval: TIPs 3.1.0.1.x
   - [TIP-3.1.1.0](retrieval.md): retrieval of a word from the nostr network
 
-- metadata
+- ### metadata: TIPs 3.1.0.2
   - [TIP-3.1.2](.md): what goes into wordData.metaData.nostr
 
-- stewardship
+- ### stewardship: TIPs 3.1.0.3
   - [TIP-3.1.3](.md): stewardship
 
-- ### misc topics
-  - [TIP-3.2.0](relays.md) relays
+- ### misc topics: TIPs 3.1.0.4
+  - [TIP-3.1.4](relays.md) relays
 
-## Grapevine-specific
+## Grapevine-specific: TIPs 3.1.1.x
 
-- [TIP-](.md): publication of an attestation over nostr
-- [TIP-](.md): alternate formatting and publication over nostr using [NIP-32](https://github.com/staab/nips/blob/nip-32-labeling/32.md)
+- [TIP-3.1.1.0](.md): publication of an attestation over nostr
+- [TIP-3.1.1.1](.md): alternate formatting and publication over nostr using [NIP-32](https://github.com/staab/nips/blob/nip-32-labeling/32.md)
 
 ## Work in progress
 

@@ -8,7 +8,7 @@ no scraped data
 
 ## Synopsis
 
-Trust and reputation scores should rely more heavily on explicit, intentional attestations rather than inferred from observations or "scraped" data.
+Trust and reputation scores should rely more heavily on explicit, intentional attestations rather than inferences from observations or "scraped" data.
 
 ## General principle
 

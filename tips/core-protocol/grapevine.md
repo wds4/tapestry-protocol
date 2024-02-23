@@ -8,11 +8,11 @@ the Grapevine: curation of knowledge using the web of trust
 
 ## Synopsis
 
-The tapestry protocol will provide methods for entities to delegate curation of knowledge to the web of trust, referred to as the *Grapevine*, and will be done so in a manner designed to pair well with the Concept Graph. In other words, the Concept Graph will be used to formulate a question; the Grapevine will be used to answer it.
+The Grapevine allows users to poll members of their community using questions and attestations encoded using the methods of the Concept Graph, and to synthesize the answers using weighted average in a manner that mirrors how we do it in real life. Answers are weighted according to an entity-specific quantity called influence which is contextual, so that context-based influence can be matched to the context of the question.
 
 ## Discussion
 
-The methods of synthesis used by the Grapevine are designed to mirror the way we do it in real life. For any given question, you poll the people you trust and synthesize the data as a weighted average, with trusted individuals getting more weight, and with the context of the trust matching the context of the question, and with context defined using two dimensions: an action and a category.
+The tapestry protocol will provide methods for entities to delegate curation of knowledge to the web of trust, referred to as the *Grapevine*, and will be done so in a manner designed to pair well with the Concept Graph. In other words, the Concept Graph will be used to formulate a question; the Grapevine will be used to answer it.
 
 The general idea is that the Concept Graph will be used to formulate questions, and the Grapevine can be used to answer them.
 

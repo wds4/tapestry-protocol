@@ -8,7 +8,7 @@ the Concept Graph: representing knowledge as a graph
 
 ## Synopsis
 
-Data will be represented using [graphs](https://github.com/wds4/tapestry-protocol/blob/main/glossary/graph.md), i.e. collections of [nodes](https://github.com/wds4/tapestry-protocol/blob/main/glossary/node.md) and [edges](https://github.com/wds4/tapestry-protocol/blob/main/glossary/relationship.md). A [concept graph](https://github.com/wds4/tapestry-protocol/blob/main/glossary/conceptGraph.md) is a graph with additional structure provided by [principles of organization](https://github.com/wds4/tapestry-protocol/blob/main/glossary/principleOfOrganization.md) such as the [class thread princiuple](https://github.com/wds4/tapestry-protocol/blob/main/glossary/classThreadPrinciple.md), as described though this series of TIPs.
+Data will be represented using [graphs](https://github.com/wds4/tapestry-protocol/blob/main/glossary/graph.md), i.e. collections of [nodes](https://github.com/wds4/tapestry-protocol/blob/main/glossary/node.md) and [edges](https://github.com/wds4/tapestry-protocol/blob/main/glossary/relationship.md). A [concept graph](https://github.com/wds4/tapestry-protocol/blob/main/glossary/conceptGraph.md) is a graph with additional structure provided by [principles of organization](https://github.com/wds4/tapestry-protocol/blob/main/glossary/principleOfOrganization.md) such as the [class thread princiuple](https://github.com/wds4/tapestry-protocol/blob/main/glossary/classThreadPrinciple.md), as described in subsequent TIPs.
 
 ## General Discussion
 

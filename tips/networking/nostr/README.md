@@ -30,7 +30,7 @@ As per the relevant TIP, a *word* is a node that is formatted using json. This s
 
 - ### relays: TIPs 3.1.0.4.x
   - [TIP-3.1.0.4.0](relays.md) relays
-  - [TIP-3.1.0.4.1](relays.md) personal relays
+  - [TIP-3.1.0.4.1](personalRelays.md) personal relays
 
 ## Grapevine-specific: TIPs 3.1.1.x
 

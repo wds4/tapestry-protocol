@@ -1,7 +1,7 @@
 Tapestry Protocol
 =====
 
-*This repo is a work in progress*
+*This repo is a work in progress; see the [DCoSL protocol](https://github.com/wds4/DCoSL) for an earlier version.*
 
 # Background
 

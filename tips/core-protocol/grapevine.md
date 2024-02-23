@@ -12,6 +12,8 @@ The tapestry protocol will provide methods for entities to delegate curation of 
 
 ## Discussion
 
+The methods of synthesis used by the Grapevine are designed to mirror the way we do it in real life. For any given question, you poll the people you trust and synthesize the data as a weighted average, with trusted individuals getting more weight, and with the context of the trust matching the context of the question, and with context defined using two dimensions: an action and a category.
+
 The general idea is that the Concept Graph will be used to formulate questions, and the Grapevine can be used to answer them.
 
 *Curation of knowledge* refers to various categories:

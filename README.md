@@ -5,7 +5,7 @@ Tapestry Protocol
 
 # Synopsis
 
-The purpose of the tapestry protocol is to enable the transition from *digital stewardship* to *full decentralization of our digital tools of communication*.
+The purpose of the tapestry protocol is to enable the transition from *digital stewardship* to *full decentralization of our digital tools of communication*. In the process, we will finally experience the full potential of decentralized web of trust in the curation of content, facts, and information.
 
 # Background
 

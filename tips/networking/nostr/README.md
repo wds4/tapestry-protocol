@@ -4,18 +4,22 @@ back to [networking main page](https://github.com/wds4/tapestry-protocol/blob/ma
 
 Data storage & retrieval: nostr
 =====
-How to use nostr to store and retrieve data (nodes, words) efficiently and effectively
+How to use nostr to store and retrieve *words* efficiently and effectively
 -----
+
+## Background
+
+As per the relevant TIP, a *word* is a node that is formatted using json. This set of TIPs describes how to store, transmit, and retrieve words from the nostr network.
 
 ## Concept Graph-specific: TIPs 3.1.0.x
 
-- #### publication: TIPs 3.1.0.0.x
+- #### publication of words: TIPs 3.1.0.0.x
   - [TIP-3.1.0.0.0](publication.md): publication of a word over nostr
   - [TIP-3.1.0.0.1](kinds.md): event kinds
   - [TIP-3.1.0.0.2](tags.md): event tags
   - [TIP-3.1.0.0.3](publicationByWordType.md): publication of a word over nostr with specification of wordType
 
-- ### retrieval: TIPs 3.1.0.1
+- ### retrieval of words: TIPs 3.1.0.1
   - [TIP-3.1.0.1](retrieval.md): retrieval of a word from the nostr network
 
 - ### metadata: TIPs 3.1.0.2

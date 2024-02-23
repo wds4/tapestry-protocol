@@ -18,13 +18,13 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
 - ### retrieval: TIPs 3.1.0.1.x
   - [TIP-3.1.0.1](retrieval.md): retrieval of a word from the nostr network
 
-- ### metadata: TIPs 3.1.0.2
+- ### metadata: TIPs 3.1.0.2.x
   - [TIP-3.1.0.2](.md): what goes into wordData.metaData.nostr
 
-- ### stewardship: TIPs 3.1.0.3
+- ### stewardship: TIPs 3.1.0.3.x
   - [TIP-3.1.0.3](.md): stewardship
 
-- ### relays: TIPs 3.1.0.4
+- ### relays: TIPs 3.1.0.4.x
   - [TIP-3.1.0.4](relays.md) relays
 
 ## Grapevine-specific: TIPs 3.1.1.x

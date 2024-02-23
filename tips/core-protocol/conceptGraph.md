@@ -8,7 +8,7 @@ the Concept Graph: representing knowledge as a graph
 
 ## Synopsis
 
-Knowledge will be broken down into chunks, called nodes, and organized as a graph, which is a collection of nodes connected by edges. Edges will represent relationships between the nodes and will be used to organize nodes into sets. Linguistic questions can be formulated by representing the question using a single node connected to a set of nodes, each one of which is a possible answer to the question.
+Knowledge will be broken down into chunks, called nodes, and organized as a graph, which is a collection of nodes connected by edges. Edges will represent relationships between the nodes and will be used to organize nodes into sets. Linguistic questions can be formulated by representing the question using a single node connected to a set of nodes, each one of which is a possible answer to the question, as in the example below.
 
 <img src="../../images/createdAtQuestionAsGraph.png" width="50%" />
 

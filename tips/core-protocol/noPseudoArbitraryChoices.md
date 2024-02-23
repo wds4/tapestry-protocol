@@ -8,6 +8,7 @@ no linguistic overhead for the core protocol
 
 ## Synopsis
 
-
+The core of the tapestry protocol will endeavor to impose little, if any, [linguistic overhead]() on the protocol.
 
 ## General Principle
+

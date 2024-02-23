@@ -25,5 +25,5 @@ An example of a pseudo-arbitrary question would be the one in the following figu
 
 <img src="../../images/createdAtQuestionAsGraph.png" width="50%" />
 
-As shown in the figure, the question is represented by a single node (green circle). Each individual of several propsoed answers is represented by a node (chite circles). The answers are grouped into a set using edges that connect the question to each answer. Two different connection methods are used. On the left, the question and each answer are connected directly using a single edge.
+As shown in the figure, the question is represented by a single node (green circle). Each individual of several propsoed answers is represented by individual nodes (white circles). The answers are grouped into a set using edges that connect the question to each answer. Two different connection methods are used. On the left, the question is connected directly to each propsoed answer. On the right, the question is connected to each proposed answer by a specialized path, called a class thread, consisting of two or more edges in sequence. The method on the right has the advantage that answers can be organized into subsets (circles with thin borders). Class threads will be discussed in detail in a later TIP.
 

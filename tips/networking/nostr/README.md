@@ -16,13 +16,13 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
   - [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
 
 - ### retrieval: TIPs 3.1.0.1.x
-  - [TIP-3.1.1.0](retrieval.md): retrieval of a word from the nostr network
+  - [TIP-3.1.0.1](retrieval.md): retrieval of a word from the nostr network
 
 - ### metadata: TIPs 3.1.0.2
-  - [TIP-3.1.2](.md): what goes into wordData.metaData.nostr
+  - [TIP-3.1.0.2](.md): what goes into wordData.metaData.nostr
 
 - ### stewardship: TIPs 3.1.0.3
-  - [TIP-3.1.3](.md): stewardship
+  - [TIP-3.1.0.3](.md): stewardship
 
 - ### relays: TIPs 3.1.0.4
   - [TIP-3.1.0.4](relays.md) relays

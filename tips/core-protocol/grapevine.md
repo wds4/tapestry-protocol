@@ -21,7 +21,9 @@ The general idea is that the Concept Graph will be used to formulate questions, 
 
 ## Example
 
-An example of a pseudo-arbitrary question would be: what is the 
+An example of a pseudo-arbitrary question would be the one in the following figure: *How do we indicate the timestampt of a nostr event?*
 
 <img src="../../images/createdAtQuestionAsGraph.png" width="50%" />
+
+As shown in the figure, the question is represented by a single node (green circle). Each individual of several propsoed answers is represented by a node (chite circles). The answers are grouped into a set using edges that connect the question to each answer. Two different connection methods are used. On the left, the question and each answer are connected directly using a single edge.
 

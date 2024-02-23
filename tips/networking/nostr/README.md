@@ -10,10 +10,10 @@ How to use nostr to store and retrieve data (nodes, words) efficiently and effec
 ## Concept Graph-specific: TIPs 3.1.0.x
 
 - #### publication: TIPs 3.1.0.0.x
-  - [TIP-3.1.0.0](publication.md): publication of a word over nostr
-  - [TIP-3.1.0.x](kinds.md): event kinds
-  - [TIP-3.1.0.x](tags.md): event tags
-  - [TIP-3.1.0.1](publicationByWordType.md): publication of a word over nostr with specification of wordType
+  - [TIP-3.1.0.0.0](publication.md): publication of a word over nostr
+  - [TIP-3.1.0.0.1](kinds.md): event kinds
+  - [TIP-3.1.0.0.2](tags.md): event tags
+  - [TIP-3.1.0.0.3](publicationByWordType.md): publication of a word over nostr with specification of wordType
 
 - ### retrieval: TIPs 3.1.0.1.x
   - [TIP-3.1.0.1](retrieval.md): retrieval of a word from the nostr network

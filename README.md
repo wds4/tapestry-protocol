@@ -3,6 +3,10 @@ Tapestry Protocol
 
 *This repo is a work in progress; see the [DCoSL protocol](https://github.com/wds4/DCoSL) for an earlier version.*
 
+# Synopsis
+
+The purpose of the tapestry protocol is to enable the transition from *digital stewardship* to *full decentralization of our digital tools of communication*.
+
 # Background
 
 Ever since Pretty Good Privacy was released in 1991, cypherpunks have dreamt of a world where web of trust can be used to curate content, facts, and information in a way that routes around powerful state and corporate entities who wish to isolate, to censor, and to control the flow of information. Unfortunately, web of trust has failed to live up to its expectations. Why is that?

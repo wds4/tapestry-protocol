@@ -8,11 +8,11 @@ the Concept Graph: representing knowledge as a graph
 
 ## Synopsis
 
-Knowledge will be broken down into chunks, called nodes, and organized as a graph, which is a collection of nodes connected by edges. Edges will represent relationships between the nodes and will be used to organize nodes into sets. Linguistic questions can be formulated by representing individually proposed answers as nodes and arranging them into a set.
+Knowledge will be broken down into chunks, called nodes, and organized as a graph, which is a collection of nodes connected by edges. Edges will represent relationships between the nodes and will be used to organize nodes into sets. Linguistic questions can be formulated by representing the question using a single node connected to a set of nodes, each one of which is a possible answer to the question.
 
 <img src="../../images/createdAtQuestionAsGraph.png" width="50%" />
 
-The above figure illustrates two methods that a pseudo-arbitrary question can be represented using this TIP.
+The above figure illustrates two methods that a pseudo-arbitrary question can be represented using this TIP. On the left, the question (green circle) is connected directly to each propsoed answer (circles). On the right, each question is connected to each proposed answer by a specialized path, called a *class thread*, which will be discussed in detail in a later TIP.
 
 ## General Discussion
 

@@ -8,7 +8,7 @@ the Grapevine: curation of knowledge using the web of trust
 
 ## Synopsis
 
-The tapestry protocol will provide methods for entities to delegate curation of knowledge to the web of trust, referred to as the *Grapevine*, and will be done so in a manner designed to pair well with the Concept Graph.
+The tapestry protocol will provide methods for entities to delegate curation of knowledge to the web of trust, referred to as the *Grapevine*, and will be done so in a manner designed to pair well with the Concept Graph. In other words, the Concept Graph will be used to formulate a question; the Grapevine will be used to answer it.
 
 ## Discussion
 

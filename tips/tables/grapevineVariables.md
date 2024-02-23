@@ -18,4 +18,10 @@ This is a summary of the various variables used by the Grapevine for influence c
 | action | a | description | 
 | category | cat | description | 
 
+## Control Panel settings
 
+| variable | symbol | range | description |
+| ----- | ----- | ----- | ----- |
+| attenuation factor | r |  | |
+| rigor | r |  | |
+| rigority | r |  | |

@@ -22,6 +22,9 @@ metadata
 stewardship
 - [TIP-3.1.3](.md): stewardship
 
+### misc topics
+- [TIP-3.2.0](relays.md)
+
 ## Grapevine-specific
 
 - [TIP-](.md): publication of an attestation over nostr

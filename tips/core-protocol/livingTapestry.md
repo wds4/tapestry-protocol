@@ -8,7 +8,7 @@ the living tapestry
 
 ## Synopsis 
 
-Management of the tapestry protocol will eventually be taken over by the web of trust.
+We endeavor for management of the tapestry protocol to be taken over by the web of trust.
 
 ## Discussion 
 

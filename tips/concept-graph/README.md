@@ -20,6 +20,15 @@ Concept Graph: TIPs 1.x
 - [TIP-1.1.0](principlesOfOrganization/classThreadPrinciple.md): class thread principle
 - [TIP-1.1.1](principlesOfOrganization/constraints.md): constraints
 
+## user input to the concept graph
+- creating / editing a word
+- creating / editing a concept
+- connecting two concepts
+  - subset
+  - specific instance
+  - input to a property
+- importing a word from an external source
+
 ## Word Types: TIPs 1.2.x
 - [TIP-1.2.words](): words
 - [TIP-1.2.wordTypes](): word types

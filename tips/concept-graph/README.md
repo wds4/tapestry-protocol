@@ -50,4 +50,12 @@ Concept Graph: TIPs 1.x
 - [TIP-1.3.1](): initiation, propagation, termination
 - [TIP-1.3.isTheJsonSchemaFor](): isTheJsonSchemaFor
 
-## Data visualization
+## concept graph upkeep (NeuroCore in Plex): TIPs 1.4.x
+- []() patterns and actions: patterns should be as simple as possible, preferably no more than one hop
+- validation
+  - of individual words
+  - of class thread principle
+  - of constraint principle
+  - of property trees
+  
+## Data visualization: TIPs 1.5.x

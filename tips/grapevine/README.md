@@ -10,7 +10,7 @@ Grapevine: TIPs 2.x
 ## ratings and attestations: TIPs 2.1.x
 - [2.1.2](attestations/attestations.md) attestations (requires a rater)
 - [2.1.2](attestations/ratings.md) ratings (requires a ratee)
-- [2.1.1](attestations/context.md) trust context
+- [2.1.1](attestations/context.md) context for trust ratings
 - [2.1.2](attestations/fields.md) fields
   - [2.1.2](attestations/comments.md) comments
   - [2.1.2](attestations/confidence.md) confidence

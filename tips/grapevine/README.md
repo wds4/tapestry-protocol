@@ -21,22 +21,28 @@ Grapevine: TIPs 2.x
     - [2.1.3.5.0](attestations/comments.md) the trust rating fieldset
     - [2.1.3.5.1](attestations/comments.md) the standard 5-star rating fieldset
 
-## calculating average scores: TIPs 2.2.0.x
-- [2.1.x](compositeScores/averageScore.md) average score
-- [2.1.x](compositeScores/weight.md) weight
-- [2.1.x](compositeScores/input.md) input
-- [2.1.x](compositeScores/certainty.md) certainty
+## processing data
+- ## the basics of calculating average scores: TIPs 2.2.0.x
+  - [2.1.x](compositeScores/averageScore.md) average score
+  - [2.1.x](compositeScores/weight.md) weight
+  - [2.1.x](compositeScores/input.md) input
+  - [2.1.x](compositeScores/certainty.md) certainty
 
-## influence: TIPs 2.3.x
-- [2.1.2](influence/trustAttestations.md) trust attestations
-- [2.1.0](influence/influence.md) influence = average * certainty
-- [2.1.1](influence/context.md) trust context
-- [2.1.1](influence/inheritance.md) inheritance
+- ## special topics
+  - []() default averages
+  - []() inheritance down the category tree
+  - []() weights (default: context tells us which influence score to use; but you can adjust it in more complicated fashion)
 
-## control panel: TIPs 2.4.x
-- [2.1.x](controlPanel/attenuationFactor.md) attenuation factor
-- [2.1.x](controlPanel/attenuationFactor.md) rigor
-- [2.1.x](controlPanel/defaultScores.md) default user trust scores
+- ## influence: TIPs 2.3.x
+  - [2.1.2](influence/trustAttestations.md) trust attestations
+  - [2.1.0](influence/influence.md) influence = average * certainty
+  - [2.1.1](influence/context.md) trust context
+  - [2.1.1](influence/inheritance.md) inheritance
+
+- ## control panel: TIPs 2.4.x
+  - [2.1.x](controlPanel/attenuationFactor.md) attenuation factor
+  - [2.1.x](controlPanel/attenuationFactor.md) rigor
+  - [2.1.x](controlPanel/defaultScores.md) default user trust scores
 
 *old, being deprecated*:
 - 2.0.1 - components of the trust ratings

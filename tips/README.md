@@ -5,7 +5,7 @@ Tapestry Implementation Proposals (TIPs)
 
 ## [Core Protocol: TIPs 0.x](core-protocol)
 
-We encode the basic principles and establish the notion that information will be encoded topologically into graphs in a way that facilitates curation by the web of trust. Importantly, the core protocol is designed to have minimal, or arguably zero, [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md).
+The core protocol presents an overview of the basic principles of the tapestry method, including its goal: a [decentralized digital language](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md). Information will be encoded topologically into graphs (the Concept Graph) in a way that facilitates curation by the web of trust (the Grapevine).
 
 ## [Concept Graph: TIPs 1.x](concept-graph)
 

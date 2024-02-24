@@ -4,6 +4,7 @@ Grapevine: TIPs 2.x
 =====
 
 ## Grapevine Basics: TIPs 2.0.x
+- [2.0.0](intent.md) statement of intent
 - [2.0.0](influence.md) influence
 - [2.0.1](context.md) context
 

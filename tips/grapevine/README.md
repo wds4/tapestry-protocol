@@ -55,6 +55,8 @@ Grapevine: TIPs 2.x
   - ## DCoG-property: DCoG for property tree
 - ## curation of a concept
 - ## curation of schemas (as per schema.org)
+- ## content algorithms (rank a list by score)
+  - multivariable (weight by more than one quality score, weight for age of content, etc)
 
 ## concept graph upkeep (NeuroCore in Plex)
 - []() patterns and actions: patterns should be as simple as possible, preferably no more than one hop

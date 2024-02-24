@@ -13,7 +13,7 @@ The concept graph achieves *knowledge representation* by organizing information 
 
 ## [Grapevine: TIPs 2.x](grapevine)
 
-The Grapevine achieves *knowledge curation* using the web of trust in a manner designed to integrate naturally with the Concept Graph.
+The Grapevine achieves *knowledge curation* using the web of trust in a manner designed to integrate naturally with the Concept Graph. The way the Grapevine works is similar in many ways to real life; except that the digital Grapevine, unlike the biological human brain, is not limited by Dunbar's number.
 
 ## [Networking: TIPs 3.x](networking)
 

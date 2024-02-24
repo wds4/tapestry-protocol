@@ -47,7 +47,7 @@ Grapevine: TIPs 2.x
   - [2.1.x](controlPanel/defaultScores.md) default user trust scores
   - [2.1.x](controlPanel/defaultScores.md) default rated item scores
 
-## curation of data structures
+## grapevine-mediated curation of data structures
 - Basic idea: start with simple data structures, gradually get more complex
 - ## DCoSL: decentralized curation of simple lists
 - ## DCoG: decentralized curation of graphs
@@ -57,14 +57,6 @@ Grapevine: TIPs 2.x
 - ## curation of schemas (as per schema.org)
 - ## content algorithms (rank a list by score)
   - multivariable (weight by more than one quality score, weight for age of content, etc)
-
-## concept graph upkeep (NeuroCore in Plex)
-- []() patterns and actions: patterns should be as simple as possible, preferably no more than one hop
-- validation
-  - of individual words
-  - of class thread principle
-  - of constraint principle
-  - of property trees
 
 *old, being deprecated*:
 - 2.0.1 - components of the trust ratings

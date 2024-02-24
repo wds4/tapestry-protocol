@@ -12,7 +12,7 @@ Grapevine: TIPs 2.x
 - [2.1.0](attestations/attestations.md) attestations (requires a rater)
 - [2.1.1](attestations/ratings.md) ratings (requires a ratee)
 - [2.1.2](attestations/context.md) context for trust ratings
-- [2.1.3.0](attestations/fields.md) fields
+- [2.1.3.0](attestations/fields.md) fields for ratings
   - [2.1.3.1](attestations/comments.md) comments
   - [2.1.3.2](attestations/confidence.md) confidence
   - [2.1.3.3](attestations/comments.md) numerical fields: 0-100, 5star, binary, flag (none), etc (needs a context ???)

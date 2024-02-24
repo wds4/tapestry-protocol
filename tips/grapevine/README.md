@@ -23,6 +23,8 @@ Grapevine: TIPs 2.x
 
 ## composite scores: TIPs 2.2.x
 - ## the basics of calculating average scores: TIPs 2.2.0.x
+  - []() the general idea of average scores (rated items, trust scores, whatever): 4 numbers
+  - []() ambiguity by design: my rating versus my grapevine's rating
   - [2.1.x](compositeScores/averageScore.md) average score
   - [2.1.x](compositeScores/weight.md) weight
   - [2.1.x](compositeScores/input.md) input
@@ -41,8 +43,26 @@ Grapevine: TIPs 2.x
 
 - ## control panel: TIPs 2.2.3.x
   - [2.1.x](controlPanel/attenuationFactor.md) attenuation factor
-  - [2.1.x](controlPanel/attenuationFactor.md) rigor
+  - [2.1.x](controlPanel/rigor.md) rigor
   - [2.1.x](controlPanel/defaultScores.md) default user trust scores
+  - [2.1.x](controlPanel/defaultScores.md) default rated item scores
+
+## curation of data structures
+- Basic idea: start with simple data structures, gradually get more complex
+- ## DCoSL: decentralized curation of simple lists
+- ## DCoG: decentralized curation of graphs
+  - ## DCoG-DAG: decentralized curation of graphs that are DAGs and have a master node and one type of relationship type (action, category, subset)
+  - ## DCoG-property: DCoG for property tree
+- ## curation of a concept
+- ## curation of schemas (as per schema.org)
+
+## concept graph upkeep (NeuroCore in Plex)
+- []() patterns and actions: patterns should be as simple as possible, preferably no more than one hop
+- validation
+  - of individual words
+  - of class thread principle
+  - of constraint principle
+  - of property trees
 
 *old, being deprecated*:
 - 2.0.1 - components of the trust ratings

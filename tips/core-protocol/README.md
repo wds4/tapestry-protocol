@@ -17,7 +17,7 @@ We review the underlying principles of the protocol and introduce the concept gr
 - [TIP-0.0.8](livingTapestry.md) the living tapestry
 
 ## Core Methods: TIPs 0.1.x
-The Concept Graph and the Grapevine can each function independently, but are each designed to work with the other: the Concept Graph as a method to ask questions, most notably pseudo-arbitrary questions concerning language, and the Grapevine as a method to answer them.
+The Concept Graph and the Grapevine can each function independently, but are each designed to work with the other: the Concept Graph as a method to ask questions, most notably [pseudo-arbitrary](https://github.com/wds4/tapestry-protocol/blob/main/glossary/pseudoArbitrary.md) questions concerning language, and the Grapevine as a method to answer them.
 
 - [TIP-0.1.0](conceptGraph.md) the Concept Graph: representing knowledge as a graph
 - [TIP-0.1.1](grapevine.md) the Grapevine: curating knowledge using your web of trust

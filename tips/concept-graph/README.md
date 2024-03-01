@@ -30,6 +30,7 @@ Concept Graph: TIPs 1.x
 - importing a word from an external source
 
 ## Word Types: TIPs 1.2.x
+#### Core Concept Graph word types
 - [TIP-1.2.words](): words
 - [TIP-1.2.wordTypes](): word types
 - [TIP-1.2.relationships](): relationships
@@ -44,6 +45,11 @@ Concept Graph: TIPs 1.x
 - [TIP-1.2.concepts](): conceptGraphs
 - [TIP-1.2.dictionaries](): dictionaries
 - [TIP-1.2.schemas](): schemas
+
+#### Grapevine word types
+- [TIP-1.2.attestations](): attestations
+- [TIP-1.2.ratings](): ratings
+- [TIP-1.2.dataStructures](): dataStructures
 
 ## Relationship Types: TIPs 1.3.x
 - [TIP-1.3](): relationship type naming conventions

@@ -23,6 +23,7 @@ Grapevine: TIPs 2.x
 
 ## composite scores: TIPs 2.2.x
 - ## the basics of calculating average scores: TIPs 2.2.0.x
+  - (is average score as a data structure distinct from the previous TIPs?)
   - []() the general idea of average scores (rated items, trust scores, whatever): 4 numbers
   - []() ambiguity by design: my rating versus my grapevine's rating
   - [2.1.x](compositeScores/averageScore.md) average score

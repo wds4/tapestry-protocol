@@ -47,12 +47,26 @@ Grapevine: TIPs 2.x
   - [2.1.x](controlPanel/defaultScores.md) default user trust scores
   - [2.1.x](controlPanel/defaultScores.md) default rated item scores
 
-## grapevine-mediated curation of data structures
-- Basic idea: start with simple data structures, gradually get more complex
-- ## DCoSL: decentralized curation of simple lists
-- ## DCoG: decentralized curation of graphs
+## data structures: TIPs 2.3.x
+- [2.3.0](dataStructures/dataStructures.md) Basic idea: start with simple data structures, gradually get more complex
+
+- ## DCoSL: decentralized composite average scores: TIPs 2.3.1.x
+  - [2.3.1.0](dataStructures/simpleRanking/simpleRanking.md) intro to composite average score
+  - [2.3.1.1]() 
+  - [2.3.1.2]()
+
+- ## DCoSL: decentralized curation of simple lists: TIPs 2.3.2.x
+  - [2.3.2.0](dataStructures/DCoSL/DCoSL.md) DCoSL intro
+  - [2.3.2.1]() average score subtype
+  - [2.3.2.2]() cutoff parameters
+
+- ## DCoG: decentralized curation of graphs: TIPs 2.3.3.x
+  - [2.3.3.0](dataStructures/DCoSL/DCoSL.md) DCoG intro
+  - [2.3.3.1]() 
+  - [2.3.3.2]()
   - ## DCoG-DAG: decentralized curation of graphs that are DAGs and have a master node and one type of relationship type (action, category, subset)
   - ## DCoG-property: DCoG for property tree
+
 - ## curation of a concept
 - ## curation of schemas (as per schema.org)
 - ## content algorithms (rank a list by score)

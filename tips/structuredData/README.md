@@ -2,10 +2,10 @@ back to the [TIPs main page](..)
 
 ### TIPS 3.x
 
-Curation of Structured Data organized according to Data Model by the Grapevine
+Curation: Data Models, Data Structures, and Structured Data
 =====
 
-## Data Models, Data Structures, and Structured Data Basics: TIPs 3.0.x
+## Basics: TIPs 3.0.x
 - [TIP-3.0.0]() Basic idea: start with simple data models, gradually get more complex
 - [TIP-3.0.x]() data models
 - [TIP-3.0.x]() structured data: an instance of a data model

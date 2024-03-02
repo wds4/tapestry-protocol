@@ -5,7 +5,9 @@ Tapestry Protocol
 
 # Synopsis
 
-The purpose of the tapestry protocol is to enable the transition from *digital stewardship* -- i.e. our dependence on repository managers, standards committees, etc. -- to the *fully decentralized management of our digital tools of communication*. In the process, we will finally experience the full potential of decentralized web of trust in the curation of content, facts, and information.
+The purpose of the tapestry protocol is to create the world's first fully [decentralized digital languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md).
+
+More specifically, the purpose of the tapestry protocol is to enable the transition from *digital stewardship* -- i.e. our dependence on repository managers, standards committees, etc. -- to the *fully decentralized management of our digital tools of communication*. In the process, we will finally experience the full potential of a decentralized web of trust to curate content, facts, and information.
 
 # Background
 
@@ -36,7 +38,7 @@ Although it will take work to implement this protocol, it's more straightforward
 # More information
 
 - [Tapestry theory overview](https://github.com/wds4/tapestry-protocol/blob/main/tapestry-theory/README.md)
-- [Pretty Good Freedom Tech](pgf.tech)
+- [Pretty Good Freedom Tech](https://pgf.tech)
 ### important concepts
 - [decentralized languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md)
 - [stewards](https://github.com/wds4/tapestry-protocol/blob/main/glossary/steward.md)

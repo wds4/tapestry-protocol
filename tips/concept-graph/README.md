@@ -8,7 +8,8 @@ Concept Graph: TIPs 1.x
 - [TIP-1.0.1](basics/conceptGraphs.md): concept graphs
 - [TIP-1.0.2](basics/words.md): words are in json
 - [TIP-1.0.3](basics/declarations.md): declaration of new concepts (new word types)
-- [TIP-1.0.3](): constraint nodes are JSON Schemas
+- [TIP-1.0.3](): constraint nodes
+  - [TIP-1.0.3.0](): JSON Schemas
 - [TIP-1.0.4](): word identifiers: universally versus locally unique
 - [TIP-1.0.5](): naming conventions
 - [TIP-1.0.6](basics/principlesOfOrganization.md): principles of organization

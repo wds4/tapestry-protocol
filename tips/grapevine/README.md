@@ -53,8 +53,8 @@ The Grapevine
 - [TIP-2.wordTypes.attestations](): attestations
 - [TIP-2.wordTypes.ratings](): ratings
   - [TIP-2.wordTypes.trustRatings](): trust rating
-- [TIP-2.wordTypes.dataModels](): dataStructures
-- [TIP-2.wordTypes.dataStructures](): dataStructures
+- [TIP-2.wordTypes.dataModels](): data models
+- [TIP-2.wordTypes.dataStructures](): data structures
 - category (dimension of context)
 - action (dimension of context)
 

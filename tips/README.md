@@ -17,6 +17,8 @@ The Grapevine achieves *knowledge curation* using the web of trust in a manner d
 
 ## [Curation of structured data: TIPs 3.x](structuredData)
 
+Data curation is organized according to data model: from simple, generic models like simple lists and graphs to complex, detailed models like ontologies, verifiable credentials, standards, repositories, and computer languages. 
+
 ## [eOS: Entity Operating System: TIPs 4.x](neuroCore)
 
 The eOS maintains the concept graph, incorporating new data and ensuring adherence to the Principles of Organization.

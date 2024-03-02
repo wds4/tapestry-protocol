@@ -38,7 +38,7 @@ Although it will take work to implement this protocol, it's more straightforward
 # More information
 
 - [Tapestry theory overview](https://github.com/wds4/tapestry-protocol/blob/main/tapestry-theory/README.md)
-- [Pretty Good Freedom Tech](pgf.tech)
+- [Pretty Good Freedom Tech](https://pgf.tech)
 ### important concepts
 - [decentralized languages](https://github.com/wds4/tapestry-protocol/blob/main/glossary/decentralizedLanguage.md)
 - [stewards](https://github.com/wds4/tapestry-protocol/blob/main/glossary/steward.md)

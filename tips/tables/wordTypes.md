@@ -12,7 +12,7 @@ This is a summary of the basic word types.
 | ----- | ----- | ----- | ----- | ----- |
 | word | wordData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/word/declaration.md) | any node that is formatted in json |
 | word type | wordTypeData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/wordType/declaration.md) | a type, class, or category of word |
-| relationship | relationshipData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/relationship/declaration.md) | an edge in a graph that connects two words |
+| relationship | relationshipData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/relationship/declaration.md) | an edge in a graph that connects two nodes |
 | relationship type | relationshipTypeData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/relationshipType/declaration.md) | a type, class, or category of relationship |
 | json schema | jsonSchemaData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/jsonSchema/declaration.md) | |
 | superset | supersetData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/superset/declaration.md) | | 

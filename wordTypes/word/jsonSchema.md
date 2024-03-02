@@ -1,6 +1,6 @@
 ### json schema
 
-json schema for `word`
+`word`
 =====
 
 ```json

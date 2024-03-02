@@ -46,11 +46,6 @@ Concept Graph: TIPs 1.x
 - [TIP-1.2.dictionaries](): dictionaries
 - [TIP-1.2.schemas](): schemas
 
-#### Grapevine word types
-- [TIP-1.2.attestations](): attestations
-- [TIP-1.2.ratings](): ratings
-- [TIP-1.2.dataStructures](): dataStructures
-
 ## Relationship Types: TIPs 1.3.x
 - [TIP-1.3](): relationship type naming conventions
 - [TIP-1.3.1](): initiation, propagation, termination

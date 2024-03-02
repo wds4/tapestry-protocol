@@ -19,6 +19,8 @@ The Grapevine achieves *knowledge curation* using the web of trust in a manner d
 
 ## [eOS: Entity Operating System: TIPs 4.x](neuroCore)
 
+The eOS maintains the concept graph, incorporating new data and ensuring adherence to the Principles of Organization.
+
 ## [Networking: TIPs 5.x](networking)
 
 A section of the protocol is dedicated to the storage and transmission of data using [nostr](https://github.com/nostr-protocol/nostr). Stubs have also been added for several alternative networks (e.g., IPFS, GUN). Multiple networks can be used simultaneously for the sake of redundancy.

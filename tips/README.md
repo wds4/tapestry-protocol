@@ -27,13 +27,6 @@ The eOS maintains the concept graph, incorporating new data and ensuring adheren
 
 A section of the protocol is dedicated to the storage and transmission of data using [nostr](https://github.com/nostr-protocol/nostr). Stubs have also been added for several alternative networks (e.g., IPFS, GUN). Multiple networks can be used simultaneously for the sake of redundancy.
 
-## Subprotocols
-
-A subprotocol is a subset of TIPs which serve a particular purpose.
-
-- [DCoSL](subprotocols/DCoSL.md): decentralized curation of simple lists
-- [DCoG](subprotocols/DCoG.md): decentralized curation of graphs
-  - [DCoG-cat](subprotocols/DCoG-cat.md): DCoG for set trees or category trees
 
 
 

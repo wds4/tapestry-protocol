@@ -8,10 +8,10 @@
         "wordType": "JSONSchema",
         "wordTypes": [
             "word",
-            "JSONSchema"
+            "jsonSchema"
         ],
     },
-    "JSONSchemaData": {
+    "jsonSchemaData": {
         "name": "concept",
         "title": "Concept",
         "$schema": "http://json-schema.org/draft-07/schema",

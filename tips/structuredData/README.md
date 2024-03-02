@@ -35,3 +35,7 @@ Curation of Structured Data organized according to Data Model by the Grapevine
 
 ## content algorithms (rank a list by score)
 - multivariable (weight by more than one quality score, weight for age of content, etc)
+
+## Word Types
+- [TIP-3.wordTypes.dataModels](): data models
+- [TIP-3.wordTypes.dataStructures](): data structures

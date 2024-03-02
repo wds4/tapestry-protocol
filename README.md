@@ -23,9 +23,9 @@ Although it will take work to implement this protocol, it's more straightforward
 
 # Tables
 
-- [word types](tips/tables/wordTypes.md)
-- [relationship types](tips/tables/relationshipTypes.md)
-- [principles of organization](tips/tables/principlesOfOrganization.md)
+- [word types](tables/wordTypes.md)
+- [relationship types](tables/relationshipTypes.md)
+- [principles of organization](tables/principlesOfOrganization.md)
 - table of nostr id (& IPFS hashes?) for published words
 
 # Folders

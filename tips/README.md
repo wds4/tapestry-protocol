@@ -17,7 +17,7 @@ The Grapevine achieves *knowledge curation* using the web of trust in a manner d
 
 ## [Curation of structured data: TIPs 3.x](structuredData)
 
-## [background processing: TIPs 4.x](backgroundProcessing)
+## [The Entity Operating System: TIPs 4.x](neuroCore)
 
 ## [Networking: TIPs 5.x](networking)
 

@@ -23,7 +23,7 @@ word
       "plural": "Words",
     },
     "propertyPath": "wordData",
-    "description": "A node in a graph, formatted in json, with additional requirements and conventions specified according to the DCoSL protocol."
+    "description": "A node in a graph, formatted in json, with additional requirements and conventions specified according to the tapestry protocol."
   }
 }
 ```

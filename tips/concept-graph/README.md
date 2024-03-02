@@ -12,8 +12,9 @@ Concept Graph: TIPs 1.x
 - [TIP-1.0.4](): word identifiers: universally versus locally unique
 - [TIP-1.0.5](): naming conventions
 - [TIP-1.0.6](basics/principlesOfOrganization.md): principles of organization
-- [TIP-1.0.7](): concepts
-- [TIP-1.0.8](): concept graphs
+- [TIP-1.0.7](): lists
+- [TIP-1.0.8](): concepts
+- [TIP-1.0.9](): concept graphs
 
 
 ## Principles of Organization: TIPs 1.1.x

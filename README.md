@@ -3,6 +3,8 @@ Tapestry Protocol
 
 *This repo is a work in progress; see the [DCoSL protocol](https://github.com/wds4/DCoSL) for an earlier version.*
 
+edit
+
 # Synopsis
 
 The purpose of the tapestry protocol is to enable the transition from *digital stewardship* -- i.e. our dependence on repository managers, standards committees, etc. -- to the *fully decentralized management of our digital tools of communication*. In the process, we will finally experience the full potential of decentralized web of trust in the curation of content, facts, and information.

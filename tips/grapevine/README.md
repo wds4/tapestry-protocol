@@ -1,6 +1,8 @@
 back to the [TIPs main page](..)
 
-Grapevine: TIPs 2.x
+### TIPS 2.x
+
+The Grapevine
 =====
 
 ## Grapevine Basics: TIPs 2.0.x

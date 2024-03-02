@@ -10,6 +10,14 @@ The Grapevine
 - [2.0.1](influence.md) influence
 - [2.0.2](context.md) context
 
+## Grapevine word types
+- [TIP-1.2.attestations](): attestations
+- [TIP-1.2.ratings](): ratings
+  - trust rating
+- [TIP-1.2.dataStructures](): dataStructures
+- category (dimension of context)
+- action (dimension of context)
+
 ## ratings and attestations: TIPs 2.1.x
 - [2.1.0](attestations/attestations.md) attestations (requires a rater)
 - [2.1.1](attestations/ratings.md) ratings (requires a ratee)
@@ -73,12 +81,5 @@ The Grapevine
 - 2.0.0.4.1 - context: two dimensions
 - 2.1.x - algorithms and equations
 - 2.1.0 - calculation of certainty from input
-
-## new word types
-- attestation
-- rating
-- trust rating
-- category (dimension of context)
-- action (dimension of context)
 
 ## data visualization

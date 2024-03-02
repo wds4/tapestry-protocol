@@ -23,6 +23,7 @@ This is a summary of the basic word types.
 
 | word type | top level property | TIP | declaration | definition |
 | ----- | ----- | ----- | ----- | ----- |
-| rating | ratingData | [TIP-]() | | |
-| rating template | ratingTemplateData | [TIP-]() | | |
+| attestation | attestationData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/attestation/declaration.md) | |
+| rating | ratingData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/rating/declaration.md) | |
+| rating template | ratingTemplateData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/ratingTemplate/declaration.md) | |
 

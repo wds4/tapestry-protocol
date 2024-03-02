@@ -10,18 +10,19 @@ This is a summary of the basic word types.
 
 | word type | top level property | TIP | declaration | definition |
 | ----- | ----- | ----- | ----- | ----- |
-| word | wordData | [DIP-100](conceptGraph/100.md) | [local](conceptGraph/declarations/word.md), nostr, ipfs, ipns | any node which represents an object |
-| word type | wordTypeData | [DIP-102](conceptGraph/102.md) | [local](conceptGraph/declarations/wordType.md) | a category of word |
-| json schema | jsonSchemaData | [DIP-107](conceptGraph/107.md) | [local](conceptGraph/declarations/jsonSchema.md) | |
-| superset | supersetData | [DIP-109](conceptGraph/109.md) | [local](conceptGraph/declarations/superset.md) | | 
-| set | setData | [DIP-108](conceptGraph/108.md) | [local](conceptGraph/declarations/set.md) | |
-| concept | conceptData | [DIP-111](conceptGraph/111.md) | [local](conceptGraph/declarations/concept.md) | |
-| graph | graphData | [DIP-105](conceptGraph/105.md) | [local](conceptGraph/declarations/graph.md) | a collection of words and relationships |
+| word | wordData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/word/declaration.md) | any node that is formatted in json |
+| word type | wordTypeData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/wordType/declaration.md) | a type, class, or category of word |
+| json schema | jsonSchemaData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/jsonSchema/declaration.md) | |
+| superset | supersetData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/superset/declaration.md) | | 
+| set | setData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/set/declaration.md) | |
+| concept | conceptData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/concept/declaration.md) | |
+| graph | graphData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/graph/declaration.md) | a collection of words and relationships |
+| concept graph | conceptGraphData | [TIP-]() | [local](https://github.com/wds4/tapestry-protocol/blob/main/wordTypes/conceptGraph/declaration.md) | a collection of words and relationships |
 
 ## the grapevine
 
-| word type | top level property | DIP | declaration | definition |
+| word type | top level property | TIP | declaration | definition |
 | ----- | ----- | ----- | ----- | ----- |
-| rating | ratingData | | | |
-| rating template | ratingTemplateData | | | |
+| rating | ratingData | [TIP-]() | | |
+| rating template | ratingTemplateData | [TIP-]() | | |
 

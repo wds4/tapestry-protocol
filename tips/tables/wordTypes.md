@@ -8,7 +8,7 @@ This is a summary of the basic word types.
 
 ## the concept graph
 
-| word type | top level property | DIP | declaration | definition |
+| word type | top level property | TIP | declaration | definition |
 | ----- | ----- | ----- | ----- | ----- |
 | word | wordData | [DIP-100](conceptGraph/100.md) | [local](conceptGraph/declarations/word.md), nostr, ipfs, ipns | any node which represents an object |
 | word type | wordTypeData | [DIP-102](conceptGraph/102.md) | [local](conceptGraph/declarations/wordType.md) | a category of word |

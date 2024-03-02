@@ -10,14 +10,6 @@ The Grapevine
 - [2.0.1](influence.md) influence
 - [2.0.2](context.md) context
 
-## Grapevine word types
-- [TIP-1.2.attestations](): attestations
-- [TIP-1.2.ratings](): ratings
-  - trust rating
-- [TIP-1.2.dataStructures](): dataStructures
-- category (dimension of context)
-- action (dimension of context)
-
 ## ratings and attestations: TIPs 2.1.x
 - [2.1.0](attestations/attestations.md) attestations (requires a rater)
 - [2.1.1](attestations/ratings.md) ratings (requires a ratee)
@@ -56,6 +48,16 @@ The Grapevine
   - [2.1.x](controlPanel/rigor.md) rigor
   - [2.1.x](controlPanel/defaultScores.md) default user trust scores
   - [2.1.x](controlPanel/defaultScores.md) default rated item scores
+
+## Grapevine word types
+- [TIP-2.wordTypes.attestations](): attestations
+- [TIP-2.wordTypes.ratings](): ratings
+  - [TIP-2.wordTypes.trustRatings](): trust rating
+- [TIP-2.wordTypes.dataModels](): dataStructures
+- [TIP-2.wordTypes.dataStructures](): dataStructures
+- category (dimension of context)
+- action (dimension of context)
+
 
 *old, being deprecated*:
 - 2.0.1 - components of the trust ratings

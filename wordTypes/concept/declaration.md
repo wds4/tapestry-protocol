@@ -17,6 +17,6 @@
       "singular": "Concept",
       "plural": "Concepts"
     },
-    "description": "As specified according to the DCoSL protocol."
+    "description": "As specified according to the tapestry protocol."
   }
 }

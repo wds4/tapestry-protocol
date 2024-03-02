@@ -12,6 +12,8 @@
         ],
     },
     "JSONSchemaData": {
+        "name": "concept",
+        "title": "Concept",
         "$schema": "http://json-schema.org/draft-07/schema",
         "definitions": {},
         "type": "object",

@@ -10,7 +10,13 @@ the Concept Graph: representing knowledge as a graph
 
 Data will be represented using [graphs](https://github.com/wds4/tapestry-protocol/blob/main/glossary/graph.md), i.e. collections of [nodes](https://github.com/wds4/tapestry-protocol/blob/main/glossary/node.md) and [edges](https://github.com/wds4/tapestry-protocol/blob/main/glossary/relationship.md). A [concept graph](https://github.com/wds4/tapestry-protocol/blob/main/glossary/conceptGraph.md) is a graph with additional structure provided by [principles of organization](https://github.com/wds4/tapestry-protocol/blob/main/glossary/principleOfOrganization.md) such as the [class thread princiuple](https://github.com/wds4/tapestry-protocol/blob/main/glossary/classThreadPrinciple.md), as described in subsequent TIPs.
 
-## General Discussion
+## Rationale
+
+The purpose of the tapestry protocol is to enable decentralized digital languages. But we have to start somewhere, with some set of assumptions that all entities have in common. What is that starting point? We will stipulate that the starting point must be devoid of pseudo arbitrary linguistic assumptions. How can that be possible? In this section, we argue that math can be that starting point. We assume that all entities will organize information into a graph, with nodes and edges, and will impose structure onto the graph using principles that meet the following requirements:
+- enable web of trust based method to answer pseudo arbitrary questions
+- we must not assume that all entities have agreed upon the answeres to any pseudo arbitrary questions using any method outside of WoT.
+
+## Organization of nodes into sets
 
 Knowledge will be broken down into chunks, called nodes, and organized as a graph, which is a collection of nodes connected by edges. Edges will represent relationships between the nodes and will be used to organize nodes into sets. Linguistic questions can be formulated by representing the question using a single node connected to a set of nodes, each one of which is a possible answer to the question, as in the example below.
 

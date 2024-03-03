@@ -12,14 +12,20 @@ Concept Graph: TIPs 1.x
 - [TIP-1.0.4](): word identifiers: universally versus locally unique
 - [TIP-1.0.5](): naming conventions
 - [TIP-1.0.6](basics/principlesOfOrganization.md): principles of organization
+  - goal: use principles that maximize integration of the graph
+    - vertical integration
+    - horizontal integration
 - [TIP-1.0.7](): lists
 - [TIP-1.0.8](): concepts
 - [TIP-1.0.9](): concept graphs
 
 
 ## Principles of Organization: TIPs 1.1.x
-- [TIP-1.1.0](principlesOfOrganization/classThreadPrinciple.md): class thread principle
+- [TIP-1.1.0](principlesOfOrganization/setsOfNodes.md): arranging nodes into groups, sets, collections, lists
+  - [TIP-1.1.0](principlesOfOrganization/simpleLists.md): simple lists
+  - [TIP-1.1.0](principlesOfOrganization/classThreadPrinciple.md): from lists to concepts: the class thread principle
 - [TIP-1.1.1](principlesOfOrganization/constraints.md): constraints
+  - []() maximize the ability to deconmpose constraints into properties which can be integrated horizontally
 
 ## user input to the concept graph
 - creating / editing a word

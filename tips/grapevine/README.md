@@ -6,7 +6,7 @@ The Grapevine
 =====
 
 ## Grapevine Basics: TIPs 2.0.x
-- [TIP-2.0.x](intent.md) statement of intent
+- [TIP-2.0.x](intent.md) purpose of the Grapevine
 - [TIP-2.0.x](influence.md) influence
 - [TIP-2.0.x](context/context.md) context
   -  dimensions:

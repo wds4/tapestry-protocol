@@ -49,8 +49,8 @@ Concept Graph: TIPs 1.x
 - [TIP-1.wordTypes.relationships](): relationships
 - [TIP-1.wordTypes.relationshipTypes](): relationship types
 - [TIP-1.wordTypes.lists](): lists
-- [TIP-1.wordTypes.jsonSchemas](): json schemas
-- [TIP-1.wordTypes.sets](): sets
+- [TIP-1.wordTypes.jsonSchemas](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/jsonSchema): json schemas
+- [TIP-1.wordTypes.sets](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/set): sets
 - [TIP-1.wordTypes.supersets](): supersets
 - [TIP-1.wordTypes.constraints](): constraints
 - [TIP-1.wordTypes.graphs](): graphs

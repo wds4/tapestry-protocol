@@ -22,8 +22,8 @@ Curation: Data Models, Data Structures, and Structured Data
 - [TIP-3.1.1.x]() average score subtype
 - [TIP-3.1.1.x]() cutoff parameters
 
-## DCoG: decentralized curation of graphs: TIPs 3.1.2.x
-- [TIP-3.1.2.x](DCoG) the data model; DCoG intro
+## DCoSG: decentralized curation of simple graphs: TIPs 3.1.2.x
+- [TIP-3.1.2.x](DCoSG) the data model; DCoSG intro
 - [TIP-3.1.2.x]()
 - [TIP-3.1.2.x]() 
 - [TIP-3.1.2.x]()

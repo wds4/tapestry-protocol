@@ -44,26 +44,26 @@ Concept Graph: TIPs 1.x
 
 ## Word Types: TIPs 1.2.x
 #### Core Concept Graph word types
-- [TIP-1.2.words](): words
-- [TIP-1.2.wordTypes](): word types
-- [TIP-1.2.relationships](): relationships
-- [TIP-1.2.relationshipTypes](): relationship types
-- [TIP-1.2.lists](): lists
-- [TIP-1.2.jsonSchemas](): json schemas
-- [TIP-1.2.sets](): sets
-- [TIP-1.2.supersets](): supersets
-- [TIP-1.2.constraints](): constraints
-- [TIP-1.2.graphs](): graphs
-- [TIP-1.2.concepts](): concepts
-- [TIP-1.2.concepts](): conceptGraphs
-- [TIP-1.2.dictionaries](): dictionaries
-- [TIP-1.2.schemas](): schemas
+- [TIP-1.wordTypes.words](): words
+- [TIP-1.wordTypes.wordTypes](): word types
+- [TIP-1.wordTypes.relationships](): relationships
+- [TIP-1.wordTypes.relationshipTypes](): relationship types
+- [TIP-1.wordTypes.lists](): lists
+- [TIP-1.wordTypes.jsonSchemas](): json schemas
+- [TIP-1.wordTypes.sets](): sets
+- [TIP-1.wordTypes.supersets](): supersets
+- [TIP-1.wordTypes.constraints](): constraints
+- [TIP-1.wordTypes.graphs](): graphs
+- [TIP-1.wordTypes.concepts](): concepts
+- [TIP-1.wordTypes.concepts](): conceptGraphs
+- [TIP-1.wordTypes.dictionaries](): dictionaries
+- [TIP-1.wordTypes.schemas](): schemas
 
 ## Relationship Types: TIPs 1.3.x
-- [TIP-1.3](): relationship type naming conventions
-- [TIP-1.3.1](): initiation, propagation, termination
-- [TIP-1.3.isTheJsonSchemaFor](): isTheJsonSchemaFor
-- [TIP-1.3.isASubsetOf](): isASubsetOf
-- [TIP-1.3.isASpecificInstanceOf](): isASpecificInstanceOf
+- [TIP-1.relationshipTypes.0](): relationship type naming conventions
+- [TIP-1.relationshipTypes.1](): initiation, propagation, termination
+- [TIP-1.relationshipTypes.isTheJsonSchemaFor](): isTheJsonSchemaFor
+- [TIP-1.relationshipTypes.isASubsetOf](): isASubsetOf
+- [TIP-1.relationshipTypes.isASpecificInstanceOf](): isASpecificInstanceOf
   
 ## Data visualization: TIPs 1.5.x

@@ -2,9 +2,9 @@ back to [curation of structured data main page](https://github.com/wds4/tapestry
 
 DCAS
 =====
-Decentralized Curation of Average Score
+Decentralized Composite Score
 -----
 
 ## Synopsis
 
-For every rating with a primary numeric field, there is a corresponding Average Score.
+For every rating with a primary numeric field, there is a corresponding Composite Score.

@@ -55,12 +55,13 @@ The Grapevine
   - [2.1.x](controlPanel/defaultScores.md) default rated item scores
 
 ## Grapevine word types
-- [TIP-2.wordTypes.attestations](): attestations
-- [TIP-2.wordTypes.ratings](): ratings
-  - [TIP-2.wordTypes.trustRatings](): trust rating
-- [TIP-2.wordTypes.contexts](): category (dimension of context)
-  - [TIP-2.wordTypes.categories](): category (dimension of context)
-  - [TIP-2.wordTypes.actions](): action (dimension of context)
+- [TIP-2.wordTypes.attestations](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/attestation): attestations
+- [TIP-2.wordTypes.ratings](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/rating): ratings
+  - [TIP-2.wordTypes.trustRatings](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/trustRating): trust rating
+- [TIP-2.wordTypes.contexts](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/context): context
+  - [TIP-2.wordTypes.categories](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/contextDimension): dimension of a context
+  - [TIP-2.wordTypes.categories](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/contextCategory): category (dimension of context)
+  - [TIP-2.wordTypes.actions](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/contextAction): action (dimension of context)
 
 
 *old, being deprecated*:

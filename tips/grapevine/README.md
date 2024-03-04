@@ -9,8 +9,7 @@ The Grapevine
 - [TIP-2.0.x](intent.md) statement of intent
 - [TIP-2.0.x](influence.md) influence
 - [TIP-2.0.x](context/context.md) context
-  -  [TIP-2.0.x](context/utilities.md) how to use context
-  -  [TIP-2.0.x](context/dimensions.md) context has dimensions
+  -  dimensions
     -  [TIP-2.0.x](context/action.md) the action dimension
     -  [TIP-2.0.x](context/category.md) the category dimension
 

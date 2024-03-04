@@ -14,16 +14,16 @@ The Grapevine
       -  [TIP-2.0.x](context/category.md) the category dimension
 
 ## ratings and attestations: TIPs 2.1.x
-- [2.1.0](attestations/attestations.md) attestations (requires a rater)
-- [2.1.1](attestations/ratings.md) ratings (requires a ratee)
-- [2.1.2](attestations/context.md) context (for trust ratings, other ratings, other purposes)
-- [2.1.3.0](attestations/fields.md) fields for ratings
-  - [2.1.3.1](attestations/comments.md) comments
-  - [2.1.3.2](attestations/confidence.md) confidence
-  - [2.1.3.3](attestations/comments.md) numerical fields: 0-100, 5star, binary, flag (none), etc (needs a context ???)
-  - [2.1.3.5](attestations/comments.md) bundling multiple fields into standardized fieldsets
-    - [2.1.3.5.0](attestations/comments.md) the trust rating fieldset
-    - [2.1.3.5.1](attestations/comments.md) the standard 5-star rating fieldset
+- [TIP-2.1.x](attestations/attestations.md) attestations (requires a rater)
+- [TIP-2.1.1](attestations/ratings.md) ratings (requires a ratee)
+- [TIP-2.1.2](attestations/context.md) context (for trust ratings, other ratings, other purposes)
+- [TIP-2.1.3.0](attestations/fields.md) fields for ratings
+  - [TIP-2.1.3.1](attestations/comments.md) comments
+  - [TIP-2.1.3.2](attestations/confidence.md) confidence
+  - [TIP-2.1.3.3](attestations/comments.md) numerical fields: 0-100, 5star, binary, flag (none), etc (needs a context ???)
+  - [TIP-2.1.3.5](attestations/comments.md) bundling multiple fields into standardized fieldsets
+    - [TIP-2.1.3.5.0](attestations/comments.md) the trust rating fieldset
+    - [TIP-2.1.3.5.1](attestations/comments.md) the standard 5-star rating fieldset
 - [TIP-2.1.x]() rating templates
 - [TIP-2.1.x]() trust ratings
 

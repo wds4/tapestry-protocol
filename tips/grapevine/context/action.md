@@ -7,3 +7,15 @@ action
 `draft` `author:wds4`
 
 ## Synopsis
+
+## Examples
+
+Some examples of actions include:
+- to curate
+- to rate
+- to create
+- to write
+- to produce
+- to edit
+- to recommend
+- to give advice

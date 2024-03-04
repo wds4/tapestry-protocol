@@ -36,6 +36,7 @@ The Grapevine
   - [TIP-2.2.x](compositeScores/weight.md) weight
   - [TIP-2.2.x](compositeScores/input.md) input
   - [TIP-2.2.x](compositeScores/certainty.md) certainty
+  - [TIP-2.2.x](compositeScores/influence.md) influence
 
 - ## influence: TIPs 2.2.1.x
   - [2.1.2](influence/trustAttestations.md) trust attestations

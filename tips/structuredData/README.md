@@ -11,7 +11,7 @@ Curation: Data Models, Data Structures, and Structured Data
 - [TIP-3.0.x]() structured data: an instance of a data model
 
 ## DCAS: decentralized composite average scores: TIPs 3.1.0.x
-- (is average score as a data structure distinct from the previous TIPs?)
+(is average score as a data structure distinct from the previous TIPs?)
 - [TIP-3.1.0.x](DCAS) intro to composite average score
 - [TIP-3.1.0.x]() 
 - [TIP-3.1.0.x]()

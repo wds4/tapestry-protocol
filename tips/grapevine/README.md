@@ -6,13 +6,13 @@ The Grapevine
 =====
 
 ## Grapevine Basics: TIPs 2.0.x
-- [2.0.0](intent.md) statement of intent
-- [2.0.1](influence.md) influence
-- [2.0.2](context.md) context
-  -  []() how to use context
-  -  []() context has dimensions
-    -  []() the action dimension
-    -  []() the category dimension
+- [TIP-2.0.x](intent.md) statement of intent
+- [TIP-2.0.x](influence.md) influence
+- [TIP-2.0.x](context/context.md) context
+  -  [TIP-2.0.x](context/utilities.md) how to use context
+  -  [TIP-2.0.x](context/dimensions.md) context has dimensions
+    -  [TIP-2.0.x](context/action.md) the action dimension
+    -  [TIP-2.0.x](context/category.md) the category dimension
 
 ## ratings and attestations: TIPs 2.1.x
 - [2.1.0](attestations/attestations.md) attestations (requires a rater)

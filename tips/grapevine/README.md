@@ -9,9 +9,9 @@ The Grapevine
 - [TIP-2.0.x](intent.md) statement of intent
 - [TIP-2.0.x](influence.md) influence
 - [TIP-2.0.x](context/context.md) context
-  -  dimensions
-    -  [TIP-2.0.x](context/action.md) the action dimension
-    -  [TIP-2.0.x](context/category.md) the category dimension
+  -  dimensions:
+      -  [TIP-2.0.x](context/action.md) the action dimension
+      -  [TIP-2.0.x](context/category.md) the category dimension
 
 ## ratings and attestations: TIPs 2.1.x
 - [2.1.0](attestations/attestations.md) attestations (requires a rater)

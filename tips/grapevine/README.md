@@ -30,12 +30,12 @@ The Grapevine
 
 ## composite scores: TIPs 2.2.x
 - ## the basics of calculating average scores: TIPs 2.2.0.x
-  - []() the general idea of average scores (rated items, trust scores, whatever): 4 numbers
-  - []() ambiguity by design: my rating versus my grapevine's rating
-  - [2.1.x](compositeScores/averageScore.md) average score
-  - [2.1.x](compositeScores/weight.md) weight
-  - [2.1.x](compositeScores/input.md) input
-  - [2.1.x](compositeScores/certainty.md) certainty
+  - [TIP-2.2.x]() the general idea of average scores (rated items, trust scores, whatever): 4 numbers
+  - [TIP-2.2.x]() ambiguity by design: my rating versus my grapevine's rating
+  - [TIP-2.2.x](compositeScores/averageScore.md) average score
+  - [TIP-2.2.x](compositeScores/weight.md) weight
+  - [TIP-2.2.x](compositeScores/input.md) input
+  - [TIP-2.2.x](compositeScores/certainty.md) certainty
 
 - ## influence: TIPs 2.2.1.x
   - [2.1.2](influence/trustAttestations.md) trust attestations

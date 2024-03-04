@@ -12,7 +12,7 @@ Catogory is one of the dimensions of `context`.
 
 ## Discussion
 
-Context takes the form: Alice trusts Bob `to do an action` `in some particular category`. For example: Alice trusts Bob to write the screenplay for a comedy. In this case `to write the screenplay` is the action, and `comedy` is the category.
+Context typically takes the form: Alice trusts Bob `to do an action` `in some particular category`. For example: Alice trusts Bob to write the screenplay for a comedy. In this case `to write the screenplay` is the action, and `comedy` is the category.
 
 ## Examples:
 

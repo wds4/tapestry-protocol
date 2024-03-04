@@ -1,4 +1,4 @@
-back to [curation of structure data main page](https://github.com/wds4/tapestry-protocol/blob/main/tips/structuredData/README.md)
+back to [curation of structured data main page](https://github.com/wds4/tapestry-protocol/blob/main/tips/structuredData/README.md)
 
 DCAS
 =====

@@ -22,10 +22,12 @@ Concept Graph: TIPs 1.x
 
 ## Principles of Organization: TIPs 1.1.x
 - [TIP-1.1.0](principlesOfOrganization/setsOfNodes.md): arranging nodes into groups, sets, collections, lists
+- [TIP-1.1.x]() for every set, there is a single control, master, leader node (the list node or the class node)
   - [TIP-1.1.0](principlesOfOrganization/simpleLists.md): simple lists
   - [TIP-1.1.0](principlesOfOrganization/classThreadPrinciple.md): from lists to concepts: the class thread principle
+    - [TIP-1.1.x]() rule: every node must be an instance of at least one class thread
 - [TIP-1.1.1](principlesOfOrganization/constraints.md): constraints
-  - []() maximize the ability to deconmpose constraints into properties which can be integrated horizontally
+  - [TIP-1.1.x]() maximize the ability to deconmpose constraints into properties which can be integrated horizontally
 
 ## user input to the concept graph
 - creating / editing a word

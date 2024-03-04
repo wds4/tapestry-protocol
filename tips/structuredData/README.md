@@ -17,14 +17,14 @@ Curation: Data Models, Data Structures, and Structured Data
 - [TIP-3.1.0.x]()
 
 ## DCoSL: decentralized curation of simple lists: TIPs 3.1.1.x
-- [TIP-3.1.1.x](DCoSL) the data model
-- [TIP-3.1.1.x](dataStructures/DCoSL/DCoSL.md) DCoSL intro
+- [TIP-3.1.1.x](DCoSL) the data model; DCoSL intro
+- [TIP-3.1.1.x]()
 - [TIP-3.1.1.x]() average score subtype
 - [TIP-3.1.1.x]() cutoff parameters
 
 ## DCoG: decentralized curation of graphs: TIPs 3.1.2.x
-- [TIP-3.1.2.x](DCoG) the data model
-- [TIP-3.1.2.x](dataStructures/DCoSL/DCoSL.md) DCoG intro
+- [TIP-3.1.2.x](DCoG) the data model; DCoG intro
+- [TIP-3.1.2.x]()
 - [TIP-3.1.2.x]() 
 - [TIP-3.1.2.x]()
 - ## DCoG-DAG: decentralized curation of graphs that are DAGs and have a master node and one type of relationship type (action, category, subset)

@@ -19,7 +19,6 @@ Concept Graph: TIPs 1.x
 - [TIP-1.0.8](): concepts
 - [TIP-1.0.9](): concept graphs
 
-
 ## Principles of Organization: TIPs 1.1.x
 - [TIP-1.1.0](principlesOfOrganization/setsOfNodes.md): arranging nodes into groups, sets, collections, lists
 - [TIP-1.1.x]() for every set, there is a single control, master, leader node (the list node or the class node)
@@ -28,6 +27,11 @@ Concept Graph: TIPs 1.x
     - [TIP-1.1.x]() rule: every node must be an instance of at least one class thread
 - [TIP-1.1.1](principlesOfOrganization/constraints.md): constraints
   - [TIP-1.1.x]() maximize the ability to deconmpose constraints into properties which can be integrated horizontally
+
+## Concept to concept relationships: TIPs 1.2.x
+- [TIP-1.2.x]() subset
+- [TIP-1.2.x]() specific instance
+- [TIP-1.2.x]() enumeration of a property
 
 ## user input to the concept graph
 - creating / editing a word
@@ -59,5 +63,7 @@ Concept Graph: TIPs 1.x
 - [TIP-1.3](): relationship type naming conventions
 - [TIP-1.3.1](): initiation, propagation, termination
 - [TIP-1.3.isTheJsonSchemaFor](): isTheJsonSchemaFor
+- [TIP-1.3.isASubsetOf](): isASubsetOf
+- [TIP-1.3.isASpecificInstanceOf](): isASpecificInstanceOf
   
 ## Data visualization: TIPs 1.5.x

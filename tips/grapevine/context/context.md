@@ -12,7 +12,7 @@ Context plays a central role in the Grapevine. Trust ratings are contextual, tru
 
 ## Definition
 
-Context will be composed of two dimenstions: an *action* dimension and a *category* dimension.
+Context will be composed of two dimenstions: an *action* dimension and a *category* dimension. In some cases both dimensions will be required, e.g.: Alice trusts Bob to perform an action in a particular category. In other cases, only the category dimension is required, e.g.: Alice attests that Bob's product belongs to the category of smartphones, or Alice attests that some particular piece of content belongs to the category of NSFW.
 
 ## Examples
 

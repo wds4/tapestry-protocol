@@ -9,7 +9,7 @@ Decentralized Curation of Simple Lists
 
 Start with DCAS, then add a cutoff to determine what makes the list and what doesn't.
 
-## User input
+## User actions
 
 The user can perform the following actions:
 - create a new list

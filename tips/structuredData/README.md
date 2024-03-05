@@ -5,6 +5,8 @@ back to the [TIPs main page](..)
 Curation: Data Models, Data Structures, and Structured Data
 =====
 
+Curation of structured data by data model
+
 ## Basics: TIPs 3.0.x
 - [TIP-3.0.0]() Basic idea: start with simple data models, gradually get more complex
 - [TIP-3.0.x]() data models

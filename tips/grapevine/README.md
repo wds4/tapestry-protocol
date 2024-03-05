@@ -12,6 +12,7 @@ The Grapevine
   -  dimensions:
       -  [TIP-2.0.x](context/action.md) the action dimension
       -  [TIP-2.0.x](context/category.md) the category dimension
+- [TIP-2.0.x](value.md) the value dimension (highest quality, most virtuous, speediest delivery, etc) - form the basis of DCAS
 
 ## ratings and attestations: TIPs 2.1.x
 - [TIP-2.1.x](attestations/attestations.md) attestations (requires a rater)
@@ -71,8 +72,11 @@ The Grapevine
 - [TIP-2.wordTypes.ratings](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/rating): ratings
   - [TIP-2.wordTypes.trustRatings](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/trustRating): trust rating
 - [TIP-2.wordTypes.contexts](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/context): context
-  - [TIP-2.wordTypes.categories](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/contextDimension): dimension of a context
+  - [TIP-2.wordTypes.contextDimenstions](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/contextDimension): dimension of a context
   - [TIP-2.wordTypes.categories](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/contextCategory): category (dimension of context)
   - [TIP-2.wordTypes.actions](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/contextAction): action (dimension of context)
+- [TIP-2.wordTypes.values](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/value): value
+  - [TIP-2.wordTypes.valueAxes](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/valueAxis): axis of value
+  - [TIP-2.wordTypes.valueAxes](https://github.com/wds4/tapestry-protocol/tree/main/wordTypes/valueCategory): category (axis of value)
  
 ## Grapevine relationship types

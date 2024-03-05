@@ -8,3 +8,21 @@ Decentralized Curation of Simple Lists
 ## Synopsis
 
 Start with DCAS, then add a cutoff to determine what makes the list and what doesn't.
+
+## User input
+
+The user can perform the following actions:
+- create a new list
+- add an item to any existing list
+- endorse or reject any individual item as belonging or not belonging to a particular list
+- endorse or reject any individual entity as a curator of this particular list
+
+## relevant word types
+
+## relevant relationship types
+
+## relevant attestations
+
+There are two types of attestations:
+- Alice endorses (or rejects) X as an item on the list Y
+- Alice endorses (or rejects) Bob as a curator of the list Y

@@ -20,9 +20,15 @@ The user can perform the following actions:
 ## relevant word types
 
 ## relevant relationship types
+- endorsesAsACuratorOfTheList
+- endorsesAsAnItemOnTheList
+- rejectsAsACuratorOfTheList
+- rejectsAsAnItemOnTheList
 
-## relevant attestations
+## attestations
 
 There are two types of attestations:
 - Alice endorses (or rejects) X as an item on the list Y
 - Alice endorses (or rejects) Bob as a curator of the list Y
+
+## Calculations

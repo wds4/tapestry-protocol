@@ -36,3 +36,14 @@ Secondary attestation types:
 
 ## Calculations
 
+Each user will have an influence score in the context of curation of this list.
+
+Each list item will have a score which is used to partition into 3 bins: accepted, rejected, and pending.
+
+## Control Panel
+
+The user will have the ability to control the following:
+- default user (curator) scores
+- default list item scores
+- cutoff scores (used to segregate items into bins)
+

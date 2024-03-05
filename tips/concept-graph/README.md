@@ -26,7 +26,8 @@ Concept Graph: TIPs 1.x
   - [TIP-1.1.0](principlesOfOrganization/classThreadPrinciple.md): from lists to concepts: the class thread principle
     - [TIP-1.1.x]() rule: every node must be an instance of at least one class thread
 - [TIP-1.1.1](principlesOfOrganization/constraints.md): constraints
-  - [TIP-1.1.x]() maximize the ability to deconmpose constraints into properties which can be integrated horizontally
+  - [TIP-1.1.x](principlesOfOrganization/principleOfDecomposition.md) maximize the ability to deconmpose constraints into properties which can be integrated horizontally
+    - [TIP-1.1.x](principlesOfOrganization/jsonSchemaDecomposition.md) duality between a json schema and a property tree
 
 ## Concept to concept relationships: TIPs 1.2.x
 - [TIP-1.2.x]() subset

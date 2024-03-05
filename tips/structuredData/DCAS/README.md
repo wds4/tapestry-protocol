@@ -14,3 +14,5 @@ For every rating with a primary numeric field, there is a corresponding Composit
 - average score
 - input
 - certainty
+
+## User input

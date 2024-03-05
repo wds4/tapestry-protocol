@@ -27,8 +27,12 @@ The user can perform the following actions:
 
 ## attestations
 
-There are two types of attestations:
+There are two primary types of attestations:
 - Alice endorses (or rejects) X as an item on the list Y
 - Alice endorses (or rejects) Bob as a curator of the list Y
 
+Secondary attestation types:
+- Alice endorses (or rejects) that item A and item B are duplicates and should be merged
+
 ## Calculations
+

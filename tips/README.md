@@ -19,11 +19,15 @@ The Grapevine achieves *knowledge curation* using the web of trust in a manner d
 
 Data curation is organized according to data model: from simple, generic models like simple lists and graphs; to models of intermediate complexity like schemas, ontologies and verifiable credentials; to complex, detailed models like protocols (including this one), digital standards, and even entire open source repositories.
 
-## [eOS: Entity Operating System: TIPs 4.x](neuroCore)
+## [Curation of applications: TIPs 4.x](applications)
+
+Curation of applications is a natural progression of curation of structured data, but with the design of the data models determined by the specific application.
+
+## [eOS: Entity Operating System: TIPs 5.x](neuroCore)
 
 The eOS maintains the concept graph, incorporating new data and ensuring adherence to the Principles of Organization.
 
-## [Networking: TIPs 5.x](networking)
+## [Networking: TIPs 6.x](networking)
 
 A section of the protocol is dedicated to the storage and transmission of data using [nostr](https://github.com/nostr-protocol/nostr). Stubs have also been added for several alternative networks (e.g., IPFS, GUN). Multiple networks can be used simultaneously for the sake of redundancy.
 

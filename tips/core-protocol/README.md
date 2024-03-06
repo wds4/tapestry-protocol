@@ -3,8 +3,6 @@ back to the [TIPs main page](..)
 Core Protocol: TIPS 0.x
 =====
 
-## Synopsis
-
 We review the underlying principles of the protocol and introduce the concept graph and the grapevine, which are developed in detail in the sections that follow. Although subsequent sections require the incorporation of some [linguistic burden](https://github.com/wds4/tapestry-protocol/blob/main/glossary/linguisticOverhead.md) -- e.g., we make heavy use of json for data files -- the core protocol is designed to contribute minimal, or arguably zero, linguistic burden to the overall protocol. Variations on the tapestry protocol, such as variations that rely upon xml in place of json, could therefore be imagined which adopt the core protocol as is.
 
 ## Core Principles: TIPs 0.0.x

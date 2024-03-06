@@ -1,4 +1,4 @@
-back to [TIPs: Core Protocol main page](https://github.com/wds4/tapestry-protocol/blob/main/tips/core-protocol/README.md)
+back to [curation of applications main page](https://github.com/wds4/tapestry-protocol/blob/main/tips/structuredData/README.md)
 
 ### TIP-4.x
 wiki

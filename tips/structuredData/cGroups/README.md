@@ -17,6 +17,10 @@ Users can perform the following actions:
 
 Users who have self-attested as members of the cGroup will be partitioned into bins: members, non-members, pending
 
+## Applications
+
+cGroups may have utility of a specific subset of `proof of personhood` applications in which members of the group can be expected to be able to recognize and identify each other, such as citizenship of a country, state, province, etc.
+
 ## Attestations
 
 Basic attestations:

@@ -18,6 +18,7 @@ Concept Graph: TIPs 1.x
 - [TIP-1.0.7](): lists
 - [TIP-1.0.8](): concepts
 - [TIP-1.0.9](): concept graphs
+- [TIP-1.0.x](basics/versioning.md) versioning and the stewardship of data
 
 ## Principles of Organization: TIPs 1.1.x
 - [TIP-1.1.0](principlesOfOrganization/setsOfNodes.md): arranging nodes into groups, sets, collections, lists

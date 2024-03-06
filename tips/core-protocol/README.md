@@ -1,10 +1,7 @@
 back to the [TIPs main page](..)
 
-### TIPs 0.x
-Core Protocol
+Core Protocol: TIPS 0.x
 =====
-
-`draft` `author:wds4`
 
 ## Synopsis
 

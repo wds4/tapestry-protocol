@@ -1,4 +1,4 @@
-Incorporation of the Grapevine into your app or platform
+<h1>Incorporation of the Grapevine into Your Application or Platform</h1>
 =====
 
 

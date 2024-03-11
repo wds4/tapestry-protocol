@@ -12,19 +12,20 @@ For example: _The Pretty Good Wiki uses the Grapevine to enable you and your com
 
 ## Step 2: Define User Actions
 
-Define all of the relevant actions that a user can take in your app. This can be divided into content-specific and attestation-specific actions.
+Define all of the relevant actions that a user can take in your app. This can be divided into content-specific and attestation-specific actions. Note that these will likely not all be rolled out at once, and the list of planned available actions may be updated as user feedback is obtained.
 
 Using Pretty Good Wiki as an example:
 
 ### content
-- users can submit and edit individual wiki entries event (already available on Wikifreedia)
-- users can fork and edit an existing wiki entry that was started by someone else, also stored in nostr as a kind 3xxxx event (already available on Wikifreedia)
-- users can submit individual categories (e.g. technology, history, entertainment, movies, sci-fi, etc)
+- users can submit and edit individual wiki entries (already available on Wikifreedia)
+- users can fork and edit an existing wiki entry that was started by someone else (already available on Wikifreedia)
+- users can submit individual categories (e.g. technology, history, entertainment, movies, sci-fi, etc) (not yet available on Wikifreedia)
 
 ### attestations
-- Alice can endorse (or block) Bob as a curator for the wiki, and can do so in a category-specific fashion, e.g.: Alice endorses Bob to curate content in the category of technology
+- Alice can endorse (or block) Bob as a curator for the wiki, either in general or in a category-specific fashion, e.g.: Alice endorses Bob to curate content for the Pretty Good Wiki (optional: in the category of technology)
 - Alice can endorse that some given category is (or is not) a valid category, e.g.: Alice endorses that entertainment is a valid category
 - Alice can endorse that category A is (or is not) a subcategory of category B, e.g.: Alice endorses movies as a subcategory of entertainment
+- Alice can endorse that category A and category B are (or are not) duplicates that should be merged, e.g.: Alice endorses that 
 
 ## Step 3: Define the Data Model
 

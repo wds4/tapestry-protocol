@@ -14,17 +14,25 @@ For example: _The Pretty Good Wiki uses the Grapevine to enable you and your com
 
 ## Step 2: Define User Actions
 
-Pretty Good Wiki:
-Data
-- users can submit new articles
- 
-Attestations:
+Define the basic actions that a user can take to interact with the Grapevine.
+
+Using Pretty Good Wiki as an example:
+
+### content
+- users can submit individual wiki entries (replaceable event)
+- users can submit individual categories
+
+### attestations
+- user A can endorse (or block) User B as a curator for the wiki, and can do so in a context-specific fashion
+- 
 
 ## Step 3: Define the Data Model
 
-## Step 4: Define How data is Processed
+## Step 4: Pick Methods to calculate Influence
 
-The Grapevine library 
+The central function of Alice's Grapevine is to calculate a context-dependent influence score for each user. For example, Alice's Grapevine may tell her that Bob merits a high influence score in the context of reviewing sci-fi movies, and an even higher influence score in the context of writing the screenplay for movies in the genre of romantic comedies. Each context has two dimensions: an action (reviewing, writing the screenplay, editing, etc) and a category (entertainment, movies, sci fi, etc). Each of these dimensions is represented as a hierarchical graph which is curated by your Grapevine, in the app (if necessary) or outside of the app (preferred) if suitable graphs already exist in the ecosystem.
+
+There are two categories of how to perform these calculations: the starter method and the Grapevine method. Started methods are useful and relatively easy to implement from the perspective of the developer but carry drawbacks. Those drawbacks may not be evident until the app attracts a wide userbase, which in turn attracts scammers and other bad actors. The Grapevine is a generic method designed to address those drawbacks but is much more challenging for the designer and developer.
 
 # The Roadmap
 

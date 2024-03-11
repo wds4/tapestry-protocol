@@ -2,7 +2,9 @@ Incorporation of the Grapevine into your app or platform
 =====
 
 
-This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. This guide is broken down into a series of steps. For illustration purposes, we will consider a hypothetical decentralized wikipedia application, built using nostr, which we will call Pretty Good Wikipedia, or pgWiki.
+This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: one for the goal, and one for the roadmap. For illustration purposes, we will consider a hypothetical decentralized wikipedia application, built using nostr, which we will call Pretty Good Wikipedia, or pgWiki.
+
+# The Goal 
 
 ## Step 1: Statement of General Purpose 
 
@@ -22,9 +24,9 @@ Example:
 
 ## Step 4: Define How data is Processed
 
+The Grapevine library 
 
-
-## Step 5: Plan the Dev Roadmap
+# The Roadmap
 
 In this step, we decide what features will be rolled out and in what order. For pgWiki, the roadmap could be the following:
 

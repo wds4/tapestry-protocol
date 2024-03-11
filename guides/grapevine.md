@@ -2,7 +2,7 @@ Incorporation of the Grapevine into your app or platform
 =====
 
 
-This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: define the goal, and plan the roadmap. For illustration purposes, we will consider a hypothetical decentralized wikipedia application which stores data on nostr (but could just as easily use any one of a number of alternatives: IPFS, slashtags/hyperdrive, GUN, etc), which we will call Pretty Good Wikipedia, or pgWiki. 
+This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: define the goal, and plan the roadmap. For illustration purposes, we will imagine incorporation of the Grapevine into the decentralized wikipedia application called [Wikifreedia](https://wikifreedia.xyz). Although Wikifreedia stores data on nostr, our approach can be readily modified to any one of a number of alternatives: IPFS, slashtags/hyperdrive, GUN, etc.
 
 # The Goal 
 

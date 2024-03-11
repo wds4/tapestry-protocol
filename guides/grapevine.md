@@ -19,12 +19,13 @@ Define the basic actions that a user can take to interact with the Grapevine.
 Using Pretty Good Wiki as an example:
 
 ### content
-- users can submit individual wiki entries (replaceable event)
-- users can submit individual categories
+- users can submit individual wiki entries (stored in nostr as a kind 3xxxx parameterized replaceable event)
+- users can submit individual categories (e.g. technology, history, entertainment, movies, sci-fi, etc)
 
 ### attestations
-- user A can endorse (or block) User B as a curator for the wiki, and can do so in a context-specific fashion
-- 
+- user A can endorse (or block) User B as a curator for the wiki, and can do so in a category-specific fashion, e.g.: Alice endorses Bob to curate content in the category of technology
+- Alice can endorse that some given category is (or is not) a valid category, e.g.: Alice endorses that entertainment is a valid category
+- Alice can endorse that category A is (or is not) a subcategory of category B, e.g.: Alice endorses movies as a valid category of entertainment
 
 ## Step 3: Define the Data Model
 

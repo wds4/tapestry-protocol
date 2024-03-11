@@ -2,7 +2,7 @@ Incorporation of the Grapevine into your app or platform
 =====
 
 
-This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: one for the goal, and one for the roadmap. For illustration purposes, we will consider a hypothetical decentralized wikipedia application, built using nostr, which we will call Pretty Good Wikipedia, or pgWiki.
+This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: one for the goal, and one for the roadmap. For illustration purposes, we will consider a hypothetical decentralized wikipedia application which stores data on nostr (but could just as easily use any one of a number of alternatives: IPFS, slashtags/hyperdrive, GUN, etc), which we will call Pretty Good Wikipedia, or pgWiki. 
 
 # The Goal 
 
@@ -14,7 +14,11 @@ For example: _The Pretty Good Wiki uses the Grapevine to enable you and your com
 
 ## Step 2: Define User Actions
 
-Example:
+Pretty Good Wiki:
+Data
+- users can submit new articles
+ 
+Attestations:
 
 ## Step 3: Define the Data Model
 
@@ -26,11 +30,28 @@ The Grapevine library
 
 In this step, we decide what features will be rolled out and in what order. For pgWiki, the roadmap could be the following:
 
-### Step 1: Initial rollout
+## Phase 1
 
-Nostr users already maintain a follows list and a mute list which can be used for a rudimentary web of trust.
+Problem: How do we weed out spam articles and edits?
 
-As of the time of this writing, Pablo's [Wikifreedia](https://wikifreedia.xyz) 
+Solution: Use nostr follow lists and mute lists as raw data for a rudimentary web of trust.
+- Users are in one of three categories: whitelisted, blacklisted, or uncategorized
+- If Alice follows (mutes) Bob, then Bob is on Alice's whitelist (blacklist)
+- For any given user Bob, if N whitelisted users follow Bob and M whitelisted users mute Bob, then if N - M > 2, then Bob becomes whitelisted; or if M > N > 2, then Bob becomes blacklisted
 
-### Step 2: Explcit attestations
+As of the time of this writing, Pablo's [Wikifreedia](https://wikifreedia.xyz) already does this.
+
+## Phase 2
+
+Problem: Just because Alice follows Bob doesn't mean she trusts him to curate wikis.
+
+Solution: Introduce explicit attestations (as above). Use explicit attestation data in addition to follow and mute list data. Gradually phase out the usage of follow and mute lists as the explicit attestation dataset increases.
+
+## Phase 3
+
+Replace the simple Grapevine algorithm with the more sophisticated algorithm that is used in Curated Lists app of Pretty Good Apps.
+
+## Phase 4
+
+Introduce wikipedia categories.
 

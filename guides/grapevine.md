@@ -8,7 +8,7 @@ This guide is intended for the developer or dev team who wishes to incorporate t
 
 The first step is to create a clear statement of the purpose that the Grapevine will serve in the app in question. This could be as short as one sentence and may be of the following format: _My Awesome App uses the Grapevine to enable you and your community to identify who is the most trustworthy, and in what context, so they can help you curate the content, facts, and information relevant to My Awesome App._
 
-For example: _The Pretty Good Wiki uses the Grapevine to enable you and your community to manage the organization of entries into categories and to identify the most trustworthy curators within each category of the encyclopedia._
+For example: _The Pretty Good Wiki uses the Grapevine to enable you and your community to manage the organization of the encyclopedia's entries into categories and to identify the most trustworthy curators for each category._
 
 ## Step 2: Define User Actions
 

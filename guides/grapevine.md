@@ -26,11 +26,13 @@ Using Pretty Good Wiki as an example:
 - Alice can endorse (or veto) Entry A as a valid entry for Category X, e.g: Bob's article on Satoshi is a valid entry in the category of Bitcoin History. If Alice leaves the category blank, she is effectively endorsing the article to exist within the Pretty Good Wiki, regardless of category.
 - Alice can endorse that some given category is (or is not) a valid category, e.g.: Alice endorses that entertainment is a valid category
 - Alice can endorse that category A is (or is not) a subcategory of category B, e.g.: Alice endorses movies as a subcategory of entertainment
-- Alice can endorse that category A and category B are (or are not) duplicates that should be merged, e.g.: Alice endorses that Satoshi and Satoshi Nakamoto articles are duplicates
+- (optional) Alice can endorse that category A and category B are (or are not) duplicates that should be merged, e.g.: Alice endorses that Satoshi and Satoshi Nakamoto articles are duplicates
 
 ## Step 3: Define the Data Model
 
 Define how the above content and attestations will be stored and represented. This should be done to maximize interoperability with external applications and platforms that also use the Grapevine. In particular, trust attestations and context should be defined in a manner that maximizes overlap with other apps and platforms, preexisting and anticipated.
+
+The recommended data model for context is to use the method outlined in this article (provide link). Context is defined using two dimensions: the action dimension and the category dimension. For each dimension, the list of nodes and its organization into hierarchies is managed by your Grapevine. Example: Alice trusts Bob to be a critic of (vs: to 
 
 Using Pretty Good Wiki as an example:
 

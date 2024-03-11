@@ -4,7 +4,7 @@ Incorporation of the Grapevine into your app or platform
 
 This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: define the goal, and plan the roadmap. For illustration purposes, we will imagine incorporation of the Grapevine into the decentralized wikipedia application called [Wikifreedia](https://wikifreedia.xyz). Although Wikifreedia stores data on nostr, our approach can be readily modified to any one of a number of alternatives: IPFS, slashtags/hyperdrive, GUN, etc.
 
-# The Goal 
+# Define the Goal 
 
 ## Step 1: Statement of General Purpose 
 
@@ -35,7 +35,7 @@ The central function of Alice's Grapevine is to calculate a context-dependent in
 
 There are two categories of how to perform these calculations: the starter method and the Grapevine method. Started methods are useful and relatively easy to implement from the perspective of the developer but carry drawbacks. Those drawbacks may not be evident until the app attracts a wide userbase, which in turn attracts scammers and other bad actors. The Grapevine is a generic method designed to address those drawbacks but is much more challenging for the designer and developer.
 
-# The Roadmap
+# Plan the Roadmap
 
 In this step, we decide what features will be rolled out and in what order. For pgWiki, the roadmap could be the following:
 

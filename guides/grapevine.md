@@ -30,7 +30,7 @@ Using Pretty Good Wiki as an example:
 
 ## Step 3: Define the Data Model
 
-As above, this can be divided into content-specific and attestation-specific data.
+Define how the above content and attestations will be stored and represented. This should be done to maximize interoperability with external applications and platforms that also use the Grapevine.
 
 Using Pretty Good Wiki as an example:
 

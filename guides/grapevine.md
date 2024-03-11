@@ -2,13 +2,13 @@ Incorporation of the Grapevine into your app or platform
 =====
 
 
-This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: define the goal, and plan the roadmap. For illustration purposes, we will imagine incorporation of the Grapevine into the decentralized wikipedia application called [Wikifreedia](https://wikifreedia.xyz). Although Wikifreedia stores data on nostr, our approach can be readily modified to any one of a number of alternatives: IPFS, slashtags/hyperdrive, GUN, etc.
+This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: define the goal, and plan the roadmap. For illustration purposes, we will imagine building on a fork of the decentralized wikipedia application called [Wikifreedia](https://wikifreedia.xyz) which we will call Pretty Good Wikipedia, or _pgWiki_. Although Wikifreedia stores data on nostr, our approach can be readily modified to any one of a number of alternatives: IPFS, slashtags/hyperdrive, GUN, etc.
 
 # Define the Goal 
 
 ## Step 1: Statement of General Purpose 
 
-The first step is to create a clear statement of the purpose that the Grapevine will serve in the app in question. This could be as short as one sentence and may be of the following format: _Pretty Good Apps is a series of apps that each use the Grapevine to enable you and your community to identify who is the most trustworthy, and in what context, so they can help you curate the content, facts, and information relevant to that app._
+The first step is to create a clear statement of the purpose that the Grapevine will serve in the app in question. This could be as short as one sentence and may be of the following format: _My Awesome App uses the Grapevine to enable you and your community to identify who is the most trustworthy, and in what context, so they can help you curate the content, facts, and information relevant to My Awesome App._
 
 For example: _The Pretty Good Wiki uses the Grapevine to enable you and your community to identify the most trustworthy domain-specific curators for your encyclopedia of content, facts, and information._
 

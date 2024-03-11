@@ -14,7 +14,7 @@ For example: _The Pretty Good Wiki uses the Grapevine to enable you and your com
 
 ## Step 2: Define User Actions
 
-Define the basic actions that a user can take to interact with the Grapevine. This can be divided into content-specific and attestation-specific actions.
+Define all of the relevant actions that a user can take in your app. This can be divided into content-specific and attestation-specific actions.
 
 Using Pretty Good Wiki as an example:
 

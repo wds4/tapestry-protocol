@@ -31,7 +31,7 @@ Using Pretty Good Wiki as an example:
 
 Define how the above content and attestations will be stored and represented. This should be done to maximize interoperability with external applications and platforms that also use the Grapevine. In particular, trust attestations and context should be defined in a manner that maximizes overlap with other apps and platforms, preexisting and anticipated.
 
-The recommended data model for context is to use the method outlined in this article (provide link). Context is defined using two dimensions: the action dimension and the category dimension. For each dimension, the list of nodes and its organization into hierarchies is managed by your Grapevine. Example: Alice trusts Bob to be a critic of (vs: to 
+Context is defined using two dimensions: the _action_ dimension and the _category_ dimension, each of which are organized into hierarchies and managed by your Grapevine. Examples: the category of _comedies_ is a subcategory of _movies_. Alice may endorse Bob as a _critic_ (action) for _movies_ (category) but not _to create_, _to produce_, or _to be a screenwriter for_ movies. Trust in a general action and category (trust to create movies) implies trust in all subcategories and subactions (trust to produce comedies), unless more specific attestations are provided (Alice does NOT endorse Bob to write sci-fi).
 
 Using Pretty Good Wiki as an example:
 

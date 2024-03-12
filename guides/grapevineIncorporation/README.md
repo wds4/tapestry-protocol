@@ -2,7 +2,7 @@
 
 _This document is under construction._
 
-This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: _Define the Goal_, and _Plan the Roadmap_. The idea of the first section is that you can't plan a trip if you don't know where you want to go, so an understanding of the goal is necessary before planning what features to roll out to users and in what order. But if the ideas behind the Grapevine are unfamiliar, it may make sense to read the second section: _Plan the Roadmap_ first.
+This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: _Define the Goal_, and _Plan the Roadmap_. A developer or product manager who is looking at the big picture will obviously want to define the goal prior to laying out the roadmap to get there. But if the ideas behind the Grapevine are not yet familiar to you, the first section may be easier to follow if you jump ahead and read the second section: _Plan the Roadmap_ first, almost as if you are the user watching features get rolled out.
 
 For illustration purposes, we will imagine building on a fork of the decentralized wikipedia application called [Wikifreedia](https://wikifreedia.xyz) which we will call Pretty Good Wikipedia, or pgWiki. Although Wikifreedia and pgWiki are built on top of nostr, the Grapevine and this guide can be readily modified to any one of a number of nostr alternatives: IPFS, slashtags/hyperdrive, GUN, etc.
 

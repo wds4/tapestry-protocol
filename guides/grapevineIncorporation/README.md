@@ -1,6 +1,6 @@
 <h1>Incorporation of the Grapevine into Your Application or Platform</h1>
 
-_This document is under construction. _
+_This document is under construction._
 
 This guide is intended for the developer or dev team who wishes to incorporate the Grapevine into a specific application or platform. It is divided into two sections: _Define the Goal_, and _Plan the Roadmap_. For illustration purposes, we will imagine building on a fork of the decentralized wikipedia application called [Wikifreedia](https://wikifreedia.xyz) which we will call Pretty Good Wikipedia, or pgWiki. Although Wikifreedia and pgWiki are built on top of nostr, the Grapevine and this guide can be readily modified to any one of a number of nostr alternatives: IPFS, slashtags/hyperdrive, GUN, etc.
 

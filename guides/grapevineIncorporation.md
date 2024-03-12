@@ -19,7 +19,7 @@ Using Pretty Good Wiki as an example:
 ### content
 - users can submit and edit individual wiki entries (already available on Wikifreedia)
 - users can fork and edit an existing wiki entry that was started by someone else (already available on Wikifreedia)
-- users can submit individual categories (e.g. technology, history, entertainment, movies, sci-fi, etc) (not yet available on Wikifreedia)
+- users can submit and edit individual categories (e.g. technology, history, entertainment, movies, sci-fi, etc) (not yet available on Wikifreedia)
 
 ### attestations
 - Alice can endorse (or block) Bob as a curator for the wiki, either in general or in a category-specific fashion, e.g.: Alice endorses Bob to curate content for the Pretty Good Wiki (optional: in the category of technology)

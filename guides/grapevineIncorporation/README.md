@@ -50,7 +50,7 @@ Using Pretty Good Wiki as an example:
 ### attestations
 
 
-## Step 4: Pick Methods to calculate Influence
+## Step 4: [Design the app's Grapevine](designAppGrapevine.md)
 
 The central function of Alice's Grapevine is to calculate a context-dependent influence score for each user. For example, Alice's Grapevine may tell her that Bob merits a high influence score in the context of reviewing sci-fi movies, and an even higher influence score in the context of writing the screenplay for movies in the genre of romantic comedies. Each context has two dimensions: an action (reviewing, writing the screenplay, editing, etc) and a category (entertainment, movies, sci fi, etc). Each of these dimensions is represented as a hierarchical graph which is curated by your Grapevine, in the app (if necessary) or outside of the app (preferred) if suitable graphs already exist in the ecosystem.
 

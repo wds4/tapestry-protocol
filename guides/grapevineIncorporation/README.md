@@ -8,7 +8,7 @@ For illustration purposes, we will imagine building on a fork of the decentraliz
 
 # Define the Goal 
 
-- understand the needs of your app
+- understand the needs of the users of your app
 - understand how to organize the relevant data using the Concept Graph
 - understand how to curate the relevant data using the Grapevine
 

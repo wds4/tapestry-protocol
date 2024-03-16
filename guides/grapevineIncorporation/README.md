@@ -62,18 +62,17 @@ In this step, we decide what features will be rolled out and in what order. For 
 
 ## Phase 1
 
-Problem: How do we weed out spam articles and edits?
+Problem: How do we weed out spam content?
 
-Solution: Use nostr follow lists and mute lists as raw data for a rudimentary web of trust.
-- Users are in one of three categories: whitelisted, blacklisted, or uncategorized
-- If Alice follows (mutes) Bob, then Bob is on Alice's whitelist (blacklist)
-- For any given user Bob, if N whitelisted users follow Bob and M whitelisted users mute Bob, then if N - M > 2, then Bob becomes whitelisted; or if M > N > 2, then Bob becomes blacklisted
+Solution: Use nostr follow lists (+/- mute lists) as raw data to generate a web of trust (WoT) score.
 
-As of the time of this writing, Pablo's [Wikifreedia](https://wikifreedia.xyz) already does this.
+There is no single best method to calculate the WoT score.
+
+As of the time of this writing, [Coracle](https://coracle.social/), [Wikifreedia](https://wikifreedia.xyz), [nosWoT](https://noswot.org) and probably several other nostr apps already calculate some sort of WoT score.
 
 ## Phase 2
 
-Problem: Just because Alice follows Bob doesn't mean she trusts him to curate wikis.
+Problem: Just because Alice follows Bob doesn't mean she trusts him to curate content.
 
 Solution: Introduce explicit attestations (as above). Use explicit attestation data in addition to follow and mute list data. Gradually phase out the usage of follow and mute lists as the explicit attestation dataset increases.
 

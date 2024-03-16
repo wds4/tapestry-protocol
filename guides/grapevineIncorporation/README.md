@@ -84,3 +84,10 @@ Replace the simple Grapevine algorithm with the more sophisticated algorithm tha
 
 Introduce wikipedia categories.
 
+** Need to merge the below milestones into the above text for the roadmap 
+
+- Milestone 1: use follows (and maybe mute) lists to create a WoT score using your method of choice, similar to what has already been achieved by wikifreedia and some of the nostr clients. 
+- Milestone 2: allow users to create trust attestations formatted according to specifications that I will supply with the hackathon documents. I will probably use the same format that Curated Lists already uses, although I might update them somewhat.
+- Milestone 3: take the follows data and the attestations data and pool them together, meaning that a follow and a trust attestation are interpreted in the same way when calculating the WoT score.
+- Milestone 4: Replace the WoT score from Milestone 1 with an Influence Score calculated using methods that I will specify in the hackathon docs, and which will probably be more or less identical to the way that Curated Lists works right now. 
+

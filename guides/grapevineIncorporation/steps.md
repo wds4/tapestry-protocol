@@ -16,19 +16,19 @@ As of the time of this writing, [Coracle](https://coracle.social/), [Wikifreedia
 Problem: Just because Alice follows Bob doesn't mean she trusts him to curate content.
 
 Solution:
-- Introduce explicit trust attestations using the same format that Curated Lists already uses.
+- Introduce explicit trust attestations formatted according to the tapestry protocol, in the format: "Alice endorses Bob as trustworthy to curate nostr feed in all categories." Alternatively, change the context to fit the app in question, e.g.: "Alice endorses Bob to rate products in the zap.store." In step 5 (below), we will allow the option of more contexts, e.g.: "Alice endorses Bob to rate products in the zap.store in the category of electronics."
 - Take the follows data and the attestations data and pool them together, meaning that a follow and a trust attestation are interpreted in the same way when calculating the WoT score.
 - Eventual plan is to phase out the usage of follow and mute lists gradually as the explicit attestation dataset increases.
 
 ## Step 3: Replace WoT Scores with the Grapevine Influence Score
 
-Replace the WoT score from Milestone 1 with an Influence Score using the same format that Curated Lists already uses.
+Replace the WoT score from Step 1 with an Influence Score using the same format that Curated Lists already uses.
 
 ## Step 4: Phase Out Proxy Data in favor of Explicit Trust Attestations
 
 ## Step 5: Introduce developer-managed Categories
 
-Introduce wikipedia categories.
+Introduce categories that are relevant to the app in question.
 
 ## Step 6: Allow Users to Curate Categories
 

@@ -38,9 +38,9 @@ Example: Alice may endorse Bob as trustworthy (or not trustworthy) to rate and r
 }
 ```
 
-Each action and category will be wrapped into a note and referenced by naddr.
+Each action and category will be wrapped into a note and referenced by naddr (or note id?)
 
-## Hierarchies
+## Organizing contexts into hierarchies
 
 ```json
 {
@@ -84,7 +84,7 @@ The above json will be stringified and placed into the content of a note as desc
 
 ## Event kinds and tags
 
-Trust attestations, actions, categories, and relationships will be encoded as kind 399201 events with the d-tag used to specify whether the event is an attestation, a kind, or a category.
+Trust attestations, actions, categories, and relationships will be encoded as kind 39902 (parameterized replaceable) event OR a kind 9902 (regular) event with the d-tag used to specify whether the event is an attestation, a kind, or a category.
 
 Example: 
 
@@ -97,6 +97,8 @@ Example:
   "kind": 399201,
 }
 ```
+
+If parameterized replaceable, the a tag will include 
 
 ## Trust Scores
 

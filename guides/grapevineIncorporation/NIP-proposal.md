@@ -18,10 +18,47 @@ Context will be represented using two dimensions: the action dimension and the c
 
 Example: Alice may endorse Bob as trustworthy (or not trustworthy) to rate and recommend movies (the action) in the category of dramas (the category). If left unspecified, the set of all actions and all categories will be the default.
 
-## Context: the action dimension
+## Context: actions and categories
 
 ```json
 {
+  "contextActionData": {
+    "name": "to rate and recommend",
+    "description": "lorem ipsum",
+  }
+}
+```
+
+```json
+{
+  "contextCategoryData": {
+    "name": "movies",
+    "description": "lorem ipsum",
+  }
+}
+```
+
+Each action and category will be wrapped into a note and referenced by naddr.
+
+## Hierarchies
+
+```json
+{
+  "relationshipData": {
+    "nodeFrom": naddr_for_comedies,
+    "relationshipType": "isASubcategoryOf",
+    "nodeTo": naddr_for_movies,
+  }
+}
+```
+
+```json
+{
+  "relationshipData": {
+    "nodeFrom": naddr_for_toProduceMovies
+    "relationshipType": "isASubcategoryOf",
+    "nodeTo": naddr_for_toCreateMovies
+  }
 }
 ```
 
@@ -32,12 +69,12 @@ A trust attestation will take the following form:
 ```json
 {
   "trustAttestationData": {
-    ratee: pk_ratee,
-    score: 100, // 0 means DO NOT trust; 100 means TRUST
-    confidence: 80, // OPTIONAL; number between 0 and 100 percent
-    context: {
-      action: naddr_action,
-      category: naddr_category
+    "ratee": pk_ratee,
+    "score": 100, // 0 means DO NOT trust; 100 means TRUST
+    "confidence": 80, // OPTIONAL; number between 0 and 100 percent
+    "context": {
+      "action": naddr_action,
+      "category": naddr_category
     }
   }
 }

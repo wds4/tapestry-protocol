@@ -94,11 +94,17 @@ Example:
   "tags": [
     ["d", "trustAttestation"] // options: trustAttestation, contextAction, contextCategory, relationship
   ],
-  "kind": 399201,
+  "kind": 39901, // or 9902
 }
 ```
 
-If parameterized replaceable, the a tag will include 
+Trust attestations will use parameterized replaceable events (kind 39902), and must also include an "a" tag which is a concatenation of :
+- the pubkey of the ratee 
+- the d-tag, i.e. "trustAttestation"
+- the naddr (or note id?) of the action
+- the naddr (or note id?) of the category
+
+`["a",pk_ratee-trustAttestation-naddr_action-naddr_category]`
 
 ## Trust Scores
 

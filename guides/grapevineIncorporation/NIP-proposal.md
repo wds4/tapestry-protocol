@@ -100,4 +100,7 @@ Example:
 
 ## Trust Scores
 
-The calculation of trust scores using trust attestations as raw data will be the topic of a separate NIP. 
+Trust scores are calculated using trust attestations as raw data. Any statement of a Trust Score must include the `context`, the `score` itself, and the `confidence` in that score. In other words, its format parallels that of the Trust Attestation (above). 
+
+Details of how trust scores are calculated will be the topic of a separate NIP.
+

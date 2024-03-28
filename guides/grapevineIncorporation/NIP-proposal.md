@@ -100,7 +100,7 @@ Example:
 
 ## Trust Scores
 
-Trust scores are calculated using trust attestations as raw data. Any statement of a Trust Score must include the `context`, the `score` itself, and the `confidence` in that score. In other words, its format parallels that of the Trust Attestation (above). 
+Trust scores are calculated using trust attestations as raw data. Any statement of a Trust Score must include the `context`, the `score` itself, and the `confidence` in that score. In other words, its format parallels that of the Trust Attestation (above). The fact that Trust Attestations ("I know X from personal experience") and Trust Scores ("I am merely passing along what my web of trust tells me") are formatted similarly will enable *plausible deniability*.
 
 Details of how Trust Scores are calculated will be the topic of a separate NIP. In general, the `score` should be calculated as a weighted average of trust attestations from all trusted sources, with the weights being functions of the `influence` of the rating authors, optionally multiplied by the confidence of the rating itself. The `confidence` in the Trust Score will be calculated according to the principles outlined in [this post](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur). Influence of any given user will be calculated using the relevant Trust Score as the produce of the `score` and the `confidence` in that score.
 

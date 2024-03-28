@@ -10,7 +10,7 @@ Contextual Trust Attestations as the foundation for a Web of Trust
 
 Many platforms use various proxy indicators of trust, most commonly follows and mute lists, to calculate "web of trust" scores. The purpose of this NIP is to initiate the transition from proxy indicators of trust to *contextual trust attestations* as the raw data used to calculate trust scores. The long-term goal will be to enable Alice's web of trust to calculate an array of `Trust Scores` for any given user and for any given context.
 
-Ultimately, trust in a broad context should imply trust in all sub-contexts, unless stated otherwise. For example: if Alice endorses Bob as trustworthy to recommend movies, this will automatically imply that he is trustworthy to rate and recommend comedies, dramas, and sci-fi movies, without the need to make an independent attestation for each sub-context.
+Trust in a broad context should imply trust in all sub-contexts, unless stated otherwise. For example: if Alice endorses Bob as trustworthy to recommend movies, this will automatically imply that he is trustworthy to rate and recommend comedies, dramas, and sci-fi movies, without the need to make an independent attestation for each sub-context. This will enable trust to be as fine-grained or as coarse-grained as we want it to be, which is something that cannot be achieved reliably using proxy data.
 
 ## Contexts
 

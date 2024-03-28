@@ -92,7 +92,7 @@ Example:
 {
   "content": "{ trustAttestationData: { ... } }", // stringified json 
   "tags": [
-    [d, "trustAttestation"] // options: trustAttestation, contextAction, contextCategory, relationship
+    ["d", "trustAttestation"] // options: trustAttestation, contextAction, contextCategory, relationship
   ],
   "kind": 399201,
 }

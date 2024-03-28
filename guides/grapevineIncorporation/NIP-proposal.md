@@ -10,15 +10,28 @@ Contextual Trust Attestations as the foundation for a Web of Trust
 
 Many platforms use various proxy indicators of trust, most commonly follows and mute lists, to calculate "web of trust" scores. The purpose of this NIP is to initiate the transition from proxy indicators of trust to *contextual trust attestations* as the raw data used to calculate trust scores. The long-term goal will be to enable Alice's web of trust to calculate an array of `Trust Scores` for any given user and for any given context.
 
-Ultimately, trust in a broad context should imply trust in all sub-contexts, unless stated otherwise. For example: if Alice attests that Bob 
+Ultimately, trust in a broad context should imply trust in all sub-contexts, unless stated otherwise. For example: if Alice endorses Bob as trustworthy to recommend movies, this will automatically imply that he is trustworthy to rate and recommend comedies, dramas, and sci-fi movies, without the need to make an independent attestation for each sub-context.
 
-## Trust Attestations
+## Contexts
 
-Trust attestation will take the following form:
+Context will be represented using two dimensions: the action dimension and the category dimension.
+
+Example: Alice may endorse Bob as trustworthy (or not trustworthy) to rate and recommend movies (the action) in the category of dramas (the category). If left unspecified, the set of all actions and all categories will be the default.
+
+## Context: the action dimension
 
 ```json
 {
-  trustAttestationData: {
+}
+```
+
+## Trust Attestations
+
+A trust attestation will take the following form:
+
+```json
+{
+  "trustAttestationData": {
     ratee: pk_ratee,
     score: 100, // 0 means DO NOT trust; 100 means TRUST
     confidence: 80, // OPTIONAL; number between 0 and 100 percent

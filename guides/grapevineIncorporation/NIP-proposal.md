@@ -90,9 +90,9 @@ Example:
 
 ```json
 {
-  "content": stringified_json_from_above, // see above
+  "content": "{ trustAttestationData: { ... } }", // stringified json 
   "tags": [
-    [d, "trustAttestation"] // trustAttestation, contextAction, contextCategory, relationship
+    [d, "trustAttestation"] // options: trustAttestation, contextAction, contextCategory, relationship
   ],
   "kind": 399201,
 }

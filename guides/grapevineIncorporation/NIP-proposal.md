@@ -18,7 +18,7 @@ We anticipate that in the beginning, users will issue `Trust Attestations` predo
 
 ## word types
 
-This NIP will make user of four types of data, called _word types_: `trust attestations`, `actions`, `categories`, and `relationships`, with the option to add more data types in the future if deemed necessary. Each attestation, action, etc will be represented individually using independent nostr events. We will rely upon only two event kinds: 33902 for trust attestations, and 9902 for actions, categories, and relationships.
+This NIP will make user of four types of data, called _word types_: `trust attestations`, `actions`, `categories`, and `relationships`, with the option to add more word types in the future if deemed necessary. Each attestation, action, etc will require its own nostr event, or _word_ (as per the tapestry protocol). We will rely upon only two event kinds: 33902 for trust attestations, and 9902 for actions, categories, and relationships.
 
 ## Contexts
 

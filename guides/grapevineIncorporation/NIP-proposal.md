@@ -6,6 +6,8 @@ Contextual Trust Attestations as the foundation for a Web of Trust
 
 `draft` 
 
+need to add: option to make attestations public or private
+
 ## Background 
 
 Many platforms use various proxy indicators of trust, most commonly follows and mute lists, to calculate "web of trust" scores. The purpose of this NIP is to initiate the transition from proxy indicators of trust to *contextual trust attestations* as the raw data used to calculate trust scores. The long-term goal will be to enable Alice's web of trust to calculate an array of `Trust Scores` for any given user and for any given context.

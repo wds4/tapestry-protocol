@@ -8,7 +8,7 @@ Contextual Trust Attestations as the foundation for a Web of Trust
 
 ## Background 
 
-Many nostr platforms today use various proxy indicators of trust, most commonly follows and mute lists but also including likes, zaps, etc, to calculate "web of trust" scores. The purpose of this NIP is to initiate the transition from proxy indicators of trust to *explicit attestations of context-specific trust*, referred to in this document as `Trust Attestations`, as the raw data used to calculate trust scores.
+Many nostr platforms today use various proxy indicators of trust, most commonly follows and mute lists but also including likes, zaps, etc, to calculate "web of trust" scores. The purpose of this NIP is to initiate the transition from proxy indicators of trust to *explicit attestations of context-specific trust*, referred to in this document as `Trust Attestations`, as a replacement for proxy indicators of trust.
 
 The long-term goal will be to enable Alice to calculate an array of context-specific `Trust Scores` for any given user and for any given context. However, how *exactly* a `Trust Score` should be calculated is intentionally left out of this NIP. We anticipate that `Trust Attestations` and other pieces of data defined in this NIP will be useful for a variety of purposes: content filters, data vending machines, calculation of WoT scores, categorization of content, etc. It is important to stress that different users and platforms must have the freedom to process data in whatever ways they see fit. Nevertheless, for the sake of presenting a complete picture, we do outline in broad brushstrokes (below) ONE way that context-specific `Trust Scores` could be calculated.
 

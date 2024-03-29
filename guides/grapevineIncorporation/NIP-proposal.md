@@ -240,5 +240,5 @@ Your Grapevine will calculate for you an `Influence Score` for any given user, f
 - the `certainty`, a number between 0 and 100 percent, calculated from the `input` according to the principles outlined in [this post](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur)
 - the `influence`, which is the product of the `average score` and the `certainty`
 
-If you want to know what's the point of making it so complicated, the answer is that this is how we kill the influencer, as outlined in [The Pretty Good way to calculate a user's influence within your web of trust](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur)
+If you want to know what's the point of making it so complicated, the answer is that this is how we calculate an Influence Score that avoids the fatal flaw of legacy social media, which is that it places far too much emphasis on the follower count, as outlined in [The Pretty Good way to calculate a user's influence within your web of trust](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur)
 

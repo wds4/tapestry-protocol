@@ -26,8 +26,6 @@ Context will be represented using two dimensions: the `action` dimension and the
 
 We anticipate that if a platform, such as Wikifreedia, were to incorporate this NIP for the first time, then a small handful of relevant "starter" `actions` and `categories` will be created by the developer, if they have not already been created. For example, the Wikifreedia developer may create the single `action`: `to curate content on WikiFreedia`, and perhaps a small handful of `categories`: `electronics`, `sports`, `history`, `politics`, `entertainment`. In the case of Wikifreedia, individual articles may be assigned to individual `categories`, perhaps by the article authors. Eventually, users will be given the opportunity to submit and utilize additional `actions` and `categories`, so that there will be no need to rely upon developers to do so. 
 
-## Context: actions and categories
-
 ### actions
 
 Examples of `actions` include:
@@ -75,13 +73,13 @@ Each action and category will be wrapped into a note and referenced by naddr (or
 
 ## Organizing contexts into hierarchies
 
-Users will submit `relationships` to indicate the parent-child relationship between a pair of actions or between a pair of categories, formatted according to the following two examples:
+Users will submit `relationships` (using event kind 9902) to indicate the parent-child relationship between a pair of actions or between a pair of categories, formatted according to the following two examples:
 
 ```json
 {
   "relationshipData": {
     "nodeFrom": naddr_for_comedies,
-    "relationshipType": "isASubcategoryOf",
+    "relationshipType": "isAChildOf",
     "nodeTo": naddr_for_movies,
   }
 }
@@ -90,8 +88,8 @@ Users will submit `relationships` to indicate the parent-child relationship betw
 ```json
 {
   "relationshipData": {
-    "nodeFrom": naddr_for_toProduceMovies
-    "relationshipType": "isASubcategoryOf",
+    "nodeFrom": naddr_for_toDirectMovies
+    "relationshipType": "isAChildOf",
     "nodeTo": naddr_for_toCreateMovies
   }
 }

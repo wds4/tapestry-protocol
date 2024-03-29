@@ -37,7 +37,7 @@ Examples of `actions` include:
 - to produce movies
 - to give advice
 
-An action will be formatted according to the following example:
+An action will be formatted using JSON according to the following example:
 
 ```json
 {
@@ -56,7 +56,7 @@ Examples of `categories` include:
 - electronics
 - smartphones
 
-A category will be formatted according to the following example:
+A category will be formatted using JSON according to the following example:
 
 ```json
 {
@@ -70,6 +70,8 @@ A category will be formatted according to the following example:
 Each action and category will be wrapped into a note and referenced by naddr (or note id?). JSON will be stringified and included into the content field. Tags ("d" tag?) will also be used to encode the name of each action and each category.
 
 ## Organizing contexts into hierarchies
+
+Users will submit `relationships` to indicate the parent-child relationship between a pair of actions or between a pair of categories, formatted according to the following two examples:
 
 ```json
 {

@@ -234,8 +234,8 @@ Users may be given the option of creating attestations that are private. When ch
 
 As noted above, `Trust Attestation`, `action`, `category`, and `relationship` events are raw data. This NIP is agnostic on the question of what to do with the data, and we expect different platforms and clients to process the data in a variety of ways, using a variety of algorithms. For the sake of providing a complete picture, the following is a brief description of the Grapevine method of calculation of an `Influence Score` using `Trust Attestations` as raw data, and should be considered as *one possible method* for processing trust attestations into `Trust Scores`.
 
-According to the Grapevine, the `Influence Score` is a vector with the following components:
-- the `average score`, which is a WEIGHTED average of `Trust Attestations`, with each `weight` being proportional to the relevant Influence Score of the author of the attestation
+Your Grapevine will calculate for you an `Influence Score` for any given user, for any given context, based upon `Trust Attestations` of that user, in that context. The `Influence Score` is comprised of the following components:
+- the `average score`, which is a weighted average of `Trust Attestations`, with each `weight` being proportional to the relevant Influence Score of the author of the attestation
 - the `input`, which is the sum of `weights` and is a number between 0 and infinity
 - the `certainty`, a number between 0 and 100 percent, calculated from the `input` according to the principles outlined in [this post](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur)
 - the `influence`, which is the product of the `average score` and the `certainty`

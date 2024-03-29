@@ -115,7 +115,23 @@ The above json will be stringified and placed into the content of a note as desc
 
 ## Event kinds and tags
 
-Trust attestations, actions, categories, and relationships will be encoded as kind 39902 (parameterized replaceable) event OR a kind 9902 (regular) event with the w-tag used to specify whether the event is a `trust attestation`, an `action`, a `category`, or a `relationship`.
+Trust attestations, actions, categories, and relationships will be encoded as kind 39902 (parameterized replaceable) event OR a kind 9902 (regular) event.
+
+### Trust Attestations
+
+`Trust Attestations` will use parameterized replaceable events (kind 39902), and will include the following tags.
+- The (required) `wordType`-tag specifies whether the event is a `trust attestation`, an `action`, a `category`, or a `relationship`.
+- The (required) `p`-tag indicates the pubkey of the ratee.
+- The (required) `action`-tag specifies the action, and can be either the name, the naddr, or the note id of the action
+- The (required) `category`-tag specifies the category, and can be either the name, the naddr, or the note id of the category
+- The (optional) `score`-tag specifies the score, and is an integer between 0 and 100
+- The (optional) `tr`-tag specifies whether the attestation is transitive and takes values `true` or `false`; if left absent, the default is `true`.
+
+As a paraterized replaceable event, `Trust Attestations` must also include an "a" tag, which will be a concatenation of:
+- the `wordType`-tag, i.e. "trustAttestation"
+- the pubkey of the ratee 
+- the naddr (or note id?) of the action
+- the naddr (or note id?) of the category
 
 Example: 
 
@@ -123,19 +139,29 @@ Example:
 {
   "content": "{ trustAttestationData: { ... } }", // stringified json 
   "tags": [
-    ["w", "trustAttestation"] // options: trustAttestation, action, category, relationship
+    ["wordType", "trustAttestation"], // options: trustAttestation, action, category, relationship
+    ["p", pk_ratee],
+    ["action", "to rate and recommend movies"], // may use the naddr or the note id of the action instead of the name
+    ["category", "comedies"], // may use the naddr or the note id of the category instead of the name
+    ["a","trustAttestation-"pk_ratee-naddr_action-naddr_category],
+    ["score", 100],
+    ["tr", true], // true or false; default is true
   ],
   "kind": 39901, // or 9902
 }
 ```
 
-Trust attestations will use parameterized replaceable events (kind 39902), and must also include an "a" tag which is a concatenation of :
-- the pubkey of the ratee 
-- the d-tag, i.e. "trustAttestation"
-- the naddr (or note id?) of the action
-- the naddr (or note id?) of the category
+### Actions
 
-`["a",pk_ratee-trustAttestation-naddr_action-naddr_category]`
+_work in progress_
+
+### Categories
+
+_work in progress_
+
+### Relationships
+
+_work in progress_
 
 ## Private attestations
 

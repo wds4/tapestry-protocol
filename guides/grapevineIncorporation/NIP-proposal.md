@@ -115,7 +115,7 @@ The above json will be stringified and placed into the content of a note as desc
 
 ## Event kinds and tags
 
-Trust attestations, actions, categories, and relationships will be encoded as kind 39902 (parameterized replaceable) event OR a kind 9902 (regular) event with the d-tag used to specify whether the event is an attestation, a kind, or a category.
+Trust attestations, actions, categories, and relationships will be encoded as kind 39902 (parameterized replaceable) event OR a kind 9902 (regular) event with the w-tag used to specify whether the event is a `trust attestation`, an `action`, a `category`, or a `relationship`.
 
 Example: 
 
@@ -123,7 +123,7 @@ Example:
 {
   "content": "{ trustAttestationData: { ... } }", // stringified json 
   "tags": [
-    ["d", "trustAttestation"] // options: trustAttestation, contextAction, contextCategory, relationship
+    ["w", "trustAttestation"] // options: trustAttestation, action, category, relationship
   ],
   "kind": 39901, // or 9902
 }

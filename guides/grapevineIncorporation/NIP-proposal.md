@@ -16,7 +16,7 @@ This NIP includes specification of a method to represent context, as well as a m
 
 We anticipate that in the beginning, users will issue `Trust Attestations` predominantly in very broadly defined contexts (e.g.: Alice trusts Bob to curate nostr content in all nostr apps and platforms), will issue predominantly endorsements, will issue them publicly, and will make them transitive. As time goes on, users may discover the need for more focused contexts (e.g.: *Alice trusts Bob to curate Wikifreedia articles*), for attestations with a low score (e.g. *Alice does NOT trust Bob to curate Wikifreedia articles in the category of politics*), for attestations that are private rather than public, and for attestations that are not transitive (e.g. Alice trusts Bob to curate Wikifreedia articles himself, but does NOT trust him to rate other users' trustworthiness to curate Wikifreedia articles).
 
-# word types
+# word types (note types? data types?)
 
 This NIP will make user of four types of data: `trust attestations`, `actions`, `categories`, and `relationships`, with the option to add more data types in the future if deemed necessary. We will rely upon only two event kinds: 33902 and 9902, depending on whether we desire parameterized replaceable events or regular events.
 

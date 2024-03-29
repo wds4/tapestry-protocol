@@ -121,8 +121,8 @@ Trust attestations, actions, categories, and relationships will be encoded as ki
 
 ### Trust Attestations
 
-`Trust Attestations` will use parameterized replaceable events (kind 39902), and will include the following tags.
-- The (required) `wordType`-tag specifies whether the event is a `trust attestation`, an `action`, a `category`, or a `relationship`.
+`Trust Attestations` will use parameterized replaceable events (kind 39902), and will include the following tags:
+- The (required) `wordType`-tag to specifies that the event is a `trust attestation` (as opposed to an `action`, a `category`, or a `relationship`)
 - The (required) `p`-tag indicates the pubkey of the ratee.
 - The (required) `action`-tag specifies the action, and can be either the name, the naddr, or the note id of the action
 - The (required) `category`-tag specifies the category, and can be either the name, the naddr, or the note id of the category
@@ -157,6 +157,11 @@ Example:
 
 ### Actions
 
+`Actions` will use regular events (kind 9902), and will include the following tags:
+- The (required) `wordType`-tag to specify that the event is an `action`
+- The (optional) `d`-tag indicates the name of the action.
+- The (optional) `description`-tag indicates the description of the action.
+
 _work in progress_
 
 Example: 
@@ -165,13 +170,19 @@ Example:
 {
   "content": "{ actionData: { ... } }", // stringified json 
   "tags": [
-    ["wordType", "action"], 
+    ["wordType", "action"],
+    ["d", "to rate and recommend movies"],
   ],
   "kind": 9902
 }
 ```
 
 ### Categories
+
+`Categories` will use regular events (kind 9902), and will include the following tags:
+- The (required) `wordType`-tag to specify that the event is a `category`
+- The (optional) `d`-tag indicates the name of the category.
+- The (optional) `description`-tag indicates the description of the category.
 
 _work in progress_
 
@@ -181,13 +192,20 @@ Example:
 {
   "content": "{ categoryData: { ... } }", // stringified json 
   "tags": [
-    ["wordType", "category"], 
+    ["wordType", "category"],
+    ["d", "sci-fi"],
   ],
   "kind": 9902
 }
 ```
 
 ### Relationships
+
+`Relationships` will use regular events (kind 9902), and will include the following tags:
+- The (required) `wordType`-tag to specify that the event is a `relationship`
+- The (required) `nodeFrom`-tag to specify the naddr (or note id?) at the start of the relationship
+- The (required) `relationshipType`-tag to specify the type of the relationship
+- The (required) `nodeTo`-tag to specify the naddr (or note id?) at the end of the relationship
 
 _work in progress_
 
@@ -197,7 +215,10 @@ Example:
 {
   "content": "{ relationshipData: { ... } }", // stringified json 
   "tags": [
-    ["wordType", "relationship"], 
+    ["wordType", "relationship"],
+    ["nodeFrom", naddr_of_child_node], // or note id?
+    ["relationshipType", "isAChildOf"],
+    ["nodeTo", naddr_of_parent_node], // or note id?
   ],
   "kind": 9902
 }
@@ -211,7 +232,13 @@ Users may be given the option of creating attestations that are private. When ch
 
 ## Trust Scores
 
-Trust scores are calculated using trust attestations as raw data. Any statement of a Trust Score must include the `context`, the `score` itself, and the `confidence` in that score. In other words, its format parallels that of the Trust Attestation (above). The fact that Trust Attestations ("I know X from personal experience") and Trust Scores ("I am merely passing along what my web of trust tells me") are formatted similarly will enable *plausible deniability*.
+As noted above, `Trust Attestation`, `action`, `category`, and `relationship` events are raw data. This NIP is agnostic on the question of what to do with the data, and we expect different platforms and clients to process the data in a variety of ways, using a variety of algorithms. For the sake of providing a complete picture, the following is a brief description of the Grapevine method of calculation of an `Influence Score` using `Trust Attestations` as raw data, and should be considered as *one possible method* for processing trust attestations into `Trust Scores`.
 
-Details of how Trust Scores are calculated will be the topic of a separate NIP. In general, the `score` should be calculated as a weighted average of trust attestations from all trusted sources, with the weights being functions of the `influence` of the rating authors, optionally multiplied by the confidence of the rating itself. The `confidence` in the Trust Score will be calculated according to the principles outlined in [this post](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur). Influence of any given user will be calculated using the relevant Trust Score as the produce of the `score` and the `confidence` in that score.
+According to the Grapevine, the `Influence Score` is a vector with the following components:
+- the `average score`, which is a WEIGHTED average of `Trust Attestations`, with each `weight` being proportional to the relevant Influence Score of the author of the attestation
+- the `input`, which is the sum of `weights` and is a number between 0 and infinity
+- the `certainty`, a number between 0 and 100 percent, calculated from the `input` according to the principles outlined in [this post](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur)
+- the `influence`, which is the product of the `average score` and the `certainty`
+
+If you want to know what's the point of making it so complicated, the answer is that this is how we kill the influencer, as outlined in [The Pretty Good way to calculate a user's influence within your web of trust](https://habla.news/a/naddr1qqxnzdes8q6rwv3hxs6rjvpeqgs98k45ww24g26dl8yatvefx3qrkaglp2yzu6dm3hv2vcxl822lqtgrqsqqqa28kn8wur)
 

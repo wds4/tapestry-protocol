@@ -153,7 +153,7 @@ Example:
     ["confidence", 80],
     ["tr", true], // true or false; default is true
   ],
-  "kind": 39901, // or 9902
+  "kind": 39902,
 }
 ```
 
@@ -161,13 +161,49 @@ Example:
 
 _work in progress_
 
+Example: 
+
+```json
+{
+  "content": "{ actionData: { ... } }", // stringified json 
+  "tags": [
+    ["wordType", "action"], 
+  ],
+  "kind": 9902
+}
+```
+
 ### Categories
 
 _work in progress_
 
+Example: 
+
+```json
+{
+  "content": "{ categoryData: { ... } }", // stringified json 
+  "tags": [
+    ["wordType", "category"], 
+  ],
+  "kind": 9902
+}
+```
+
 ### Relationships
 
 _work in progress_
+
+Example: 
+
+```json
+{
+  "content": "{ relationshipData: { ... } }", // stringified json 
+  "tags": [
+    ["wordType", "relationship"], 
+  ],
+  "kind": 9902
+}
+```
 
 ## Private attestations
 

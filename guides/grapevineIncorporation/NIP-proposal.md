@@ -22,6 +22,19 @@ Example: Alice may endorse Bob as trustworthy (or not trustworthy) to rate and r
 
 ## Context: actions and categories
 
+### actions
+
+Examples of actions include:
+- to curate content on nostr
+- to curate content on WikiFreedia
+- to rate and recommend movies
+- to create movies
+- to edit movies
+- to produce movies
+- to give advice
+
+An action will be formatted according to the following example:
+
 ```json
 {
   "contextActionData": {
@@ -30,6 +43,16 @@ Example: Alice may endorse Bob as trustworthy (or not trustworthy) to rate and r
   }
 }
 ```
+
+### categories
+
+Examples of categories include:
+- movies
+- comedies
+- electronics
+- smartphones
+
+A category will be formatted according to the following example:
 
 ```json
 {
@@ -40,7 +63,7 @@ Example: Alice may endorse Bob as trustworthy (or not trustworthy) to rate and r
 }
 ```
 
-Each action and category will be wrapped into a note and referenced by naddr (or note id?)
+Each action and category will be wrapped into a note and referenced by naddr (or note id?). JSON will be stringified and included into the content field. Tags ("d" tag?) will also be used to encode the name of each action and each category.
 
 ## Organizing contexts into hierarchies
 

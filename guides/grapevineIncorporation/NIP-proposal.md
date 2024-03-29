@@ -16,6 +16,10 @@ This NIP includes specification of a method to represent context, as well as a m
 
 We anticipate that in the beginning, users will issue `Trust Attestations` predominantly in very broadly defined contexts (e.g.: Alice trusts Bob to curate nostr content in all nostr apps and platforms), will issue predominantly endorsements, will issue them publicly, and will make them transitive. As time goes on, users may discover the need for more focused contexts (e.g.: *Alice trusts Bob to curate Wikifreedia articles*), for attestations with a low score (e.g. *Alice does NOT trust Bob to curate Wikifreedia articles in the category of politics*), for attestations that are private rather than public, and for attestations that are not transitive (e.g. Alice trusts Bob to curate Wikifreedia articles himself, but does NOT trust him to rate other users' trustworthiness to curate Wikifreedia articles).
 
+# word types
+
+This NIP will make user of four types of data: `trust attestations`, `actions`, `categories`, and `relationships`, with the option to add more data types in the future if deemed necessary. We will rely upon only two event kinds: 33902 and 9902, depending on whether we desire parameterized replaceable events or regular events.
+
 ## Contexts
 
 Context will be represented using two dimensions: the `action` dimension and the `category` dimension. Example: Alice may endorse Bob as trustworthy (or not trustworthy) `to rate and recommend movies` (the `action`) in the category of `dramas` (the `category`). If left unspecified, the supersets of all `actions` and all `categories` will be presumed.
@@ -125,6 +129,7 @@ Trust attestations, actions, categories, and relationships will be encoded as ki
 - The (required) `action`-tag specifies the action, and can be either the name, the naddr, or the note id of the action
 - The (required) `category`-tag specifies the category, and can be either the name, the naddr, or the note id of the category
 - The (optional) `score`-tag specifies the score, and is an integer between 0 and 100
+- The (optional) `confidence`-tag specifies the confidence, and is an integer between 0 and 100 (percent)
 - The (optional) `tr`-tag specifies whether the attestation is transitive and takes values `true` or `false`; if left absent, the default is `true`.
 
 As a paraterized replaceable event, `Trust Attestations` must also include an "a" tag, which will be a concatenation of:
@@ -145,6 +150,7 @@ Example:
     ["category", "comedies"], // may use the naddr or the note id of the category instead of the name
     ["a","trustAttestation-"pk_ratee-naddr_action-naddr_category],
     ["score", 100],
+    ["confidence", 80],
     ["tr", true], // true or false; default is true
   ],
   "kind": 39901, // or 9902

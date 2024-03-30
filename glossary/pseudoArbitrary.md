@@ -10,7 +10,7 @@ A *pseudo-arbitrary* question is one with the following characteristics:
 - It is vitally important for everyone in a community to settle on the same answer.
 - There is no Schelling point that points everyone to the same answer.
 
-Canonical pseudo-arbitrary questions are questions pertaining to _language_, where the question at hand is what symbol we should use to represent some thought, idea, or piece of information.
+Canonical pseudo-arbitrary questions are questions pertaining to _language_, where the question at hand is what symbol we should use to represent some thought, idea, piece of information, etc.
 
 Example: The string we use to represent the timestamp of a [nostr event](https://github.com/nostr-protocol/nips/blob/master/01.md) is pseudo-arbitrary. *created_at*, *createdAt*, or *CreatedAt* are all perfectly reasonable answeres, so which answer we pick is _arbitrary_. For most of us, the overriding concern is that we want to communicate with others, which means most of us use the same string that everyone else is already using: *created_at*.
 

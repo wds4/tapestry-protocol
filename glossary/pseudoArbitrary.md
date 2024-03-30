@@ -8,7 +8,7 @@ pseudo arbitrary
 A *pseudo-arbitrary* question is one with the following characteristics:
 - It has a large number of perfectly acceptable answers.
 - It is vitally important for everyone in a community to settle on the same answer.
-- There is no Schelling point that points everyone to the same answer.
+- There is no Schelling point that clearly points everyone to the same answer.
 
 Canonical pseudo-arbitrary questions are questions pertaining to _language_, where the question at hand is what symbol we should use to represent some thought, idea, piece of information, etc.
 

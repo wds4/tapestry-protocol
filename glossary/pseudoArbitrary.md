@@ -5,11 +5,11 @@ pseudo arbitrary
 
 ## Definition 
 
-A *pseudo-arbitrary* question is one that has a large number of answers that would be deemed acceptable by the majority of entities within a community, provided only that it is already accepted by the majority of known entities.
+A *pseudo-arbitrary* question is one that has a large number of potential answers, each one of which would perfectly acceptable by the majority of entities within a community. Typically, the question at hand is what symbol we should use to represent some thought or idea in any given language.
 
-Example: The symbol we use to represent the timestamp of a [nostr event](https://github.com/nostr-protocol/nips/blob/master/01.md) is pseudo-arbitrary. *created_at*, *createdAt*, or *CreatedAt* are all perfectly reasonable answeres, so which answer we pick is arbitrary. For most of us, the overriding concern is that we want to communicate with others, which means most of us follow the crowd and use *created_at*.
+Example: The string we use to represent the timestamp of a [nostr event](https://github.com/nostr-protocol/nips/blob/master/01.md) is pseudo-arbitrary. *created_at*, *createdAt*, or *CreatedAt* are all perfectly reasonable answeres, so which answer we pick is _arbitrary_. For most of us, the overriding concern is that we want to communicate with others, which means most of us use the same string that everyone else is already using: *created_at*.
 
-The prefix pseudo is also meant to imply that there may be some small subset of entities who do express a strong preference among the various alternatives which are deemed more or less equivalent in terms of acceptability by the majority of entities. According to the theory of decentralized language, this small subset of entities may become the drivers of whatever solution ends up gaining wide acceptance by the community.
+The prefix "pseudo" is also meant to imply that there may be some small subset of entities who do express a strong preference among the various alternatives which are deemed more or less equivalent in terms of acceptability by the majority of entities. In the example above, there are presumably some subset of developers who have strong opinions on the relative merits of snake_case, UppserCamelCase, lowerCamelCase. According to the theory of decentralized language, this small subset of entities may become the drivers of whatever solution ends up gaining wide acceptance by the community.
 
 ## Synonyms
 

@@ -23,11 +23,13 @@ It may be preferable to make use of an *action* that is not specific to your sit
 
 The advantage of using the more generic action is that trust attestations using this action may already be in existence from competing nostr apps.
 
-A third option would be to give your users the option to use either of the above actions in their attestations.
+Of course, your users will be able to create trust attestations in whatever context they choose, so ultimately they will be the ones who decide which of the above actions they prefer, or whether they wish to create new ones. Your job as developer will merely be to get the ball rolling.
 
 If the action: `to rate and recommend products` already exists, but you decide to create and utilize `to rate and recommend products on zap.store` on your site, you will probably want to indicate that `to rate and recommend products on zap.store` is a child of `to rate and recommend products`. 
 
 ### Pick one or more categories
+
+Let's stick with our example, the e-commerce site: zap.store. Categories might include: electronics, books, clothes, shirts, pants, etc. You may find that these categories have already been created, but if not, you can create them. As was the case with actions, you will also want to establish relationships, e.g. that *shirts* is a child category of *clothes*.
 
 *work in progress*
 

@@ -3,7 +3,7 @@ Incorporation of the proposed Grapevine NIP into a specific platform
 
 In this post we discuss how to harness the [proposed Grapevine NIP](https://github.com/wds4/tapestry-protocol/blob/main/guides/grapevineIncorporation/NIP-proposal.md) to adopt context-specific web of trust into whatever nostr app or platform you are building.
 
-## Preample: Choose the relevant context
+## Preamble: Choose context(s) most relevant to your app
 
 The first step will be to think about the context or contexts that are most relevant for your platform or application. In many cases, this may involve selecting or creating the single *action* that best applies to your app, and probably a large number of *categories* that are relevant to your app. If they already exist, great! If not, you can create them at a site that enables users to explore and manage contexts. (Not yet built, but it needs to be!)
 

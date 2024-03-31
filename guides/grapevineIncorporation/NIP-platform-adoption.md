@@ -29,17 +29,7 @@ If the action: `to rate and recommend products` already exists, but you decide t
 
 ### Pick one or more categories
 
-Your us
+*work in progress*
 
-## Step 1: Use Proxy Data to calculate a WoT Score
 
-Problem: How do we weed out spam content?
-
-Solution: Use nostr follow lists (+/- mute lists) as raw data to generate a web of trust (WoT) score using your method of choice, similar to what has already been achieved by wikifreedia and some of the nostr clients. 
-
-There is no single best method to calculate the WoT score.
-
-As of the time of this writing, [Coracle](https://coracle.social/), [Wikifreedia](https://wikifreedia.xyz), [nosWoT](https://noswot.org) and probably several other nostr apps already calculate some sort of WoT score.
-
-## Step 2: Introduce Explicit Trust Attestations
 

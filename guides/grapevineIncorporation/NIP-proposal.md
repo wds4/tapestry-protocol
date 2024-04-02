@@ -106,9 +106,10 @@ A trust attestation will take the following form:
     "score": 100, // 0 means DO NOT trust; 100 means TRUST
     "confidence": 80, // OPTIONAL; number between 0 and 100 percent
     "context": {
-      "action": naddr_action,
-      "category": naddr_category
-    }
+      "action": naddr_action, // or note id 
+      "category": naddr_category,
+      "transitive": true // OPTIONAL; default is true
+    },
   }
 }
 ```

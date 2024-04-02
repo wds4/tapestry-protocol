@@ -224,6 +224,8 @@ Example:
 }
 ```
 
+Note: perhaps use a different field in place of `content`? e.g. `grapevineData`? Or `json` and maybe don't stringify it? 
+
 ## Private attestations
 
 Users may be given the option of creating attestations that are private. When choosing this option, the stringified JSON will be encrypted, and the encrypted file will be placed in the content field in place of the stringified JSON. The user will also be presented with the following additional options:

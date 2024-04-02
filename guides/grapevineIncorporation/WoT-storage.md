@@ -3,7 +3,7 @@ NIP for storage of Grapevine or web of trust scores as csv files in nostr
 
 ```json
 {
-  "kind": [ 39903 ],
+  "kind": 39903,
   "content": "foo", // csv packaged into content field ? or invent another field, like csv?
   "tags": [
     ["p",pk], // only use if the score is being stored for an individual pubkey

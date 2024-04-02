@@ -108,7 +108,7 @@ A trust attestation will take the following form:
     "context": {
       "action": naddr_action, // or note id 
       "category": naddr_category,
-      "transitive": true // OPTIONAL; default is true
+      "transitive": true // OPTIONAL; default is true; should ultimately be subsumed into action or category?
     },
   }
 }

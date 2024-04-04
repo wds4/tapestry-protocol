@@ -43,7 +43,7 @@ An action will be formatted using JSON according to the following example:
 
 ```json
 {
-  "contextActionData": {
+  "actionData": {
     "name": "to rate and recommend",
     "description": "lorem ipsum",
   }
@@ -62,7 +62,7 @@ A category will be formatted using JSON according to the following example:
 
 ```json
 {
-  "contextCategoryData": {
+  "categoryData": {
     "name": "movies",
     "description": "lorem ipsum",
   }

@@ -3,6 +3,8 @@ Context
 
 Example:
 
+Context, encoded as a `word` as per the tapestry protocol:
+
 ```json
 {
   "contextData": {

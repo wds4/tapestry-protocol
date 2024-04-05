@@ -105,6 +105,7 @@ A trust attestation will take the following form:
     "ratee": pk_ratee,
     "score": 100, // 0 means DO NOT trust; 100 means TRUST
     "confidence": 80, // OPTIONAL; number between 0 and 100 percent
+    "comments": "lorem ipsum", // OPTIONAL; will be stored in the content of the note
     "context": {
       "action": naddr_action, // or note id 
       "category": naddr_category,
@@ -123,13 +124,15 @@ Trust attestations, actions, categories, and relationships will be encoded as ki
 ### Trust Attestations
 
 `Trust Attestations` will use parameterized replaceable events (kind 39902), and will include the following tags:
+- The (required) `P`-tag to specifies the use of the `tapestry` protocol)
 - The (required) `wordType`-tag to specifies that the event is a `trust attestation` (as opposed to an `action`, a `category`, or a `relationship`)
+- The (required) `w`-tag to specifies that the event is a `trust attestation` (as opposed to an `action`, a `category`, or a `relationship`)
 - The (required) `p`-tag indicates the pubkey of the ratee.
 - The (required) `action`-tag specifies the action, and can be either the name, the naddr, or the note id of the action
 - The (required) `category`-tag specifies the category, and can be either the name, the naddr, or the note id of the category
 - The (optional) `score`-tag specifies the score, and is an integer between 0 and 100
 - The (optional) `confidence`-tag specifies the confidence, and is an integer between 0 and 100 (percent)
-- The (optional) `tr`-tag specifies whether the attestation is transitive and takes values `true` or `false`; if left absent, the default is `true`.
+- The (optional) `t`-tag specifies whether the attestation is transitive and takes values `true` or `false`; if left absent, the default is `true`.
 
 As a paraterized replaceable event, `Trust Attestations` must also include an "a" tag, which will be a concatenation of:
 - the `wordType`-tag, i.e. "trustAttestation"
@@ -141,16 +144,19 @@ Example:
 
 ```json
 {
-  "content": "{ trustAttestationData: { ... } }", // stringified json 
+  "content": "lorem ipsum", // comments
+  "word": "{ trustAttestationData: { ... } }", // stringified json 
   "tags": [
+    ["P","tapestry"], // indicates the tapestry protocol is being used
     ["wordType", "trustAttestation"], // options: trustAttestation, action, category, relationship
+    ["w", "trustAttestation"], // options: trustAttestation, action, category, relationship
     ["p", pk_ratee],
     ["action", "to rate and recommend movies"], // may use the naddr or the note id of the action instead of the name
     ["category", "comedies"], // may use the naddr or the note id of the category instead of the name
     ["a","trustAttestation-"pk_ratee-naddr_action-naddr_category],
     ["score", 100],
     ["confidence", 80],
-    ["tr", true], // true or false; default is true
+    ["t", true], // true or false; default is true
   ],
   "kind": 39902,
 }

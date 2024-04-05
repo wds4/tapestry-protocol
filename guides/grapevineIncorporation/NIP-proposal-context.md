@@ -28,6 +28,7 @@ This will be encoded into a note as per the following example:
 ```json
 {
   "content": "to curate Wikifreedia content in the category of economics",
+  "word": "{ 'contextData': { ... } }",
   "kind": 9902,
   "tags": [
     ["P","tapestry],

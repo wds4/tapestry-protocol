@@ -5,7 +5,7 @@ This NIP introduces a simple and highly flexible method to represent almost any 
 
 ## Format
 
-Any piece of JSON that follows the format of this NIP will be called a _word_.
+Any piece of JSON that follows the format of this NIP will be called a _word_. Every word will belong to one or more _word types_.
 
 There is only one requirement for a JSON to be a _word_: There must be a top-level property which is of type: object, called *thing*Data, where *thing* is a string to represent the _classification_ of the thing.
 
@@ -35,9 +35,9 @@ The w-tag is used to facilitate search based on class. Any given word may belong
 
 ## Examples
 
-### Example 1: *thing* = `dog`
+### Example 1: Spot, who is a *dog*
 
-The word:
+The _word_:
 
 ```json
 {
@@ -49,7 +49,7 @@ The word:
 }
 ```
 
-The word, packaged into a note:
+The above _word_, packaged into a note:
 
 ```json
 {
@@ -61,15 +61,20 @@ The word, packaged into a note:
 }
 ```
 
-### Example 2: *thing* = *nostrDeveloper*
+### Example 2: Alice, who is a *nostrDeveloper*
+
+The _word_:
 
 ```json
 {
   "nostrDeveloperData": {
     "pubkey": "abc123",
+    "name": "Alice",
   }
 }
 ```
+
+The above _word_, packaged into a note:
 
 ```json
 {
@@ -85,7 +90,7 @@ The word, packaged into a note:
 
 Option: use an event ID or naddr to refer to the class, e.g. `abcd12345Data` in place of `nostrDeveloperData`
 
-### Step 1: determine the event ID
+### Step 1: define the class
 
 ```json
 {
@@ -122,9 +127,22 @@ If the event ID of the above note is _abcde12345_, use it as follows:
 
 ### List
 
-If we want to create a list of nost developers; see the example above.
+The example above shows how to manage a list of nostr developers.
 
 ### Attestations
+
+We invent the notion of the `trustAttestation` by defining it as a word type:
+
+```json
+{
+  "wordTypeData": {
+    "slug": "trustAttestation",
+    "description": "lorem ipsum"
+  }
+}
+```
+
+Example of its usage:
 
 ```json
 {
@@ -132,6 +150,7 @@ If we want to create a list of nost developers; see the example above.
     "ratee": "abc123",
     "score": 100,
     "confidence": 80,
+    "transitivity": true,
     "comments": "lorem ipsum",
   }
 }

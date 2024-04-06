@@ -5,9 +5,9 @@ This NIP introduces a simple and highly flexible method to represent almost any 
 
 ## Format
 
-JSON with the top-level property being an object, *thing*Data, where *thing* is a string to represent the _classification_ of the thing.
+Any piece of JSON that follows the format of this NIP will be called a _word_.
 
-Any piece of JSON that follows this format will be called a _word_.
+There is only one requirement for a JSON to be a _word_: There must be a top-level property which is of type: object, called *thing*Data, where *thing* is a string to represent the _classification_ of the thing.
 
 ```json
 {

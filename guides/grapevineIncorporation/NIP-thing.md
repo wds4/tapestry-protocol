@@ -156,7 +156,7 @@ Example of its usage:
 }
 ```
 
-## Multiple categories
+## Multiple word types
 
 Words can belong to multiple word types, as in the example below:
 
@@ -186,3 +186,15 @@ An additional top-level property, `wordData`, may optionally be included with me
   }
 }
 ```
+
+The note for a word that belongs to multiple word types can have multiple w-tags:
+
+```json
+{
+  "kind": 9902 // or 39902
+  "word": "{ ... }" // serialized version of the word
+  "tags": [
+    ["w", "animal"],
+    ["w", "dog"],
+  ],
+}

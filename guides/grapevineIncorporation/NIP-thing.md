@@ -1,13 +1,13 @@
 Representation of a thing
 =====
 
-This NIP introduces a simple and highly flexible method to represent almost any piece of data -- any _THING_ -- as JSON and store it in nostr in a way that facilitates category-based search. The only requirement is that the _THING_ in question must be assigned to a _category_ (a.k.a. a _class_, a _list_, a _set_, a _group_, a _type_ -- doesn't matter what you call it!).
+This NIP introduces a simple and highly flexible method to represent almost any piece of data -- any _THING_ -- as JSON and store it in nostr in a way that facilitates category-based search. The only requirement is that the _THING_ in question must be assignable to one or more _categories_ (a.k.a. a _class_, a _list_, a _set_, a _group_, a _type_ -- doesn't matter what you call it!).
 
 ## Format
 
 Any piece of JSON that follows the format of this NIP will be called a _word_. Every word will belong to one or more _word types_.
 
-There is only one requirement for a JSON to be a _word_: There must be a top-level property which is of type: object, called *thing*Data, where *thing* is a string to represent the _classification_ of the thing.
+There is only one requirement for a JSON to be a _word_: There must be a top-level property which is of type: object, called *thing*Data, where *thing* is a string (without spaces) to represent the _classification_ of the thing.
 
 ```json
 {

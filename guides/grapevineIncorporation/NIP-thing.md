@@ -70,6 +70,7 @@ The _word_:
   "nostrDeveloperData": {
     "pubkey": "abc123",
     "name": "Alice",
+    "skills": ["css","html","javascript"],
   }
 }
 ```
@@ -119,6 +120,8 @@ If the event ID of the above note is _abcde12345_, use it as follows:
 {
   "abcde12345Data": {
     "pubkey": "abc123",
+    "name": "Alice",
+    "skills": ["css","html","javascript"],
   }
 }
 ```

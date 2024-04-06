@@ -1,7 +1,7 @@
 Representation of a thing
 =====
 
-This NIP introduces a simple and highly flexible method to represent almost any piece of data -- any _THING_ -- as JSON and store it in nostr in a way that facilitates category-based search. The only requirement is that the _THING_ in question must be assigned to a _category_ (a.k.a. a _class_, a _list_, a _set_, a _group_ -- doesn't matter what you call it).
+This NIP introduces a simple and highly flexible method to represent almost any piece of data -- any _THING_ -- as JSON and store it in nostr in a way that facilitates category-based search. The only requirement is that the _THING_ in question must be assigned to a _category_ (a.k.a. a _class_, a _list_, a _set_, a _group_, a _type_ -- doesn't matter what you call it!).
 
 ## Format
 

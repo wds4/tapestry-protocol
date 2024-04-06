@@ -17,7 +17,7 @@ There is only one requirement for a JSON to be a _word_: There must be a top-lev
 }
 ```
 
-The structure of the data inside *thing*Data will depend upon the classification being used and will be established by convention. **These conventions will ultimately be established by your web of trust.**
+The structure of the data inside *thing*Data will depend upon the classification being used and will be established by convention. **These conventions will ultimately be managed by your web of trust, and will be as simple or as complex as they need to be.**
 
 The word will be packaged into an event using kind 9902 or 39902 as follows:
 

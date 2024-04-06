@@ -155,3 +155,34 @@ Example of its usage:
   }
 }
 ```
+
+## Multiple categories
+
+Words can belong to multiple word types, as in the example below:
+
+```json
+{
+  "animalData": {
+    "species": "dog",
+  },
+  "dogData": {
+    "name": "Spot",
+  }
+}
+```
+
+An additional top-level property, `wordData`, may optionally be included with metadata like `wordTypes` to assist in automated processing of the file:
+
+```json
+{
+  "wordData": {
+    "wordTypes": ["animal","dog"],
+  },
+  "animalData": {
+    "species": "dog",
+  },
+  "dogData": {
+    "name": "Spot",
+  }
+}
+```

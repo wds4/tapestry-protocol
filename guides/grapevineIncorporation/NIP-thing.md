@@ -96,6 +96,15 @@ The above _word_, packaged into a note:
 }
 ```
 
+
+To get a list of all nostr developers, simply filter on 'nostrDeveloper' using the w-tag.
+
+```json
+{
+  "kinds": [9902, 39902],
+  "#w": ["nostrDeveloper"],
+}
+```
 ## Universally unique identifiers (UUID)
 
 Option: use an event ID or naddr to refer to the class, e.g. `abcd12345Data` in place of `nostrDeveloperData`

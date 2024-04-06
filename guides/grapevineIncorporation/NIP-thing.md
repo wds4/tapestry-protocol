@@ -31,7 +31,7 @@ The word will be packaged into an event using kind 9902 or 39902 as follows:
 }
 ```
 
-The w-tag is used to facilitate search based on class. Any given word may belong to multiple categories; therefore, multiple w-tags are allowed.
+The w-tag is used to facilitate search based on class. Any given word may belong to multiple classes; therefore, multiple w-tags are allowed.
 
 ## Examples
 

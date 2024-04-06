@@ -132,7 +132,7 @@ UUIDs will be useful in case of controversy or ambiguity of meaning. The word 'b
 
 ### List
 
-The example above shows how to manage a list of nostr developers.
+The example above shows how to manage a list of nostr developers. That one word serves two purposes: it adds an item (Alice) to the list of nostrDevelopers, and _it establishes the existence of the list of nostrDevelopers_, if said list has not already been defined elsewhere.
 
 ### Attestations
 

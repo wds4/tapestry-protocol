@@ -135,7 +135,7 @@ Trust attestations, actions, categories, and relationships will be encoded as ki
 - The (optional) `confidence`-tag specifies the confidence, and is an integer between 0 and 100 (percent)
 - The (optional) `t`-tag specifies whether the attestation is transitive and takes values `true` or `false`; if left absent, the default is `true`.
 
-As a paraterized replaceable event, `Trust Attestations` must also include an "a" tag, which will be a concatenation of:
+As a paraterized replaceable event, `Trust Attestations` must also include an "d" tag, which will be a concatenation of:
 - the `wordType`-tag, i.e. "trustAttestation", or can be the note id or naddr of the wordType
 - the pubkey of the ratee 
 - the naddr (or note id?) of the action
@@ -155,7 +155,7 @@ Example:
     ["c", "two write about economics"], // 
     ["action", "to rate and recommend movies"], // may use the naddr or the note id of the action instead of the name
     ["category", "comedies"], // may use the naddr or the note id of the category instead of the name
-    ["a","trustAttestation-"pk_ratee-naddr_action-naddr_category],
+    ["d","trustAttestation-"pk_ratee-naddr_action-naddr_category],
     ["score", 100],
     ["confidence", 80],
     ["t", true], // true or false; default is true

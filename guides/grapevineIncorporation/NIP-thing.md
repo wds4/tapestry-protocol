@@ -3,6 +3,8 @@ Representation of a thing
 
 This NIP introduces a simple and highly flexible method to represent almost any piece of data -- any _THING_ -- as JSON and store it in nostr in a way that facilitates category-based search. The only requirement is that the _THING_ in question must be assignable to one or more _categories_ (a.k.a. a _class_, a _list_, a _set_, a _group_, a _type_ -- doesn't matter what you call it!).
 
+This NIP can be interpreted as an alternative to NIP-51 as a method to create LISTS, the primary difference being that NIP-51 envisions each list as being managed by the list creator, whereas this NIP envisions lists as being managed by the community. A companion NIP will be introduced to enable your web of trust to identify the people who are most trustworthy to decide what items do and do not belong to any given list.
+
 ## Format
 
 Any piece of JSON that follows the format of this NIP will be called a _word_. Every word will belong to one or more _word types_.

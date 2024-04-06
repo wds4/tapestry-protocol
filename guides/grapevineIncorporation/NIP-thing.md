@@ -61,6 +61,15 @@ The above _word_, packaged into a note:
 }
 ```
 
+To get a list of all dogs, simply filter on 'dog' using the w-tag.
+
+```json
+{
+  "kinds": [9902, 39902],
+  "#w": ["dog"],
+}
+```
+
 ### Example 2: Alice, who is a *nostrDeveloper*
 
 The _word_:

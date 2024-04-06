@@ -87,7 +87,7 @@ The above _word_, packaged into a note:
 }
 ```
 
-## Universally unique identifiers
+## Universally unique identifiers (UUID)
 
 Option: use an event ID or naddr to refer to the class, e.g. `abcd12345Data` in place of `nostrDeveloperData`
 
@@ -126,7 +126,7 @@ If the event ID of the above note is _abcde12345_, use it as follows:
 }
 ```
 
-UUIDs will be useful in case of controversy or ambiguity of meaning. The word bot, for example, may have different meanings for different people, or in different contexts. A variety of definitions of *bot* can be proposed, each referenced by its own UUID, so that the community can use whichever definition is most appropriate for any given application or context.
+UUIDs will be useful in case of controversy or ambiguity of meaning. The word 'bot', for example, may have different meanings for different people, or in different contexts. A variety of definitions of 'bot' can be proposed, each referenced by its own UUID, so that the community can use whichever definition is most appropriate for any given application or context.
 
 ## Applications
 

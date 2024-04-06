@@ -17,7 +17,9 @@ There is only one requirement for a JSON to be a _word_: There must be a top-lev
 }
 ```
 
-This will be packaged into an event using kind 9902 or 39902 as follows:
+The structure of the data inside *thing*Data will depend upon the thing in question and will be established by convention, with the assistance of web of trust.
+
+The word will be packaged into an event using kind 9902 or 39902 as follows:
 
 ```json
 {
@@ -29,11 +31,13 @@ This will be packaged into an event using kind 9902 or 39902 as follows:
 }
 ```
 
-The structure of the data inside *thing*Data will depend upon the thing in question and will be established by convention, with the assistance of web of trust.
+The w-tag is used to facilitate search based on class. Any given word may belong to multiple categories; therefore, multiple w-tags are allowed.
 
 ## Examples
 
 ### Example 1: *thing* = `dog`
+
+The word:
 
 ```json
 {
@@ -44,6 +48,8 @@ The structure of the data inside *thing*Data will depend upon the thing in quest
   }
 }
 ```
+
+The word, packaged into a note:
 
 ```json
 {
@@ -102,12 +108,31 @@ Publish over nostr:
 }
 ```
 
-Then use the event ID of the above note 
+If the event ID of the above note is _abcde12345_, use it as follows:
 
 ```json
 {
   "abcde12345Data": {
     "pubkey": "abc123",
+  }
+}
+```
+
+## Applications
+
+### List
+
+If we want to create a list of nost developers; see the example above.
+
+### Attestations
+
+```json
+{
+  "trustAttestationData": {
+    "ratee": "abc123",
+    "score": 100,
+    "confidence": 80,
+    "comments": "lorem ipsum",
   }
 }
 ```

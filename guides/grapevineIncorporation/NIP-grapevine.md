@@ -1,4 +1,4 @@
 Grapevine
 =====
 
-Companion to the propsoed NIP for [Trust Attestations](./NIP-proposal-context.md). This NIP describes how to process them in accordance to article.
+Companion to the propsoed NIP for [Contextual Trust Attestations](./NIP-proposal.md). This NIP describes how to process them in accordance to article.

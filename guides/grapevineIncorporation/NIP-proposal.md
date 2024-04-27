@@ -152,7 +152,7 @@ Example:
     ["wordType", "trustAttestation"], // options: trustAttestation, action, category, relationship
     ["w", "trustAttestation"], // options: trustAttestation, action, category, relationship
     ["p", pk_ratee],
-    ["c", "two write about economics"], // 
+    ["c", "to write about economics"], // 
     ["action", "to rate and recommend movies"], // may use the naddr or the note id of the action instead of the name
     ["category", "comedies"], // may use the naddr or the note id of the category instead of the name
     ["d","trustAttestation-"pk_ratee-naddr_action-naddr_category],
